@@ -9,5 +9,5 @@ $sans-serif: 'Roboto Condensed', Arial, sans-serif;
 $global-font-family: $serif;
 $header-font-family: $sans-serif;
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes/skins/neon";
 @import "minimal-mistakes";
