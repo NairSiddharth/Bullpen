@@ -1,0 +1,13 @@
+---
+---
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+
+$serif: 'Merriweather', Georgia, serif;
+$sans-serif: 'Roboto Condensed', Arial, sans-serif;
+
+$global-font-family: $serif;
+$header-font-family: $sans-serif;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
