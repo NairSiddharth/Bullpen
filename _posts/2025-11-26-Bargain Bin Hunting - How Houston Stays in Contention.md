@@ -2,6 +2,7 @@
 title: "Bargain Bin Hunting: How Houston Stays in Contention"
 date: 2025-11-26
 category: baseball
+image: /Bullpen/assets/images/houston-astros-logo-png_seeklogo-224486.png
 ---
 
 > **AAV** — Average Annual Value, or total value for the contract divided by the years it runs for.

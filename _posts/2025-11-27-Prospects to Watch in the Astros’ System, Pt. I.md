@@ -2,6 +2,7 @@
 title: "Prospects to Watch in the Astros' System, Pt. I"
 date: 2025-11-27
 category: baseball
+image: /Bullpen/assets/images/astros_milb_prospects.png
 ---
 
 The Astros finally missed the playoffs. For non-fans, I'm sure they've already thrown the parade. For fans, it makes you ask: what's next? Typically, you'd console yourself with a look at the farm system, imagining ranked prospects and a future back in the spotlight. Unfortunately, for the fifth straight year, the Astros have a bottom five ranked system. A far cry from when it produced Alex Bregman, George Springer, and Carlos Correa.

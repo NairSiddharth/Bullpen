@@ -2,6 +2,7 @@
 title: "Prospects to Watch in the Astros' System, Pt. II"
 date: 2025-11-27
 category: baseball
+image: /Bullpen/assets/images/hooks_logo.png
 ---
 
 Part I covered the Astros prospects that you might see in the 2026 season. What you'll find here are the ones further down the pipeline, or those with a few more question marks. Any one of these prospects hitting would be massive for the Astros' competitiveness.
