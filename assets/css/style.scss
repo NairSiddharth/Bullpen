@@ -13,8 +13,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .post-preview {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
   margin-bottom: 2.5em;
   overflow: hidden;
+  border-radius: 4px;
 }
 
 .post-preview img {
