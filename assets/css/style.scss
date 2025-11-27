@@ -11,3 +11,24 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Condensed', Arial, sans-serif;
 }
+
+.post-preview {
+  margin-bottom: 2.5em;
+  overflow: hidden;
+}
+
+.post-preview img {
+  max-width: 250px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.post-preview h3 {
+  margin-top: 0;
+}
+
+.post-preview p {
+  color: #555;
+}
