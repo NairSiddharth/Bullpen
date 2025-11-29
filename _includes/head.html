@@ -1,0 +1,41 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Jekyll SEO Tag -->
+{% seo %}
+
+<!-- Canonical URL -->
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+
+<!-- Favicons
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon/favicon-32.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon/favicon-16.png' | relative_url }}">
+<link rel="apple-touch-icon" href="{{ '/assets/favicon/apple-touch-icon.png' | relative_url }}"> -->
+
+<!-- Open Graph (for social link previews) -->
+<meta property="og:site_name" content="Full Count">
+<meta property="og:title" content="{% if page.title %}{{ page.title }} | Full Count{% else %}Full Count{% endif %}">
+<meta property="og:description" content="{{ site.jekyll-seo-tag.description }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{ '/assets/FullCount.png' | absolute_url }}">
+
+<!-- Schema.org JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Full Count",
+  "url": "{{ site.url }}",
+  "description": "{{ site.jekyll-seo-tag.description }}",
+  "publisher": {
+    "@type": "Person",
+    "name": "Siddharth Nair",
+    "sameAs": [
+      "https://www.linkedin.com/in/siddharthnair01/",
+      "https://github.com/NairSiddharth"
+    ]
+  }
+}
+</script>

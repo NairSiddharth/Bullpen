@@ -1,4 +1,4 @@
 ---
 layout: home
 ---
-### Thanks for visiting!
+## Thanks for visiting!

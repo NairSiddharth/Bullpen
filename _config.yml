@@ -12,6 +12,20 @@ plugins:
   # - jekyll-last-modified-at
   # - jekyll-archives
 
+jekyll-seo-tag:
+  title: Full Count
+  tagline: Houston Sports Analysis & Data-Driven Insights
+  description: >
+    Data-driven Houston sports analysis covering the Astros (MLB), Rockets (NBA),
+    and Texans (NFL). Advanced statistics, player evaluations, prospect scouting,
+    game-by-game breakdowns, season reviews, and deep analytical insights across
+    baseball, basketball, and football by Siddharth Nair.url: "https://nairsiddharth.github.io/Bullpen"
+  social:
+    name: Siddharth Nair
+    links:
+       - https://www.linkedin.com/in/siddharthnair01/
+       - https://github.com/NairSiddharth
+
 # jekyll-archives:
 #   enabled:
 #     - categories
