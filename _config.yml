@@ -12,10 +12,10 @@ plugins:
   # - jekyll-last-modified-at
   # - jekyll-archives
 
-jekyll-archives:
-  enabled:
-    - categories
-  layouts:
-    category: archive
-  permalinks:
-    category: /categories/:name/
+# jekyll-archives:
+#   enabled:
+#     - categories
+#   layouts:
+#     category: archive
+#   permalinks:
+#     category: /categories/:name/
