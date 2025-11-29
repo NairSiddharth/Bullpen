@@ -15,16 +15,17 @@ h1, h2, h3, h4, h5, h6 {
 .post-preview {
   margin-bottom: 2.5em;
   overflow: hidden;
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
 .post-preview img {
-  width: 200px;
+  width: 250px;
   height: 150px;
   object-fit: cover;
-  float: left;
-  margin-right: 20px;
-  margin-bottom: 10px;
   border-radius: 4px;
+  flex-shrink: 0;
 }
 
 .post-preview h3 {
