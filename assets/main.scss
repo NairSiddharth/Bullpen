@@ -21,15 +21,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .post-preview img {
-  width: 250px;
-  height: 150px;
+  width: 100%;
+  max-width: 600px;
+  height: 300px;
   object-fit: cover;
   border-radius: 4px;
-  flex-shrink: 0;
+  margin-bottom: 15px;
+  display: block;
 }
 
 .post-preview h3 {
   margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.post-preview .post-meta {
+  margin-bottom: 10px;
 }
 
 .post-preview p {
