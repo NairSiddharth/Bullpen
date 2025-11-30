@@ -1,9 +1,11 @@
 <header class="site-header retro-header" role="banner">
   <div class="wrapper header-inner">
-    <a class="site-title" href="{{ "/" | relative_url }}" aria-label="Homepage">
+
+    <!-- Logo + Site Title -->
+    <a class="site-title" href="{{ '/' | relative_url }}" aria-label="Homepage">
       {% if site.logo %}
         <img 
-          src="{{ site.logo | relative_url }}" 
+          src="{{ site.logo | relative_url }}"
           alt="{{ site.title }} logo"
           class="site-logo"
           decoding="async"
@@ -13,24 +15,50 @@
       <span class="site-title-text">{{ site.title }}</span>
     </a>
 
-    <!-- Optional Navigation (auto-populates from _config.yml) -->
-    {% if site.pages %}
-      <nav class="site-nav" role="navigation" aria-label="Main Navigation">
-        <input type="checkbox" id="menu-trigger" class="nav-trigger" />
-        <label for="menu-trigger" class="menu-icon">
-          <svg viewBox="0 0 18 15" aria-hidden="true">
-            <path d="M1 1h16M1 7h16M1 14h16"></path>
-          </svg>
-        </label>
+    <!-- Navigation -->
+    <nav class="site-nav" role="navigation" aria-label="Main Navigation">
+      <input type="checkbox" id="menu-trigger" class="nav-trigger" />
+      <label for="menu-trigger" class="menu-icon">
+        <svg viewBox="0 0 18 15" aria-hidden="true">
+          <path d="M1 1h16M1 7h16M1 14h16"></path>
+        </svg>
+      </label>
 
-        <div class="trigger">
-          {% for page in site.pages %}
-            {% if page.nav == true %}
-              <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title }}</a>
-            {% endif %}
-          {% endfor %}
+      <div class="trigger">
+
+        <!-- Static pages with nav: true -->
+        {% for page in site.pages %}
+          {% if page.nav == true %}
+            <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title }}</a>
+          {% endif %}
+        {% endfor %}
+
+        <!-- Categories Dropdown -->
+        <div class="nav-dropdown">
+          <span class="nav-dropdown-label">Categories</span>
+          <div class="nav-dropdown-menu">
+            {% assign all_categories = site.posts | map: 'categories' | uniq | sort %}
+            {% for cat_list in all_categories %}
+              {% for cat in cat_list %}
+                <a href="{{ '/categories/' | append: cat | append: '/' | relative_url }}">{{ cat }}</a>
+              {% endfor %}
+            {% endfor %}
+          </div>
         </div>
-      </nav>
-    {% endif %}
+
+        <!-- Tags Dropdown -->
+        <div class="nav-dropdown">
+          <span class="nav-dropdown-label">Tags</span>
+          <div class="nav-dropdown-menu">
+            {% assign all_tags = site.tags | keys | sort %}
+            {% for tag in all_tags %}
+              <a href="{{ '/tags/' | append: tag | append: '/' | relative_url }}">{{ tag }}</a>
+            {% endfor %}
+          </div>
+        </div>
+
+      </div>
+    </nav>
+
   </div>
 </header>

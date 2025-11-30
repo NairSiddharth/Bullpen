@@ -360,3 +360,90 @@ a {
   from { transform: translateY(-100%); }
   to   { transform: translateY(100%); }
 }
+
+.category-nav-wrapper {
+  margin-left: 2rem;
+}
+
+.category-nav {
+  display: flex;
+  gap: 1.2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.category-nav a {
+  color: var(--retro-cream);
+  text-decoration: none;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+.category-nav a:hover {
+  color: var(--retro-accent);
+}
+
+.category-nav a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: var(--retro-accent);
+  box-shadow: 0 0 8px var(--retro-accent);
+  transition: width 0.25s ease;
+}
+
+.category-nav a:hover::after {
+  width: 100%;
+}
+
+/* Tag badges on posts */
+.tag-list {
+  margin: 0.5rem 0 1.5rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.tag-badge {
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  border-radius: 999px;
+  background: rgba(255, 114, 71, 0.15);
+  color: var(--retro-accent);
+  border: 1px solid var(--retro-accent);
+  text-decoration: none;
+  text-transform: lowercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 0 6px rgba(255, 114, 71, 0.6);
+  transition: background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tag-badge:hover {
+  background: var(--retro-accent);
+  color: #000;
+}
+
+/* Tag index page */
+.tag-index {
+  list-style: none;
+  padding: 0;
+}
+
+.tag-index li {
+  margin-bottom: 0.5rem;
+}
+
+.tag-index a {
+  color: var(--retro-accent);
+  text-decoration: none;
+}
+
+.tag-index a:hover {
+  text-decoration: underline;
+}

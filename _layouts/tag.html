@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<div class="holo-banner">
+  <h1 class="holo-title">Tag: {{ page.tag }}</h1>
+</div>
+
+<div class="post-grid">
+  {% assign t = page.tag %}
+  {% for post in site.posts %}
+    {% if post.tags contains t %}
+      <article class="post-card neon-card">
+
+        {% if post.image %}
+        <div class="post-card-img-wrapper">
+          <img src="{{ post.image | relative_url }}" class="post-card-img" />
+        </div>
+        {% endif %}
+
+        <h2 class="post-card-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+
+        <div class="post-card-meta">
+          {{ post.date | date: "%b %d, %Y" }}
+        </div>
+
+        <p class="post-card-excerpt">
+          {{ post.excerpt }}
+        </p>
+
+      </article>
+    {% endif %}
+  {% endfor %}
+</div>
