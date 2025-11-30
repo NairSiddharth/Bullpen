@@ -7,6 +7,7 @@ baseurl: "/Bullpen"
 minima:
   skin: dark
   logo: /assets/favicons/android-chrome-512x512.png
+  image: /Bullpen/assets/favicons/android-chrome-512x512.png
 
 plugins:
   - jekyll-feed
@@ -15,6 +16,12 @@ plugins:
   - jekyll-redirect-from
   # - jekyll-last-modified-at
   # - jekyll-archives
+
+header_pages:
+  - about.md
+  - stats.md
+  - contact.md
+
 
 jekyll-seo-tag:
   title: Full Count

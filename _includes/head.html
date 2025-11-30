@@ -4,26 +4,29 @@
 
 <!-- Main CSS -->
 <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto+Condensed:wght@400;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
 
 <!-- Jekyll SEO Tag -->
 {% seo %}
+
 <!-- Canonical URL -->
 <link rel="canonical" href="{{ page.url | absolute_url }}">
+
 <!-- Favicon Set -->
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicons/apple-touch-icon.png' | relative_url }}">
 <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicons/favicon-32x32.png' | relative_url }}">
 <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicons/favicon-16x16.png' | relative_url }}">
 <link rel="manifest" href="{{ '/assets/favicons/site.webmanifest' | relative_url }}">
 <link rel="shortcut icon" href="{{ '/assets/favicons/favicon.ico' | relative_url }}">
+
 <!-- Extra fallback for browsers that insist on /favicon.ico -->
 <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
-<!-- Open Graph (for social link previews) -->
-<meta property="og:site_name" content="Full Count">
-<meta property="og:title" content="{% if page.title %}{{ page.title }} | Full Count{% else %}Full Count{% endif %}">
-<meta property="og:description" content="{{ site.jekyll-seo-tag.description }}">
-<meta property="og:url" content="{{ page.url | absolute_url }}">
-<meta property="og:type" content="website">
-<meta property="og:image" content="{{ '/assets/FullCount.png' | absolute_url }}">
+
+
+<!-- Open Graph Image -->
+<meta property="og:image" content="{{ 'assets/favicons/android-chrome-512x512.png' | relative_url }}">
+
 <!-- Schema.org JSON-LD -->
 <script type="application/ld+json">
 {

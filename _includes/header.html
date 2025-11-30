@@ -1,0 +1,36 @@
+<header class="site-header retro-header" role="banner">
+  <div class="wrapper header-inner">
+    <a class="site-title" href="{{ "/" | relative_url }}" aria-label="Homepage">
+      {% if site.logo %}
+        <img 
+          src="{{ site.logo | relative_url }}" 
+          alt="{{ site.title }} logo"
+          class="site-logo"
+          decoding="async"
+          fetchpriority="high"
+        />
+      {% endif %}
+      <span class="site-title-text">{{ site.title }}</span>
+    </a>
+
+    <!-- Optional Navigation (auto-populates from _config.yml) -->
+    {% if site.pages %}
+      <nav class="site-nav" role="navigation" aria-label="Main Navigation">
+        <input type="checkbox" id="menu-trigger" class="nav-trigger" />
+        <label for="menu-trigger" class="menu-icon">
+          <svg viewBox="0 0 18 15" aria-hidden="true">
+            <path d="M1 1h16M1 7h16M1 14h16"></path>
+          </svg>
+        </label>
+
+        <div class="trigger">
+          {% for page in site.pages %}
+            {% if page.nav == true %}
+              <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </nav>
+    {% endif %}
+  </div>
+</header>
