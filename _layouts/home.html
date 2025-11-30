@@ -2,19 +2,33 @@
 layout: default
 ---
 
-<div class="home">
-  <h2>Posts</h2>
-  
+<!-- Hologram Page Banner -->
+<div class="holo-banner">
+  <h1 class="holo-title">Latest Posts</h1>
+</div>
+
+<div class="post-grid">
   {% for post in site.posts %}
-    <article class="post-preview">
-      {% if post.image %}
-        <a href="{{ post.url | relative_url }}">
-          <img src="{{ post.image }}" alt="{{ post.title }}">
-        </a>
-      {% endif %}
-      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-      <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
-      <p>{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
-    </article>
+  <article class="post-card neon-card">
+    
+    {% if post.image %}
+      <div class="post-card-img-wrapper">
+        <img src="{{ post.image | relative_url }}" class="post-card-img" />
+      </div>
+    {% endif %}
+
+    <h2 class="post-card-title">
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </h2>
+
+    <div class="post-card-meta">
+      {{ post.date | date: "%b %d, %Y" }}
+    </div>
+
+    <p class="post-card-excerpt">
+      {{ post.excerpt }}
+    </p>
+
+  </article>
   {% endfor %}
 </div>

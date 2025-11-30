@@ -2,15 +2,36 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
+<!-- Hologram Page Banner -->
+<div class="holo-banner">
+  <h1 class="holo-title">{{ page.title }}</h1>
+</div>
 
-<ul>
+<div class="post-grid">
+  {% assign category_name = page.category %}
   {% for post in site.posts %}
-    {% if post.category == page.category %}
-      <li>
+    {% if post.categories contains category_name %}
+    <article class="post-card neon-card">
+
+      {% if post.image %}
+      <div class="post-card-img-wrapper">
+        <img src="{{ post.image | relative_url }}" class="post-card-img" />
+      </div>
+      {% endif %}
+
+      <h2 class="post-card-title">
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-      </li>
+      </h2>
+
+      <div class="post-card-meta">
+        {{ post.date | date: "%b %d, %Y" }}
+      </div>
+
+      <p class="post-card-excerpt">
+        {{ post.excerpt }}
+      </p>
+
+    </article>
     {% endif %}
   {% endfor %}
-</ul>
+</div>
