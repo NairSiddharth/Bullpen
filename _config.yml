@@ -6,6 +6,8 @@ baseurl: "/Bullpen"
 
 minima:
   skin: dark
+  logo: /assets/favicons/android-chrome-512x512.png
+
 
 plugins:
   - jekyll-feed
