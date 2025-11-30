@@ -4,6 +4,9 @@ description: Houston Sports Analysis
 author: Siddharth Nair
 baseurl: "/Bullpen"
 
+minima:
+  skin: dark
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

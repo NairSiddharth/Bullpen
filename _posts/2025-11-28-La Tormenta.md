@@ -43,7 +43,7 @@ Compare this 2024 ground out to Guardians pitcher Lively throwing a sweeper,
 <figcaption>2024: Ground out on a sweeper</figcaption>
 </figure>
 
-to this 2025 one where he rips a homerun against Yankees pitcher Warren throwing the same pitch.
+to this 2025 at bat where he rips a homerun against Yankees pitcher Warren throwing the same pitch.
 
 <figure>
 <iframe src="https://streamable.com/m/jeremy-pena-homers-15-on-a-fly-ball-to-left-field-x148ui?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen></iframe>
