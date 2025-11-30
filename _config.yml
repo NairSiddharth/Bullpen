@@ -8,7 +8,6 @@ minima:
   skin: dark
   logo: /assets/favicons/android-chrome-512x512.png
 
-
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -24,7 +23,8 @@ jekyll-seo-tag:
     Data-driven Houston sports analysis covering the Astros (MLB), Rockets (NBA),
     and Texans (NFL). Advanced statistics, player evaluations, prospect scouting,
     game-by-game breakdowns, season reviews, and deep analytical insights across
-    baseball, basketball, and football by Siddharth Nair.url: "https://nairsiddharth.github.io/Bullpen"
+    baseball, basketball, and football by Siddharth Nair.
+  url: "https://nairsiddharth.github.io/Bullpen"
   social:
     name: Siddharth Nair
     links:
