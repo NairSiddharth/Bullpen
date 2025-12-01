@@ -40,7 +40,7 @@
             {% assign all_categories = site.posts | map: 'categories' | uniq | sort %}
             {% for cat_list in all_categories %}
               {% for cat in cat_list %}
-                <a href="{{ '/categories/' | append: cat | append: '/' | relative_url }}">{{ cat }}</a>
+                <a href="{{ '/_categories/' | append: cat | append: '/' | relative_url }}">{{ cat }}</a>
               {% endfor %}
             {% endfor %}
           </div>
