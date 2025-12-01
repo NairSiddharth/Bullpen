@@ -5,6 +5,7 @@ categories:
     - baseball
 image: /assets/images/houston-astros-logo-png_seeklogo-224486.png
 excerpt: The Astros are at a crossroads. How do they stay in the hunt?
+layout: post
 ---
 
 > **AAV** — Average Annual Value, or total value for the contract divided by the years it runs for.

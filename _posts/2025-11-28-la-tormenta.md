@@ -5,6 +5,7 @@ categories:
     - baseball
 image: /assets/images/pena.png
 excerpt: Is Jeremy Peña here to stay? I...
+layout: post
 ---
 
 Jeremy Peña was the story of 2025 for the Astros, carrying them to the divisional lead with his career year, appearing set for MVP votes at year end when his year was interrupted with injuries. With him went the Astros' playoff hopes, as his eventual return was too little too late. Is this improvement here to stay?

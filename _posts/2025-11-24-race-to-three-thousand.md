@@ -5,6 +5,7 @@ categories:
     - baseball
 image: /assets/images/Jose-Altuve-cover.png
 excerpt: Jose Altuve's road to 3000 is slim, but not impossible. Maybe.
+layout: post
 ---
 
 *Author's Note: All player statistics pulled from FanGraphs unless otherwise specifically stated*

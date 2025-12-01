@@ -5,6 +5,7 @@ categories:
     - baseball
 image: /assets/images/houston-astros-logo-png_seeklogo-224486.png
 excerpt: The Astros are going nowhere fast, is it too late to turn the tide?
+layout: post
 ---
 
 I'm sure the non-Astros fans reading this are playing a tune on the world's smallest violin right now. After all, the Astros are among the most hated teams in the league, joined by lovable (gross) compatriots like the Dodgers or Yankees. Part of it is because of the extraordinary success they've had over the past nearly a decade. But look at today's MLB landscape: the Mariners just made the ALCS, the Blue Jays have a young lineup mashing, and the Dodgers are a Death Star. Against that backdrop, Houston looks stagnant with more and more cracks showing in what they've built.
