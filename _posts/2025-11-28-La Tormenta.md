@@ -1,7 +1,8 @@
 ---
 title: "La Tormenta's Career Year"
 date: 2025-11-28
-category: baseball
+categories: 
+    - baseball
 image: /assets/images/pena.png
 excerpt: Is Jeremy Peña here to stay? I...
 ---

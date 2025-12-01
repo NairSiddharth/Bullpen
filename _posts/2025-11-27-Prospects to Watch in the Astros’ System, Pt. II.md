@@ -1,7 +1,8 @@
 ---
 title: "Prospects to Watch in the Astros' System, Pt. II"
 date: 2025-11-27
-category: baseball
+categories: 
+    - baseball
 image: /assets/images/hooks_logo.png
 excerpt: Part II of coverage of Astros minor league system. Prospects to be excited about!
 ---
