@@ -478,3 +478,108 @@ a {
   text-shadow: 0 0 10px var(--cat-color), 0 0 20px var(--cat-color);
 }
 
+/* -------------------------------------------------------------
+    NEON RETRO DROPDOWN MENU
+   ------------------------------------------------------------- */
+
+.nav-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown label (Categories / Tags) */
+.nav-dropdown-label {
+  cursor: pointer;
+  color: var(--retro-cream);
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 1px;
+  transition: color .25s ease, text-shadow .25s ease;
+}
+
+.nav-dropdown-label:hover {
+  color: var(--neon-cyan);
+  text-shadow: var(--neon-glow);
+}
+
+/* Dropdown Menu */
+.nav-dropdown-menu {
+  position: absolute;
+  top: 120%;
+  left: 0;
+
+  background: rgba(14, 15, 25, 0.96);
+  border: 1px solid var(--neon-purple);
+  border-radius: 10px;
+  box-shadow: 0 0 18px rgba(157, 91, 255, 0.45);
+
+  padding: 0.6rem 0;
+  min-width: 180px;
+
+  opacity: 0;
+  transform: translateY(-8px);
+  pointer-events: none;
+
+  transition:
+    opacity 0.25s ease,
+    transform 0.25s ease;
+  z-index: 999;
+}
+
+/* Dropdown Links */
+.nav-dropdown-menu a {
+  display: block;
+  padding: 0.55rem 1rem;
+  font-size: 0.9rem;
+  color: var(--retro-cream);
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+
+.nav-dropdown-menu a:hover {
+  background: rgba(255, 114, 71, 0.18);
+  color: var(--retro-accent);
+  text-shadow: 0 0 6px var(--retro-accent);
+}
+
+/* -------------------------------------------------------------
+    Desktop Hover Activation
+   ------------------------------------------------------------- */
+@media (min-width: 701px) {
+  .nav-dropdown:hover .nav-dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+}
+
+/* -------------------------------------------------------------
+    Mobile Click-to-Open Activation
+    (Works with your existing .nav-trigger system)
+   ------------------------------------------------------------- */
+@media (max-width: 700px) {
+  .nav-dropdown {
+    width: 100%;
+  }
+
+  .nav-dropdown-label {
+    display: block;
+    padding: 0.4rem 0;
+  }
+
+  /* Show menu when inside expanded mobile nav */
+  .nav-trigger:checked ~ .trigger .nav-dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 0.4rem;
+    box-shadow: 0 0 16px rgba(157, 91, 255, 0.35);
+  }
+
+  .nav-dropdown-menu a {
+    padding-left: 1.2rem;
+  }
+}

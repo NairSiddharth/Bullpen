@@ -35,7 +35,7 @@
 
       <!-- Categories Dropdown -->
       <div class="nav-dropdown">
-        <span class="nav-dropdown-label">Categories</span>
+        <a class="nav-dropdown-label" href="javascript:void(0)">Categories</a>
         <div class="nav-dropdown-menu">
           {% for cat in site.categories %}
             {% assign cat_name = cat[0] %}
@@ -48,7 +48,7 @@
 
         <!-- Tags Dropdown -->
         <div class="nav-dropdown">
-          <span class="nav-dropdown-label">Tags</span>
+          <a class="nav-dropdown-label" href="javascript:void(0)">Tags</a>
           <div class="nav-dropdown-menu">
             {% assign all_tags = site.tags | keys | sort %}
             {% for tag in all_tags %}
