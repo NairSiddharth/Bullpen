@@ -2,13 +2,14 @@
 layout: default
 ---
 
-<!-- Hologram Page Banner -->
+<!-- Category Banner -->
 <div class="holo-banner">
   <h1 class="holo-title">{{ page.title }}</h1>
 </div>
 
 <div class="post-grid">
-  {% assign category_name = page.category %}
+  {% assign category_name = page.category | downcase %}
+
   {% for post in site.posts %}
     {% if post.categories contains category_name %}
     <article class="post-card neon-card">

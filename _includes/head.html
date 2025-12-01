@@ -1,47 +1,57 @@
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- Main CSS -->
-<link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto+Condensed:wght@400;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Page Title -->
+  <title>
+    {% if page.title %}
+      {{ page.title }} · {{ site.title }}
+    {% else %}
+      {{ site.title }}
+    {% endif %}
+  </title>
 
-<!-- Jekyll SEO Tag -->
-{% seo %}
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto+Condensed:wght@400;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
 
-<!-- Canonical URL -->
-<link rel="canonical" href="{{ page.url | absolute_url }}">
+  <!-- Jekyll SEO Tag -->
+  {% seo %}
 
-<!-- Favicon Set -->
-<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicons/apple-touch-icon.png' | relative_url }}">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicons/favicon-32x32.png' | relative_url }}">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicons/favicon-16x16.png' | relative_url }}">
-<link rel="manifest" href="{{ '/assets/favicons/site.webmanifest' | relative_url }}">
-<link rel="shortcut icon" href="{{ '/assets/favicons/favicon.ico' | relative_url }}">
+  <!-- Canonical URL -->
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
 
-<!-- Extra fallback for browsers that insist on /favicon.ico -->
-<link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
+  <!-- Favicon Set -->
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicons/apple-touch-icon.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicons/favicon-32x32.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicons/favicon-16x16.png' | relative_url }}">
+  <link rel="manifest" href="{{ '/assets/favicons/site.webmanifest' | relative_url }}">
+  <link rel="shortcut icon" href="{{ '/assets/favicons/favicon.ico' | relative_url }}">
 
+  <!-- Extra fallback for browsers insisting on /favicon.ico -->
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
 
-<!-- Open Graph Image -->
-<meta property="og:image" content="{{ 'assets/favicons/android-chrome-512x512.png' | relative_url }}">
+  <!-- Open Graph Image -->
+  <meta property="og:image" content="{{ '/assets/favicons/android-chrome-512x512.png' | relative_url }}">
 
-<!-- Schema.org JSON-LD -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Full Count",
-  "url": "{{ site.url }}",
-  "description": "{{ site.jekyll-seo-tag.description }}",
-  "publisher": {
-    "@type": "Person",
-    "name": "Siddharth Nair",
-    "sameAs": [
-      "https://www.linkedin.com/in/siddharthnair01/",
-      "https://github.com/NairSiddharth"
-    ]
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "{{ site.title }}",
+    "url": "{{ site.url }}",
+    "description": "{{ page.excerpt | default: site.description }}",
+    "publisher": {
+      "@type": "Person",
+      "name": "Siddharth Nair",
+      "sameAs": [
+        "https://www.linkedin.com/in/siddharthnair01/",
+        "https://github.com/NairSiddharth"
+      ]
+    }
   }
-}
-</script>
+  </script>
+</head>

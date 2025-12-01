@@ -447,3 +447,34 @@ a {
 .tag-index a:hover {
   text-decoration: underline;
 }
+
+/* Category Colors (retro neon vibe) */
+
+.category-baseball { --cat-color: #ff7247; }     /* Astros orange */
+.category-basketball { --cat-color: #e63946; }   /* Rockets red */
+.category-football { --cat-color: #003b65; }     /* Texans steel blue */
+.category-hof { --cat-color: #ffd27f; }          /* Retro gold */
+
+.holo-banner {
+  background: linear-gradient(135deg, var(--cat-color), transparent 70%);
+  border: 2px solid var(--cat-color);
+  box-shadow: 0 0 20px var(--cat-color);
+}
+
+/* Hologram Banner */
+.holo-banner {
+  padding: 40px 20px;
+  text-align: center;
+  margin-bottom: 40px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(6px);
+}
+
+.holo-title {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  color: var(--cat-color);
+  text-shadow: 0 0 10px var(--cat-color), 0 0 20px var(--cat-color);
+}
+
