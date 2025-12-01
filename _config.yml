@@ -22,11 +22,6 @@ header_pages:
   - stats.md
   - contact.md
 
-collections:
-  categories:
-    output: true
-    permalink: /categories/:name/
-
 jekyll-seo-tag:
   title: Full Count
   tagline: Houston Sports Analysis & Data-Driven Insights
