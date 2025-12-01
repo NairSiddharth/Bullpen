@@ -3,6 +3,7 @@ title: "Bargain Bin Hunting: How Houston Stays in Contention"
 date: 2025-11-26
 category: baseball
 image: /assets/images/houston-astros-logo-png_seeklogo-224486.png
+excerpt: The Astros are at a crossroads. How do they stay in the hunt?
 ---
 
 > **AAV** — Average Annual Value, or total value for the contract divided by the years it runs for.
