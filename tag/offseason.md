@@ -1,5 +1,5 @@
 ---
 layout: tag
 tag: offseason
-permalink: /tags/offseason/
+permalink: /tag/offseason/
 ---

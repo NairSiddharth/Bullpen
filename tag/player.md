@@ -1,5 +1,5 @@
 ---
 layout: tag
 tag: player
-permalink: /tags/player/
+permalink: /tag/player/
 ---

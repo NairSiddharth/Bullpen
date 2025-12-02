@@ -1,5 +1,5 @@
 ---
 layout: tag
 tag: prospects
-permalink: /tags/prospects/
+permalink: /tag/prospects/
 ---

@@ -1,5 +1,5 @@
 ---
 layout: tag
 tag: texans
-permalink: /tags/texans/
+permalink: /tag/texans/
 ---

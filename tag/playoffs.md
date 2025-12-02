@@ -1,5 +1,5 @@
 ---
 layout: tag
 tag: playoffs
-permalink: /tags/playoffs/
+permalink: /tag/playoffs/
 ---

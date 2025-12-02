@@ -1,5 +1,5 @@
 ---
 layout: tag
 tag: deep-dive
-permalink: /tags/deep-dive/
+permalink: /tag/deep-dive/
 ---

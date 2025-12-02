@@ -1,5 +1,5 @@
 ---
 layout: tag
 tag: astros
-permalink: /tags/astros/
+permalink: /tag/astros/
 ---
