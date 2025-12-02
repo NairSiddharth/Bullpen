@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tags
-permalink: /tag/
+permalink: /tags/
 ---
 
 <h1>Tags</h1>
