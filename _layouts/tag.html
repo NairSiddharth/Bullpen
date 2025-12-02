@@ -2,16 +2,18 @@
 layout: default
 ---
 
-<h1>Tag: {{ page.tag }}</h1>
+<div class="holo-banner">
+  <h1 class="holo-title">Tag: {{ page.tag }}</h1>
+</div>
 
 <div class="post-grid">
-  {% assign t = page.tag %}
-  {% for post in site.tags[t] %}
+  {% assign tag_name = page.tag %}
+  {% for post in site.tags[tag_name] %}
     <article class="post-card neon-card">
 
       {% if post.image %}
       <div class="post-card-img-wrapper">
-        <img src="{{ post.image | relative_url }}" class="post-card-img">
+        <img src="{{ post.image | relative_url }}" class="post-card-img" />
       </div>
       {% endif %}
 
@@ -23,7 +25,10 @@ layout: default
         {{ post.date | date: "%b %d, %Y" }}
       </div>
 
-      <p class="post-card-excerpt">{{ post.excerpt }}</p>
+      <p class="post-card-excerpt">
+        {{ post.excerpt }}
+      </p>
+
     </article>
   {% endfor %}
 </div>

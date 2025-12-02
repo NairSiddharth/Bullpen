@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tags
-permalink: /tags/
+permalink: /tag/
 ---
 
 <h1>Tags</h1>
@@ -10,7 +10,7 @@ permalink: /tags/
   {% for tag in site.tags %}
     {% assign tag_name = tag[0] %}
     <li>
-      <a href="{{ '/tags/' | append: tag_name | append: '/' | relative_url }}">
+      <a href="{{ '/tag/' | append: tag_name | append: '/' | relative_url }}">
         {{ tag_name }}
       </a> ({{ tag[1].size }})
     </li>
