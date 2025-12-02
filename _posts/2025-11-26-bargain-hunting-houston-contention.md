@@ -3,11 +3,6 @@ title: "Bargain Bin Hunting: How Houston Stays in Contention"
 date: 2025-11-26
 categories: 
     - baseball
-tags:
-  - player
-  - astros
-  - offseason
-  - deep-dive
 image: /assets/images/houston-astros-logo-png_seeklogo-224486.png
 excerpt: The Astros are at a crossroads. How do they stay in the hunt?
 layout: post

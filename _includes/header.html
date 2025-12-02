@@ -33,26 +33,9 @@
           {% endif %}
         {% endfor %}
 
-        {%- comment -%}
-        Prevent rendering tag/category dropdowns on tag or category pages.
-        This avoids the recursive render loop: header -> loops tags -> loads tag pages -> header -> ...
-        We check both layout and URL to be safe.
-        {%- endcomment -%}
-
-        {%- assign is_tag_page = false -%}
-        {% if page.layout == "tag" or page.url contains '/tag/' %}
-          {%- assign is_tag_page = true -%}
-        {% endif %}
-
-        {%- assign is_category_page = false -%}
-        {% if page.layout == "category" or page.url contains '/categories/' %}
-          {%- assign is_category_page = true -%}
-        {% endif %}
-
-      <!-- Categories Dropdown (hidden on category pages to avoid recursion) -->
-      {% unless is_category_page %}
+      <!-- Categories Dropdown -->
       <div class="nav-dropdown">
-        <a class="nav-dropdown-label" href="{{ '/categories/' | relative_url }}">Categories</a>
+        <a class="nav-dropdown-label" href="javascript:void(0)">Categories</a>
         <div class="nav-dropdown-menu">
           {% for cat in site.categories %}
             {% assign cat_name = cat[0] %}
@@ -62,20 +45,6 @@
           {% endfor %}
         </div>
       </div>
-      {% endunless %}
-
-      <!-- Tags Dropdown (hidden on tag pages to avoid recursion). Limit tags shown to avoid large builds. -->
-      {% unless is_tag_page %}
-      <div class="nav-dropdown">
-        <a class="nav-dropdown-label" href="{{ '/tag/' | relative_url }}">Tags</a>
-        <div class="nav-dropdown-menu">
-          {% assign all_tags = site.tags | keys | sort %}
-          {% for tag in all_tags limit:50 %}
-            <a href="{{ '/tag/' | append: tag | append: '/' | relative_url }}">{{ tag }}</a>
-          {% endfor %}
-        </div>
-      </div>
-      {% endunless %}
 
       </div>
     </nav>
