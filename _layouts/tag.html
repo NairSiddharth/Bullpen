@@ -12,9 +12,7 @@ layout: default
     <article class="post-card neon-card">
 
       {% if post.image %}
-      <div class="post-card-img-wrapper">
-        <img src="{{ post.image | relative_url }}" class="post-card-img" />
-      </div>
+      <img src="{{ post.image | relative_url }}" class="post-card-img" />
       {% endif %}
 
       <h2 class="post-card-title">
