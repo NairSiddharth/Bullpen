@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tags
-permalink: /tags/
+permalink: /tag/
 ---
 
 <h1>Tags</h1>
@@ -12,8 +12,7 @@ permalink: /tags/
     <li>
       <a href="{{ '/tag/' | append: tag_name | append: '/' | relative_url }}">
         {{ tag_name }}
-      </a>
-      ({{ tag[1].size }})
+      </a> ({{ tag[1].size }})
     </li>
   {% endfor %}
 </ul>

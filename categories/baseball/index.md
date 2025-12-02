@@ -1,6 +1,6 @@
 ---
 layout: category
 title: Baseball
-category: baseball
+categories: baseball
 permalink: /categories/baseball/
 ---

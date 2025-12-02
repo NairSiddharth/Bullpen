@@ -1,6 +1,6 @@
 ---
 layout: category
 title: Football
-category: football
+categories: football
 permalink: /categories/football/
 ---

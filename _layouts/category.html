@@ -8,7 +8,7 @@ layout: default
 </div>
 
 <div class="post-grid">
-  {% assign category_name = page.category | downcase %}
+  {% assign category_name = page.categories | downcase %}
 
   {% for post in site.posts %}
     {% if post.categories contains category_name %}

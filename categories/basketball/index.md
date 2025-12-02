@@ -1,6 +1,6 @@
 ---
 layout: category
 title: basketball
-category: basketball
+categories: basketball
 permalink: /categories/basketball/
 ---
