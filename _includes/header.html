@@ -29,22 +29,30 @@
         <!-- Static pages with nav: true -->
         {% for page in site.pages %}
           {% if page.nav == true %}
-            <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title }}</a>
+            <a 
+              class="page-link {% if page.url == page.url %}active-link{% endif %}" 
+              href="{{ page.url | relative_url }}"
+            >
+              {{ page.title }}
+            </a>
           {% endif %}
         {% endfor %}
 
-      <!-- Categories Dropdown -->
-      <div class="nav-dropdown">
-        <a class="nav-dropdown-label" href="javascript:void(0)">Categories</a>
-        <div class="nav-dropdown-menu">
-          {% for cat in site.categories %}
-            {% assign cat_name = cat[0] %}
-            <a href="{{ '/categories/' | append: cat_name | downcase | append: '/' | relative_url }}">
-              {{ cat_name | capitalize }}
-            </a>
-          {% endfor %}
+        <!-- Categories Dropdown -->
+        <div class="nav-dropdown">
+          <a class="nav-dropdown-label" href="javascript:void(0)">
+            Categories
+          </a>
+
+          <div class="nav-dropdown-menu">
+            {% for cat in site.categories %}
+              {% assign cat_name = cat[0] %}
+              <a href="{{ '/categories/' | append: cat_name | downcase | append: '/' | relative_url }}">
+                {{ cat_name | capitalize }}
+              </a>
+            {% endfor %}
+          </div>
         </div>
-      </div>
 
       </div>
     </nav>
