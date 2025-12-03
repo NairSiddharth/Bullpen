@@ -655,3 +655,35 @@ a {
   border-bottom: 2px solid var(--accent-text, #0ff);
   padding-bottom: 0.2rem;
 }
+/* Header Link Styling */
+.site-nav a,
+.nav-dropdown-label {
+  color: var(--neon-accent, #0ff);  /* same color everywhere */
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+/* Hover Neon Glow */
+.site-nav a:hover,
+.nav-dropdown-label:hover {
+  color: #fff;
+  text-shadow: 0 0 6px var(--neon-accent, #0ff),
+               0 0 12px var(--neon-accent, #0ff);
+}
+
+/* --- Active Page Glow --- */
+.active-link {
+  color: #fff !important;
+  text-shadow: 
+    0 0 8px var(--neon-accent, #0ff),
+    0 0 16px var(--neon-accent, #0ff),
+    0 0 24px var(--neon-accent, #0ff);
+  font-weight: 600;
+}
+
+/* Dropdown menu aesthetic */
+.nav-dropdown-menu a:hover {
+  color: #fff;
+  text-shadow: 0 0 8px var(--neon-accent, #0ff);
+}
