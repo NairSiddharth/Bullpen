@@ -16,4 +16,5 @@
   <path d="M3 12h18" />
 
   <!-- Lower half arc -->
-  <path d="M12 3 a15 15 0 0 1
+  <path d="M12 3 a15 15 0 0 1"/>
+  </svg>

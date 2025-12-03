@@ -583,3 +583,54 @@ a {
     padding-left: 1.2rem;
   }
 }
+
+/* --- About Page Styling --- */
+
+.about-banner {
+  margin-bottom: 2rem;
+}
+
+.about-intro {
+  max-width: 800px;
+  margin: 0 auto 3rem auto;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #dce1f8;
+}
+
+/* Neon Team Cards */
+.team-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.team-card {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 16px;
+}
+
+.team-icon svg {
+  width: 64px;
+  height: 64px;
+  fill: #00f2ff;
+  filter: drop-shadow(0 0 8px #00f2ff);
+  margin-bottom: 1rem;
+}
+
+.team-name {
+  font-family: 'Orbitron', sans-serif;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.team-icon img {
+  width: 48px;
+  height: 48px;
+  display: block;
+  margin: 0 auto 0.75rem auto;
+  filter: drop-shadow(0 0 5px #0ff);  // neon glow
+}
+
