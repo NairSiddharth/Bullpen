@@ -8,11 +8,11 @@ excerpt: The Texans have come far since their 0-3 start. Here's how they've come
 layout: post
 ---
 
->Author's Note: Certain images are pulled from CornDoggyLoL's posts in Texan's subreddit. Love her art, [support her here](https://www.corndoggysports.com/>category/all-products)*
+>Author's Note: Certain images are pulled from CornDoggyLoL's posts in Texan's subreddit. Love her art, [support her here](https://www.corndoggysports.com/>category/all-products)
 
 Who are the Texans? Are they the team that started 0-3, or the team riding a four-game winning streak? They're 7-5 with five weeks left and one game out of the playoffs. Three of their remaining opponents are direct competitors for those spots. Which version shows up might determine whether Houston's season ends in February, or December. The Texans themselves might not even know the answer.
 
-## Not Scoring Isn't an Option
+### Not Scoring Isn't an Option
 
 Let's get one thing out of the way. The defense hasn't changed. If anything, the Texans defense has only gotten better since Week 1, where they held the high-powered Rams to just [14 points](https://www.espn.com/nfl/team/schedule/_/name/lar/los-angeles-rams), their lowest output of the season. Over the four-game win streak, the Texans defense has had [17 sacks and given up an average of 19.25 points per game](https://www.espn.com/nfl/team/schedule/_/name/hou/houston-texans). With Will Anderson Jr. and Danielle Hunter terrorizing QBs up front, and Derrick Stingley, Kamari Lassiter, and Caden Bullock setting up a no-fly zone in the secondary, it's usually a bad day for the opposing QB and co.
 
@@ -37,13 +37,13 @@ The numbers tell the story. When kept clean from pressure, [Stroud posts a 107.7
 
 The O-line isn't suddenly elite. A 23% pressure rate and 105 rushing yards per game are solid, not spectacular. Marks isn't breaking the league. Higgins isn't a number one receiver. But the offense finally has enough threats that defenses can't key in on just Collins and Chubb. When you pair functional offensive line play, multiple viable options, the league's best defense, and a quarterback who thrives in clean pockets, you get four straight wins and a 7-5 record with the playoffs in sight.
 
-## Playoff Knife Fight
+### Playoff Knife Fight
 
 ![AFC Playoff Picture]({{ site.baseurl }}/assets/images/TexansPlayoffScenarios.png)
 
 Chiefs, Cardinals, Raiders, Chargers, and Colts. All that remains between the Texans and the playoffs. With the [Chiefs at 6-6, Chargers at 8-4, and Colts at 8-4](https://www.espn.com/nfl/standings/_/view/playoff), the Texans are competing with their direct rivals for the final playoff spots. The Cardinals (3-9) and Raiders (2-10) look like easy wins on paper. But spoilers don't care about records, and trap games end seasons. The premise is simple: win and they're in. Let's dive into the matchups.
 
-### Chiefs
+#### Chiefs
 
 ![Texans vs Chiefs matchup art]({{ site.baseurl }}/assets/images/houston-texans-week-14-matchup-doodle.png)
 
@@ -55,7 +55,7 @@ That doesn't mean it'll be easy for the Texans going to Kansas City. The Chiefs 
 
 The question then becomes the offense. Can CJ Stroud use the time the improved O-line gives him to pick apart the Chiefs? Steve Spagnuolo, the Chiefs DC, specializes in disguising coverages and blitzes, so it'll be up to OC Nick Caley and Stroud to use the improved run game and wide receiver group to keep the defense guessing. If the offensive line holds up and Stroud makes quick decisions, Houston has a shot. If Mahomes gets hot and the Texans fall behind early, it's over. This one comes down to the fourth quarter, and in tight games this year, Kansas City hasn't been clutch. The Texans steal this one on the road and exorcise the playoff demons. **Final Score: Texans 27, Chiefs 24.**
 
-### Cardinals
+#### Cardinals
 
 The Cardinals are currently 3-9 and are already eliminated from the playoffs. Classic Cardinals. Like the Chiefs, that record comes down to [futility in one-score games (0-9)](https://www.espn.com/nfl/team/schedule/_/name/ari/arizona-cardinals), they just can't close. With Kyler Murray out with a Lisfranc injury, backup Jacoby Brissett has kept the offense functional by feeding the beast (beast being Marvin Harrison Jr., Michael Wilson, and Trey McBride). That pass-heavy approach gives them a puncher's chance against better teams.
 
@@ -63,7 +63,7 @@ Their major downside is their one-dimensionality. No Cardinals rusher has [broke
 
 Offensively, Houston should control this game. Arizona's defense is opportunistic ([10th in turnovers](https://www.pro-football-reference.com/years/2025/opp.htm)) but gives up [219.6 passing yards](https://www.pro-football-reference.com/years/2025/opp.htm#passing) and [112.6 rushing yards per game](https://www.pro-football-reference.com/years/2025/opp.htm#rushing). The Texans can methodically move the ball, avoid mistakes, and let the defense do the heavy lifting. Houston wins this one comfortably. **Final Score: Texans 20, Cardinals 14.**
 
-### Raiders
+#### Raiders
 
 The Raiders entered the season with optimism: new head coach Pete Carroll, Geno Smith at quarterback, and Ashton Jeanty as their star rookie running back. They didn't anticipate sitting at 2-10, kicking the tires on another wasted season.
 
@@ -71,7 +71,7 @@ There aren't many positives about the Raiders. Offensively, they're a travesty, 
 
 This makes the path to winning straightforward. Blitz Geno Smith, double-cover Brock Bowers, crash the line whenever Jeanty runs. I expect the Texans defense to eat the Raiders' lunch. Offensively, I expect short fields and ball control. As long as the offense doesn't turn the ball over, Houston wins easily. **Final Score: Texans 23, Raiders 7.**
 
-### Chargers
+#### Chargers
 
 ![Texans vs Chargers matchup art]({{ site.baseurl }}/assets/images/houston-texans-la-chargers-week17.png)
 
@@ -87,7 +87,7 @@ On the flip side, the Chargers defense isn't a slouch either. They're [seventh i
 
 This will be a dogfight. The Chargers are fighting for playoff positioning too, and at home, they get it done. Not pretty, not explosive, just enough. **Final Score: Chargers 20, Texans 16.**
 
-### Colts
+#### Colts
 
 ![Texans vs Colts matchup art]({{ site.baseurl }}/assets/images/texans-colts-week-18.png)
 
@@ -103,6 +103,6 @@ Offensively, the Texans need to attack a weakened Colts secondary. Their best CB
 
 The injuries and schematic pressure will be too much for the Colts to overcome. Houston gets revenge and keeps their playoff hopes alive. **Final Score: Texans 23, Colts 19.**
 
-## Playoff Team or Paper Tiger?
+### Playoff Team or Paper Tiger?
 
 The Texans have clawed back from 0-3 to 7-5. Every aspect of the team screams contender. Elite defense? Check. Emerging weapons? Check. An O-line that finally protects Stroud? It's all there. Now it's time to show it. Take one from the Chargers or Chiefs, and the Texans are the team no one wants in the playoffs. Lose to the Cardinals or Raiders, and it's another fool's gold season. Five games to lay it on the line. The NFL is waiting.
