@@ -146,7 +146,7 @@ a:hover {
 
 .nav-dropdown-menu {
   position: absolute;
-  top: 120%;
+  top: 100%;
   left: 0;
   background: rgba(14, 15, 25, 0.96);
   border: 1px solid var(--retro-accent-light);
@@ -176,7 +176,7 @@ a:hover {
 }
 
 /* Desktop Hover Activation */
-@media (min-width: 701px) {
+@media (min-width: 700px) {
   .nav-dropdown:hover .nav-dropdown-menu {
     opacity: 1;
     transform: translateY(0);
