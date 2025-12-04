@@ -345,12 +345,6 @@ a:hover {
   background: rgba(14, 15, 25, 0.85);
 }
 
-/* Hide boxed title when banner is present */
-.holo-banner ~ .hologram-title,
-.hologram-title:has(~ .holo-banner) {
-  display: none;
-}
-
 /* ------------------ Responsive Typography ------------------ */
 @media (max-width: 700px) {
   .holo-title {
