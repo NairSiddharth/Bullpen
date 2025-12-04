@@ -2,7 +2,9 @@
 layout: default
 ---
 
-{% include page_title.html %}
+{% unless page.use_banner %}
+  {% include page_title.html %}
+{% endunless %}
 
 <div class="page-content">
   {{ content }}

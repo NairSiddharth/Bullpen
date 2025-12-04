@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+use_banner: true
 nav: true
 ---
 
