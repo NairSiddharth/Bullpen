@@ -81,7 +81,7 @@ a:hover {
 .nav-dropdown-label {
   display: inline-block;
   font-size: 1rem;
-  color: var(--retro-cream);
+  color: var(--retro-cream) !important; /* Override global a styles */
   text-decoration: none;
   cursor: pointer;
   transition: color 0.25s ease;
@@ -91,7 +91,7 @@ a:hover {
 
 .page-link:hover,
 .nav-dropdown-label:hover {
-  color: var(--accent-hover);
+  color: var(--accent-hover) !important; /* Override global a:hover */
 }
 
 /* ------------------ Mobile Header ------------------ */
