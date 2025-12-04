@@ -318,9 +318,9 @@ a:hover {
   --cat-color: var(--retro-accent);
   background: linear-gradient(135deg, var(--cat-color), transparent 70%), rgba(255,255,255,0.05);
   border: 2px solid var(--cat-color);
-  padding: 2.5rem 1.25rem; /* Changed from px to rem */
+  padding: 2.5rem 1.25rem;
   text-align: center;
-  margin-bottom: 2.5rem; /* Changed from px to rem */
+  margin-bottom: 2.5rem;
   border-radius: 12px;
   backdrop-filter: blur(4px);
 }
@@ -329,7 +329,7 @@ a:hover {
   font-size: 2.5rem;
   letter-spacing: 2px;
   color: var(--cat-color);
-  margin: 0; /* ADDED: Remove default margin */
+  margin: 0;
 }
 
 .hologram-title {
@@ -345,14 +345,9 @@ a:hover {
   background: rgba(14, 15, 25, 0.85);
 }
 
-/* Hide empty titles + their container */
-.post-title:empty,
-.page-title:empty {
-  display: none;
-}
-
-.post-header:has(.post-title:empty),
-.page-header:has(.page-title:empty) {
+/* Hide boxed title when banner is present */
+.holo-banner ~ .hologram-title,
+.hologram-title:has(~ .holo-banner) {
   display: none;
 }
 
