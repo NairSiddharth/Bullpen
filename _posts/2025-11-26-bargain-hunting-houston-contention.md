@@ -22,13 +22,28 @@ With the Astros [wanting to stay](https://www.mlbtraderumors.com/2025/11/astros-
 
 #### Michael Soroka
 
+<figure>
+<iframe src="https://streamable.com/m/cam-smith-strikes-out-swinging-u4ympn?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+<figcaption>2025: Michael Soroka strikeout of Cam Smith</figcaption>
+</figure>
+
 [Soroka](https://www.fangraphs.com/players/michael-soroka/18383/stats?position=P), at first glance, had a disappointing season for the Nationals and Cubs, for whom he posted a 3-8 record over 89⅔ innings and 4.52 ERA. But, when you're bargain hunting, you need to find fixer uppers, and Michael Soroka fits that category. What hurt him the most this past season was his four-seamer. Why? Batters turned into Kyle Schwarber against it, hammering them to a [.276/.356/.521](https://www.fangraphs.com/players/michael-soroka/18383/pitch-type-splits?position=P&data=pi&pitchtype=FA) slashline for the traditionalists or 152 wRC+ for the statistically inclined. Curiously enough, he also dropped his previously effective slider ([career 62 wRC+ against](https://www.fangraphs.com/players/michael-soroka/18383/pitch-type-splits?position=P&data=pfx&pitchtype=SL)) from his pitch mix, something that was used to either spell his fastball (2023) or as his primary pitch (2024). If I saw this through publicly available data, then surely the smart pitching coaches on MLB payrolls can, creating a plan around his [stronger off-speed pitches](https://www.fangraphs.com/players/michael-soroka/18383/pitch-type-splits?position=P&data=pi&pitchtype=all) and emphasizing his slider over his fastball. The Astros can stand to gain by buying low at one year, \$5 million, slightly higher than [his Spotrac's \$3.6 million estimate](https://www.spotrac.com/mlb/player/market-value/_/id/17643/michael-soroka).
 
 #### Foster Griffin
 
+<figure>
+<iframe src="https://streamable.com/m/shohei-ohtani-strikes-out-swinging-ziomsf?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+<figcaption>2022: Foster Griffin strikeout of Shohei Ohtani (last year in majors)</figcaption>
+</figure>
+
 The former Royals prospect is back for round two, trying to follow in the footsteps of Merrill Kelly and Erick Fedde, pitchers who went abroad to refine their craft, and returned as legitimate contributors. [Griffin](https://www.fangraphs.com/players/foster-griffin/16432/stats?position=P) could never quite establish himself in the majors, logging just eight innings across 2020 and 2022 in limited appearances and looked like a quad-AAAA level pitcher. Moving to the Yomiuri Giants, he's built up an impressive resume over the past three years to dispel those notions, putting up 2.00 BB/9, 9.05 K/9, and a 2.48 ERA over 315⅔ innings. Given that the NPB is currently in a "[deadball era](https://japanball.com/japanese-baseball-news/npb-newsletter/pacific-league-midseason-check-in/)", and is considered a lesser hitting environment than MLB, the ERA improvements most likely won't carry over but the command and strikeout jumps he made have a much higher likelihood of translating. He'll be 30 in the 2026 season, and with these improvements, the Astros should take a flier on him in a backend rotation role for a [\$5-6 million, one year contract](https://bleacherreport.com/articles/25286820-previewing-and-predicting-how-mlb-free-agent-starting-pitching-market-will-shake-out) to see if he holds up when facing improved competition.
 
 #### Justin Verlander
+
+<figure>
+<iframe src="https://streamable.com/m/freddie-freeman-strikes-out-swinging-invvhd?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+<figcaption>2025: Justin Verlander strikeout of Freddie Freeman</figcaption>
+</figure>
 
 If you're an Astros fan, you know who [Justin Verlander](https://www.fangraphs.com/players/justin-verlander/8700/stats?position=P) is. If you're not an Astros fan, you still probably know who he is. After all, he's a living legend of a pitcher, sure to enter the Hall of Fame with multiple Cy Youngs and championships. What's made him so great is his ability to adapt, and that's never been more apparent in how he stayed effective as a pitcher in his 20th season. He adjusted his pitch mix to more aggressively attack the batter in the zone, compensating for reduced speed on his fastball, and made his slider his primary weapon ([30.9% of his pitches](https://www.fangraphs.com/players/justin-verlander/8700/stats?position=P#pitch-values)). Without elite velocity, his changeup or cutter lost effectiveness, so the slider now carries the load. The effectiveness of this can be seen in a tale of pre and post All-Star Break, where he went from posting a [4.70 ERA](https://www.fangraphs.com/leaders/major-league?pos=all&stats=pit&lg=all&qual=0&ind=0&team=0&rost=0&filter=&player=&season=2025&season1=2025&players=8700&type=8&month=30) to a [2.90 ERA](https://www.fangraphs.com/leaders/major-league?pos=all&stats=pit&lg=all&qual=0&ind=0&team=0&rost=0&filter=&player=&season=2025&season1=2025&players=8700&type=8&month=31). Given he's chasing 300 wins and his past history with the Astros, it seems like a [natural fit to link the two together](https://www.mlb.com/astros/news/justin-verlander-could-be-a-free-agent-fit-with-astros). Verlander is the highest-risk, highest-reward option of all the pitchers listed. At [\$8](https://www.spotrac.com/mlb/player/market-value/_/id/310/justin-verlander)-[10](https://blogs.fangraphs.com/2026-top-50-mlb-free-agents/) million, Houston should find out firsthand if he's got another year left.
 
@@ -36,9 +51,19 @@ If you're an Astros fan, you know who [Justin Verlander](https://www.fangraphs.c
 
 #### Victor Caratini
 
+<figure>
+<iframe src="https://streamable.com/m/luis-urias-called-out-on-strikes-and-gio-urshela-caught-stealing-2nd-catc?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+<figcaption>2025: Victor Caratini throws Out Gio Urshela, double play</figcaption>
+</figure>
+
 [Caratini](https://www.fangraphs.com/players/victor-caratini/14968/stats?position=C) is exactly the meat and potatoes type of backup catcher teams need, filling that role perfectly for the Astros over the past two years while also playing DH and first base when needed. 2025 notwithstanding, he has a [track record of providing solid defense](https://www.fangraphs.com/players/victor-caratini/14968/stats?position=C#statcast-fielding). He also hit [.263/.329/.406](https://www.baseball-reference.com/players/c/caratvi01.shtml) over two seasons, making him a clear upgrade over the Astros' current backup, César Salazar. Spotrac has his market value at [one year for \$2.3 million](https://www.spotrac.com/mlb/player/market-value/_/id/21161/victor-caratini), Fangraphs at [one year, \$9 million](https://blogs.fangraphs.com/2026-top-50-mlb-free-agents/). With the only other tenable option being Danny Jansen, Fangraphs is more on the mark. Yes, he's aging. Yes, there's risk. He's still worth one year, \$9 million.
 
 #### Mike Yastrzemski
+
+<figure>
+<iframe src="https://streamable.com/m/luis-rengifo-flies-out-to-right-fielder-mike-yastrzemski-dd1iug?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+<figcaption>2025: Mike Yastrzemski robs Luis Rengifo of extra bases</figcaption>
+</figure>
 
 [Yastrzemski](https://www.fangraphs.com/players/mike-yastrzemski/14854/stats?position=OF) looks like a standard fourth outfielder until you check the splits. Against righties, he posted a 126 wRC+ in 2025 (120 career). Against lefties? A brutal 20 wRC+ in 2025 (79 career). He's not an everyday player; he's a platoon bat who crushes right-handed pitching. His overall 106 wRC+ hides what makes him valuable. He's also gotten smarter at the plate. His chase rate dropped from 24.4% in 2021 to 21.8% in 2025, he's making far more contact when he does swing (77.6% to 82.9%), and his swinging strike rate fell from 10.2% to 7.1%. His ISO dropped to .170 from a .210 career mark though, and teams will look at that power decline and pass. I hope the Astros aren't one of those teams scared off by surface-level numbers, because [his batted ball profile](https://www.fangraphs.com/players/mike-yastrzemski/14854/stats?position=OF#statcast) shows no real fall-off. His exit velocity, hard-hit rate (33.5%), and launch angle remain consistent with career norms. His .327 xwOBA versus .321 actual wOBA suggests he was slightly unlucky. With a 48.5% fly ball rate and a 9.6% HR/FB ratio well below his 13.5% career mark, playing half his games with the Crawford Boxes in left field could unlock 5-10 more home runs. As a platoon starter against righties, he'd replace Jesus Sanchez and give Houston a legitimate upgrade at a bargain price.
 
