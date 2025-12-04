@@ -345,6 +345,17 @@ a:hover {
   background: rgba(14, 15, 25, 0.85);
 }
 
+/* Hide empty titles + their container */
+.hologram-title:empty,
+.hologram-title:empty {
+  display: none;
+}
+
+.post-header:has(.hologram-title:empty),
+.page-header:has(.hologram-title:empty) {
+  display: none;
+}
+
 /* ------------------ Responsive Typography ------------------ */
 @media (max-width: 700px) {
   .holo-title {
