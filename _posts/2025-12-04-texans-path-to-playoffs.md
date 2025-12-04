@@ -45,7 +45,7 @@ Chiefs, Cardinals, Raiders, Chargers, and Colts. All that remains between the Te
 
 ### Chiefs
 
-![Texans vs Chiefs matchup art]({{ site.baseurl }}assets/images/houston-texans-week-14-matchup-doodle.png)
+![Texans vs Chiefs matchup art]({{ site.baseurl }}/assets/images/houston-texans-week-14-matchup-doodle.png)
 
 The more things change, the more things stay the same. Patrick Mahomes is looking as good as ever with Rashee Rice back from suspension ([81 receiving yards per game](https://www.espn.com/nfl/player/gamelog/_/id/4428331/rashee-rice) since Week 7). Travis Kelce is rejuvenated playing as a secondary option, [posting 719 receiving yards, second among tight ends](https://www.pro-football-reference.com/years/2025/receiving.htm). Their defense gives up [1.17 EPA/play (bottom 10 in the league)](https://sumersports.com/teams/defensive/), but they lock down in the red zone, allowing just [19.3 points per game](https://www.pro-football-reference.com/years/2025/opp.htm).
 
