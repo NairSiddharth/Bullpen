@@ -23,7 +23,7 @@ With the Astros [wanting to stay](https://www.mlbtraderumors.com/2025/11/astros-
 #### Michael Soroka
 
 <figure>
-<iframe src="https://streamable.com/m/cam-smith-strikes-out-swinging-u4ympn?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://streamable.com/m/cam-smith-strikes-out-swinging-u4ympn?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen title="Michael Soroka strikes out Cam Smith"></iframe>
 <figcaption>2025: Michael Soroka strikeout of Cam Smith</figcaption>
 </figure>
 
@@ -32,7 +32,7 @@ With the Astros [wanting to stay](https://www.mlbtraderumors.com/2025/11/astros-
 #### Foster Griffin
 
 <figure>
-<iframe src="https://streamable.com/m/shohei-ohtani-strikes-out-swinging-ziomsf?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://streamable.com/m/shohei-ohtani-strikes-out-swinging-ziomsf?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen title="Foster Griffin strikes out Shohei Ohtani in 2022"></iframe>
 <figcaption>2022: Foster Griffin strikeout of Shohei Ohtani (last year in majors)</figcaption>
 </figure>
 
@@ -41,7 +41,7 @@ The former Royals prospect is back for round two, trying to follow in the footst
 #### Justin Verlander
 
 <figure>
-<iframe src="https://streamable.com/m/freddie-freeman-strikes-out-swinging-invvhd?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://streamable.com/m/freddie-freeman-strikes-out-swinging-invvhd?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen title="Justin Verlander strikes out Freddie Freeman"></iframe>
 <figcaption>2025: Justin Verlander strikeout of Freddie Freeman</figcaption>
 </figure>
 
@@ -52,7 +52,7 @@ If you're an Astros fan, you know who [Justin Verlander](https://www.fangraphs.c
 #### Victor Caratini
 
 <figure>
-<iframe src="https://streamable.com/m/luis-urias-called-out-on-strikes-and-gio-urshela-caught-stealing-2nd-catc?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://streamable.com/m/luis-urias-called-out-on-strikes-and-gio-urshela-caught-stealing-2nd-catc?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen title="Victor Caratini throws out Gio Urshela"></iframe>
 <figcaption>2025: Victor Caratini throws Out Gio Urshela, double play</figcaption>
 </figure>
 
@@ -61,7 +61,7 @@ If you're an Astros fan, you know who [Justin Verlander](https://www.fangraphs.c
 #### Mike Yastrzemski
 
 <figure>
-<iframe src="https://streamable.com/m/luis-rengifo-flies-out-to-right-fielder-mike-yastrzemski-dd1iug?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://streamable.com/m/luis-rengifo-flies-out-to-right-fielder-mike-yastrzemski-dd1iug?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen title="Mike Yastrzemski robs Luis Rengifo of extra bases"></iframe>
 <figcaption>2025: Mike Yastrzemski robs Luis Rengifo of extra bases</figcaption>
 </figure>
 
