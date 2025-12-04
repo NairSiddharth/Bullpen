@@ -1,432 +1,529 @@
-/* -----------------------------------------------------
-   VARIABLES
------------------------------------------------------ */
-$cream: #f5f1e6;
-$cream-dim: #e1dccf;
-$orange: #ff8c42;
-$orange-light: #ffb37a;
-$dark-bg: #0c0c0c;
-$dark-panel: #151515;
+@import "minima";
 
-$font-body: 'Inter', sans-serif;
-$font-heading: 'Orbitron', sans-serif;
-
-/* -----------------------------------------------------
-   BASE
------------------------------------------------------ */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+/* Typography */
 body {
-  background: $dark-bg;
-  color: $cream;
-  font-family: $font-body;
-  line-height: 1.6;
+font-family: 'Inter', sans-serif;
+background: var(--retro-bg);
+color: var(--retro-cream);
 }
 
-img {
-  max-width: 100%;
-  display: block;
+h1, h2, h3, h4, h5, h6,
+.site-title,
+.post-card-title a,
+.hologram-title span,
+.holo-title,
+.footer-title,
+.team-name {
+font-family: 'Orbitron', sans-serif;
 }
 
 a {
-  color: $cream;
-  text-decoration: none;
-  transition: color 0.25s ease, border-color 0.25s ease;
+color: var(--retro-accent);
 }
 
-a:hover {
-  color: $orange;
+/* Retro palette */
+:root {
+--retro-bg: #0e0f19;
+--retro-accent: #ff7247;
+--retro-cream: #fff4e1;
+
+--neon-cyan: #3affff;
+--neon-pink: #ff4fd8;
+--neon-purple: #9d5bff;
+--neon-glow: 0 0 10px var(--neon-pink), 0 0 20px var(--neon-pink), 0 0 30px var(--neon-pink);
 }
 
-/* Headings */
-h1, h2, h3, h4 {
-  font-family: $font-heading;
-  color: $cream;
-  letter-spacing: 1px;
+/* Layout modifications */
+.post-preview {
+margin-bottom: 2.5em;
 }
 
-/* -----------------------------------------------------
-   LAYOUT WRAPPER
------------------------------------------------------ */
-.wrapper {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 1.25rem;
+.post-preview img {
+width: 100%;
+max-width: 600px;
+height: 300px;
+object-fit: contain;
+border-radius: 4px;
+margin-bottom: 15px;
+display: block;
 }
 
-/* -----------------------------------------------------
-   HEADER
------------------------------------------------------ */
-.site-header {
-  background: $dark-panel;
-  border-bottom: 1px solid rgba(255,255,255,0.07);
-  padding: 0.75rem 0;
+.post-preview h3 {
+margin-top: 0;
+margin-bottom: 5px;
+}
+
+.post-preview .post-meta {
+margin-bottom: 10px;
+}
+
+.post-preview p {
+color: #ccc;
+}
+
+.retro-header {
+border-bottom: 4px solid var(--retro-accent);
+box-shadow: 0 2px 4px rgba(0,0,0,.2);
+}
+
+.site-logo {
+height: 32px;
+margin-right: 8px;
+}
+
+.neon-header {
+position: relative;
+overflow: hidden;
+}
+
+.neon-grid {
+position: absolute;
+inset: 0;
+background-image:
+linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+background-size: 30px 30px;
+opacity: 0.15;
+animation: gridMove 12s linear infinite;
+pointer-events: none;
+}
+
+@keyframes gridMove {
+from { background-position: 0 0; }
+to { background-position: 0 60px; }
+}
+
+.neon-link {
+position: relative;
+color: var(--retro-cream);
+text-decoration: none;
+transition: color .25s ease, text-shadow .25s ease;
+}
+
+.neon-link:hover {
+color: var(--neon-cyan);
+text-shadow: var(--neon-glow);
 }
 
 .header-inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0.75rem 0;
 }
 
 .site-title {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-
-  .site-title-text {
-    font-family: $font-heading;
-    font-size: 1.3rem;
-    color: $cream;
-  }
+display: flex;
+align-items: center;
+gap: 8px;
+font-size: 1.25rem;
+font-weight: 700;
 }
 
-/* -----------------------------------------------------
-   NAVIGATION
------------------------------------------------------ */
+.site-logo {
+height: 32px;
+width: auto;
+}
+
 .site-nav {
-  display: flex;
-  align-items: center;
-  position: relative;
+position: relative;
 }
 
-/* Burger icon for mobile */
 .menu-icon {
-  display: none;
-  cursor: pointer;
+display: none;
+cursor: pointer;
+}
+
+.menu-icon svg {
+width: 24px;
+stroke: var(--retro-cream);
+}
+
+.nav-trigger {
+display: none;
+}
+
+.trigger {
+display: flex;
+gap: 1.5rem;
 }
 
 .page-link {
-  margin-left: 1.5rem;
-  font-family: $font-body;
-  color: $cream;
-  border-bottom: 2px solid transparent;
+font-size: 1rem;
+font-family: 'Roboto Condensed', sans-serif;
 }
 
-.page-link:hover {
-  color: $orange;
-  border-color: $orange;
+/* Mobile */
+@media (max-width: 700px) {
+.menu-icon {
+display: block;
 }
 
-/* Active page highlight */
-.page-link.active {
-  border-bottom: 2px solid $orange;
-  color: $orange;
+.trigger {
+display: none;
+flex-direction: column;
+background: rgba(14, 15, 25, 0.95);
+padding: 1rem;
+position: absolute;
+right: 0;
+top: 100%;
+border: 1px solid var(--neon-purple);
+border-radius: 6px;
+box-shadow: 0 0 20px var(--neon-purple);
 }
 
-/* Categories Dropdown */
-.nav-dropdown {
-  position: relative;
-  margin-left: 1.5rem;
-
-  .nav-dropdown-label {
-    cursor: pointer;
-    border-bottom: 2px solid transparent;
-  }
-
-  .nav-dropdown-label:hover {
-    color: $orange;
-    border-color: $orange;
-  }
-
-  .nav-dropdown-menu {
-    display: none;
-    position: absolute;
-    background: $dark-panel;
-    padding: 0.5rem 0;
-    border: 1px solid rgba(255,255,255,0.12);
-    min-width: 150px;
-    top: 110%;
-    left: 0;
-
-    a {
-      display: block;
-      padding: 0.5rem 1rem;
-      color: $cream;
-    }
-
-    a:hover {
-      background: rgba(255,255,255,0.05);
-      color: $orange;
-    }
-  }
-
-  &:hover .nav-dropdown-menu {
-    display: block;
-  }
+.nav-trigger:checked ~ .trigger {
+display: flex;
+}
 }
 
-/* -----------------------------------------------------
-   BANNER (used on About, Categories, etc)
------------------------------------------------------ */
-.holo-banner {
-  background: linear-gradient(
-    135deg,
-    rgba(255,140,66,0.15),
-    rgba(255,140,66,0.05)
-  );
-  padding: 3rem 1rem;
-  text-align: center;
-  margin-bottom: 2rem;
-  border-bottom: 1px solid rgba(255,255,255,0.07);
-
-  .holo-title {
-    font-family: $font-heading;
-    font-size: 2.4rem;
-  }
+.neon-link::after {
+content: "";
+position: absolute;
+left: 0;
+bottom: -3px;
+width: 0%;
+height: 2px;
+background: var(--neon-cyan);
+box-shadow: 0 0 8px var(--neon-cyan);
+transition: width .25s ease;
 }
 
-/* -----------------------------------------------------
-   CARD GRID (team cards, post cards, etc)
------------------------------------------------------ */
-.team-card-grid,
-.post-grid {
-  display: grid;
-  gap: 1.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  margin-bottom: 2rem;
+.neon-link:hover::after {
+width: 100%;
 }
 
-.neon-card {
-  background: $dark-panel;
-  padding: 1.5rem;
-  border-radius: 10px;
-  border: 1px solid rgba(255,255,255,0.08);
-  transition: border-color 0.25s ease, transform 0.25s ease;
-
-  &:hover {
-    border-color: $orange;
-    transform: translateY(-3px);
-  }
-}
-
-.team-icon {
-  width: 55px;
-  margin-bottom: 1rem;
-
-  img {
-    width: 100%;
-    opacity: 0.9;
-    transition: opacity 0.2s ease;
-  }
-
-  img:hover {
-    opacity: 1;
-  }
-}
-
-.team-name {
-  font-family: $font-heading;
-  margin-bottom: 0.5rem;
-}
-
-.post-card-title a:hover {
-  color: $orange;
-}
-
-/* -----------------------------------------------------
-   FOOTER
------------------------------------------------------ */
-.site-footer {
- margin-top: 4rem;
-  padding-top: 2rem;
-  padding-bottom: 2.5rem;
-  background:
-    linear-gradient(to bottom, rgba(255, 114, 71, 0.15), rgba(0,0,0,0.9)),
-    #0e0f19;
-  color: var($cream-dim);
-  text-align: center;
-  position: relative;
-  color: $cream-dim;
-
-  a:hover {
-    color: $orange;
-  }
+/* Neon Footer */
+.neon-footer {
+margin-top: 4rem;
+padding-top: 2rem;
+padding-bottom: 2.5rem;
+background:
+linear-gradient(to bottom, rgba(255, 114, 71, 0.15), rgba(0,0,0,0.9)),
+#0e0f19;
+color: var(--retro-cream);
+text-align: center;
+position: relative;
 }
 
 .footer-grid {
-  height: 90px;
-  background-image:
-    linear-gradient(to right, rgba(255,114,71,0.2) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255,114,71,0.2) 1px, transparent 1px);
-  background-size: 40px 40px;
-  opacity: 0.35;
+height: 90px;
+background-image:
+linear-gradient(to right, rgba(255,114,71,0.2) 1px, transparent 1px),
+linear-gradient(to bottom, rgba(255,114,71,0.2) 1px, transparent 1px);
+background-size: 40px 40px;
+opacity: 0.35;
 }
 
 .footer-title {
-  font-family: 'Orbitron', sans-serif;
-  font-size: 1.4rem;
-  margin-top: 1rem;
-  color: var($orange);
-  text-shadow: 0 0 10px var($orange);
+font-size: 1.4rem;
+margin-top: 1rem;
+color: var(--retro-accent);
+text-shadow: 0 0 10px var(--retro-accent);
 }
+
+.footer-links {
+margin-top: 0.3rem;
+font-size: 0.95rem;
+}
+
+.footer-link {
+color: var(--retro-cream);
+text-decoration: none;
+}
+
+.neon-hover:hover {
+color: var(--retro-accent);
+text-shadow: 0 0 8px var(--retro-accent);
+}
+
+.back-to-top {
+margin-top: 1rem;
+display: inline-block;
+font-size: 0.8rem;
+opacity: 0.8;
+}
+
 .divider {
-  color: #ff7247;
-}
-/* -----------------------------------------------------
-   MOBILE
------------------------------------------------------ */
-@media (max-width: 750px) {
-
-  .menu-icon {
-    display: block;
-  }
-
-  .trigger {
-    display: none;
-    flex-direction: column;
-    background: $dark-panel;
-    padding: 1rem;
-    position: absolute;
-    top: 100%;
-    right: 0;
-    min-width: 200px;
-    border: 1px solid rgba(255,255,255,0.07);
-  }
-
-  #menu-trigger:checked ~ .trigger {
-    display: flex;
-  }
-
-  .page-link,
-  .nav-dropdown {
-    margin-left: 0;
-    margin-bottom: 1rem;
-  }
+color: #ff7247;
 }
 
-/* --- Retro Blog Cards --- */
+.footer-copy {
+font-size: 0.75rem;
+margin-top: .5rem;
+opacity: .8;
+}
 
+/* Retro Blog Cards */
 .post-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-  grid-gap: 2rem;
-  margin-top: 2rem;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+grid-gap: 2rem;
+margin-top: 2rem;
 }
 
 .neon-card {
-  background: rgba(10, 10, 18, 0.85);
-  padding: 1.3rem;
-  border: 1px solid rgba(255, 114, 71, 0.4);
-  border-radius: 10px;
-  box-shadow: 0 0 12px rgba(255, 114, 71, 0.15);
-  transition: all 0.25s ease;
-  backdrop-filter: blur(4px);
+background: rgba(10, 10, 18, 0.85);
+padding: 1.3rem;
+border: 1px solid rgba(255, 114, 71, 0.4);
+border-radius: 10px;
+box-shadow: 0 0 12px rgba(255, 114, 71, 0.15);
+transition: all 0.25s ease;
+backdrop-filter: blur(4px);
 }
 
 .neon-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 0 18px rgba(255, 114, 71, 0.35);
+transform: translateY(-6px);
+box-shadow: 0 0 18px rgba(255, 114, 71, 0.35);
 }
 
 .post-card-img {
-  width: 100%;
-  height: 180px;
-  border-radius: 6px;
-  object-fit: cover;
-  margin-bottom: 0.8rem;
-}
-
-.post-card-title a {
-  font-family: 'Orbitron';
-  color: var($cream);
-  text-decoration: none;
-}
-
-.post-card-title a:hover {
-  color: var($orange);
-  text-shadow: 0 0 6px var($orange);
+width: 100%;
+height: 180px;
+border-radius: 6px;
+object-fit: cover;
+margin-bottom: 0.8rem;
 }
 
 .post-card-meta {
-  font-size: 0.75rem;
-  opacity: 0.7;
+font-size: 0.75rem;
+opacity: 0.7;
 }
 
 .post-card-excerpt {
-  margin-top: 0.7rem;
-  color: #ccc;
+margin-top: 0.7rem;
+color: #ccc;
 }
 
-/* --- Hologram Page Title Banner --- */
-
+/* Hologram Page Title Banner */
 .hologram-title {
-  margin: 2rem auto 1.5rem;
-  padding: 1rem 2rem;
-  width: fit-content;
-  font-family: 'Orbitron';
-  font-size: 1.8rem;
-  color: var($cream-dim);
-  border: 2px solid var($orange);
-  border-radius: 12px;
-  position: relative;
-  overflow: hidden;
-  background: rgba(14, 15, 25, 0.85);
-  box-shadow: 0 0 12px rgba(255, 114, 71, 0.4);
-}
-
-.hologram-title span {
-  position: relative;
-  z-index: 3;
+margin: 2rem auto 1.5rem;
+padding: 1rem 2rem;
+width: fit-content;
+font-size: 1.8rem;
+color: var(--retro-cream);
+border: 2px solid var(--retro-accent);
+border-radius: 12px;
+position: relative;
+overflow: hidden;
+background: rgba(14, 15, 25, 0.85);
+box-shadow: 0 0 12px rgba(255, 114, 71, 0.4);
 }
 
 .holo-scan {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    rgba(255, 114, 71, 0.1),
-    rgba(255, 114, 71, 0) 60%
-  );
-  opacity: 0.4;
-  animation: holo-scan-animation 4s infinite linear;
+position: absolute;
+inset: 0;
+background: linear-gradient(
+rgba(255, 114, 71, 0.1),
+rgba(255, 114, 71, 0) 60%
+);
+opacity: 0.4;
+animation: holo-scan-animation 4s infinite linear;
 }
 
 @keyframes holo-scan-animation {
-  from { transform: translateY(-100%); }
-  to   { transform: translateY(100%); }
+from { transform: translateY(-100%); }
+to   { transform: translateY(100%); }
 }
 
-.category-nav-wrapper {
-  margin-left: 2rem;
+/* Category Colors */
+.category-baseball { --cat-color: #ff7247; }
+.category-basketball { --cat-color: #e63946; }
+.category-football { --cat-color: #003b65; }
+.category-hof { --cat-color: #ffd27f; }
+
+.holo-banner {
+background: linear-gradient(135deg, var(--cat-color), transparent 70%);
+border: 2px solid var(--cat-color);
+box-shadow: 0 0 20px var(--cat-color);
+padding: 40px 20px;
+text-align: center;
+margin-bottom: 40px;
+border-radius: 12px;
+background: rgba(255,255,255,0.05);
+backdrop-filter: blur(6px);
 }
 
-.category-nav {
-  display: flex;
-  gap: 1.2rem;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.holo-title {
+font-size: 2.5rem;
+letter-spacing: 2px;
+color: var(--cat-color);
+text-shadow: 0 0 10px var(--cat-color), 0 0 20px var(--cat-color);
 }
 
-.category-nav a {
-  color: var($cream-dim);
-  text-decoration: none;
-  font-size: 0.9rem;
-  letter-spacing: 1px;
-  position: relative;
-  transition: color 0.2s ease;
+/* NEON RETRO DROPDOWN MENU */
+.nav-dropdown {
+position: relative;
+display: inline-block;
 }
 
-.category-nav a:hover {
-  color: var($orange);
+.nav-dropdown-label {
+cursor: pointer;
+font-family: 'Roboto Condensed', sans-serif;
+letter-spacing: 1px;
+transition: color .25s ease, text-shadow .25s ease;
 }
 
-.category-nav a::after {
-  content: "";
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 0%;
-  height: 2px;
-  background: var($orange);
-  box-shadow: 0 0 8px var($orange);
-  transition: width 0.25s ease;
+.nav-dropdown-label:hover {
+color: var(--neon-cyan);
+text-shadow: var(--neon-glow);
 }
 
-.category-nav a:hover::after {
-  width: 100%;
+.nav-dropdown-menu {
+position: absolute;
+top: 120%;
+left: 0;
+background: rgba(14, 15, 25, 0.96);
+border: 1px solid var(--neon-purple);
+border-radius: 10px;
+box-shadow: 0 0 18px rgba(157, 91, 255, 0.45);
+padding: 0.6rem 0;
+min-width: 180px;
+opacity: 0;
+transform: translateY(-8px);
+pointer-events: none;
+transition: opacity 0.25s ease, transform 0.25s ease;
+z-index: 999;
+}
+
+.nav-dropdown-menu a {
+display: block;
+padding: 0.55rem 1rem;
+font-size: 0.9rem;
+color: var(--retro-cream);
+text-decoration: none;
+letter-spacing: 0.5px;
+transition: background 0.25s ease, color 0.25s ease;
+}
+
+.nav-dropdown-menu a:hover {
+background: rgba(255, 114, 71, 0.18);
+color: var(--retro-accent);
+text-shadow: 0 0 6px var(--retro-accent);
+}
+
+/* Desktop Hover Activation */
+@media (min-width: 701px) {
+.nav-dropdown:hover .nav-dropdown-menu {
+opacity: 1;
+transform: translateY(0);
+pointer-events: auto;
+}
+}
+
+/* Mobile Click-to-Open Activation */
+@media (max-width: 700px) {
+.nav-dropdown {
+width: 100%;
+}
+
+.nav-dropdown-label {
+display: block;
+padding: 0.4rem 0;
+}
+
+.nav-trigger:checked ~ .trigger .nav-dropdown-menu {
+opacity: 1;
+transform: translateY(0);
+pointer-events: auto;
+position: relative;
+top: 0;
+left: 0;
+margin-top: 0.4rem;
+box-shadow: 0 0 16px rgba(157, 91, 255, 0.35);
+}
+
+.nav-dropdown-menu a {
+padding-left: 1.2rem;
+}
+}
+
+/* About Page Styling */
+.about-banner {
+margin-bottom: 2rem;
+}
+
+.about-intro {
+max-width: 800px;
+margin: 0 auto 3rem auto;
+font-size: 1.1rem;
+line-height: 1.7;
+color: #dce1f8;
+}
+
+/* Neon Team Cards */
+.team-card-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+gap: 2rem;
+padding: 1rem;
+}
+
+.team-card {
+text-align: center;
+padding: 2rem;
+border-radius: 16px;
+}
+
+.team-icon svg {
+width: 64px;
+height: 64px;
+fill: #00f2ff;
+filter: drop-shadow(0 0 8px #00f2ff);
+margin-bottom: 1rem;
+}
+
+.team-icon img {
+width: 48px;
+height: 48px;
+display: block;
+margin: 0 auto 0.75rem auto;
+filter: drop-shadow(0 0 5px #0ff);
+}
+
+/* Header Links */
+.nav-link {
+color: var(--accent-text, #0ff);
+text-decoration: none;
+padding: 0.25rem 0.5rem;
+transition: color 0.25s ease, text-shadow 0.25s ease;
+}
+
+.nav-link:hover {
+color: #fff;
+text-shadow: 0 0 6px var(--accent-text, #0ff);
+}
+
+.nav-link.active {
+color: #fff;
+text-shadow: 0 0 10px var(--accent-text, #0ff), 0 0 20px var(--accent-text, #0ff);
+border-bottom: 2px solid var(--accent-text, #0ff);
+padding-bottom: 0.2rem;
+}
+
+.site-nav a,
+.nav-dropdown-label {
+color: var(--neon-accent, #0ff);
+text-decoration: none;
+font-weight: 500;
+transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+.site-nav a:hover,
+.nav-dropdown-label:hover {
+color: #fff;
+text-shadow: 0 0 6px var(--neon-accent, #0ff), 0 0 12px var(--neon-accent, #0ff);
+}
+
+.active-link {
+color: #fff !important;
+text-shadow: 0 0 8px var(--neon-accent, #0ff),
+0 0 16px var(--neon-accent, #0ff),
+0 0 24px var(--neon-accent, #0ff);
+font-weight: 600;
+}
+
+.nav-dropdown-menu a:hover {
+color: #fff;
+text-shadow: 0 0 8px var(--neon-accent, #0ff);
 }
