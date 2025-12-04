@@ -15,14 +15,14 @@ Jeremy Peña was the story of 2025 for the Astros, carrying them to the division
 A career year, yes. But Peña's been putting the changes in motion for a while now. The most significant change to his batting approach has been his change in stance from 2023 onwards, from [-2.6 inches behind the front of the plate, to -.5 inches, to 1.6 inches this past season](https://baseballsavant.mlb.com/savant-player/jeremy-pena-665161?stats=statcast-r-bat_tracking-mlb#statcast_batting_stance). He's combined this with taking a more open stance to great effect, as we can see in this comparison between his 2024 and 2025 batting stances.
 
 <figure>
-<iframe src="https://streamable.com/m/john-schreiber-in-play-run-s-to-jeremy-pena?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://streamable.com/m/john-schreiber-in-play-run-s-to-jeremy-pena?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen title="Example of Peña's closed-off stance in 2024"></iframe>
 <figcaption>2024: Peña's closed-off stance</figcaption>
 </figure>
 
 In 2024, Peña was much more closed off, having his lower body almost perpendicular to the plate. When he made contact, it got driven into the ground. This at bat led to a positive result, but in the long run this approach capped his offensive production.
 
 <figure>
-<iframe src="https://streamable.com/m/jack-leiter-in-play-run-s-to-jeremy-pena?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://streamable.com/m/jack-leiter-in-play-run-s-to-jeremy-pena?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen title="Example of Peña's more open stance in 2025"></iframe>
 <figcaption>2025: Open stance, RBI double</figcaption>
 </figure>
 
@@ -33,7 +33,7 @@ This lets him pull and get under the ball ([Pull AIR % jumped from 15.2% to 21.1
 Peña's also punishing fastballs at career-high levels. In 2025, he's crushed the most common types of pitches he faces, four-seamers and sinkers, to [216 wRC+](https://www.fangraphs.com/players/jeremy-pena/21636/pitch-type-splits?position=SS#advanced) [(.681 slg)](https://baseballsavant.mlb.com/savant-player/jeremy-pena-665161?stats=statcast-r-hitting-mlb#run_value) and [169 wRC+](https://www.fangraphs.com/players/jeremy-pena/21636/pitch-type-splits?position=SS#advanced) [(.505 slg)](https://baseballsavant.mlb.com/savant-player/jeremy-pena-665161?stats=statcast-r-hitting-mlb#run_value) respectively.
 
 <figure>
-<iframe src="https://streamable.com/m/jeremy-pena-hits-a-grand-slam-17-to-left-field-yainer-diaz-scores-jesus-s?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://streamable.com/m/jeremy-pena-hits-a-grand-slam-17-to-left-field-yainer-diaz-scores-jesus-s?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen title="Peña's hitting grandslam off a fastball"></iframe>
 <figcaption>Peña punishing a fastball</figcaption>
 </figure>
 
@@ -42,14 +42,14 @@ His performance against offspeed and breaking ball pitches has also hit career h
 Compare this 2024 ground out to Guardians pitcher Lively throwing a sweeper,
 
 <figure>
-<iframe src="https://streamable.com/m/jeremy-pena-grounds-out-shortstop-brayan-rocchio-to-first-baseman-kyle-ma?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://streamable.com/m/jeremy-pena-grounds-out-shortstop-brayan-rocchio-to-first-baseman-kyle-ma?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen title="Peña's groundout on a breaking ball in 2024"></iframe>
 <figcaption>2024: Ground out on a sweeper</figcaption>
 </figure>
 
 to this 2025 at bat where he rips a homerun against Yankees pitcher Warren throwing the same pitch.
 
 <figure>
-<iframe src="https://streamable.com/m/jeremy-pena-homers-15-on-a-fly-ball-to-left-field-x148ui?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://streamable.com/m/jeremy-pena-homers-15-on-a-fly-ball-to-left-field-x148ui?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen title="Peña homers on a breaking ball in 2025"></iframe>
 <figcaption>2025: Home run on a sweeper</figcaption>
 </figure>
 
@@ -68,7 +68,7 @@ Before the offensive breakout, Peña's calling card was his silky-smooth defence
 2024 was a step back. While remaining above-average by most metrics, his numbers weren't meeting those Gold Glove standards. In 2025, he returned to form, cutting down on errors tremendously ([19 errors in 2024, only 9 in 2025](https://www.fangraphs.com/players/jeremy-pena/21636/stats?position=SS#fielding)), boosting his [OAA by 10](https://baseballsavant.mlb.com/savant-player/jeremy-pena-665161?stats=statcast-r-fielding-mlb#statcast-oaa) and [FRV by 9](https://baseballsavant.mlb.com/savant-player/jeremy-pena-665161?stats=statcast-r-fielding-mlb#statcast-fielding-run-value), ranking [sixth among all shortstops](https://www.espn.com/mlb/stats/fielding/_/seasontype/2/position/ss/sort/defWARBR/qualified/true/order/true).
 
 <figure>
-<iframe src="https://streamable.com/m/cristian-javier-in-play-out-s-to-adolis-garcia-fkfimw?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://streamable.com/m/cristian-javier-in-play-out-s-to-adolis-garcia-fkfimw?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen title="Peña jump throw to get Adolis Garcia at first"></iframe>
 <figcaption>Peña's defensive prowess on display</figcaption>
 </figure>
 
