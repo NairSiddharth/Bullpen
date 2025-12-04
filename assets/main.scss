@@ -73,14 +73,13 @@ color: var(--retro-cream);
 
 .site-nav {
 position: relative;
-display: flex;
+display: inline-block;
 align-items: center;
 gap: 1.5rem;
 }
 
 .page-link {
 font-size: 1rem;
-font-family: 'Roboto Condensed', sans-serif;
 color: var(--retro-cream);
 }
 
@@ -137,9 +136,6 @@ display: inline-block;
 }
 
 .nav-dropdown-label {
-cursor: pointer;
-font-family: 'Roboto Condensed', sans-serif;
-letter-spacing: 1px;
 transition: color 0.25s ease;
 color: var(--retro-cream);
 }
