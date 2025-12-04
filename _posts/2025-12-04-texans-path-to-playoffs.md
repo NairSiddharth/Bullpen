@@ -10,9 +10,6 @@ layout: post
 
 >Author's Note: Certain images are pulled from CornDoggyLoL's posts in Texan's subreddit. Love her art, [support her here](https://www.corndoggysports.com/>category/all-products)*
 
-<div class="tenor-gif-embed" data-postid="5289384" data-share-method="host" data-aspect-ratio="1.22137" data-width="560"><a href="https://tenor.com/view/undertaker-coffin-just-woke-up-wwe-gif-5289384">Undertaker Coffin GIF</a> from <a href="https://tenor.com/search/undertaker-gifs">Undertaker GIFs</a></div>
-<script type="text/javascript" async src="https://tenor.com/embed.js"></script>
-
 Who are the Texans? Are they the team that started 0-3, or the team riding a four-game winning streak? They're 7-5 with five weeks left and one game out of the playoffs. Three of their remaining opponents are direct competitors for those spots. Which version shows up might determine whether Houston's season ends in February, or December. The Texans themselves might not even know the answer.
 
 ## Not Scoring Isn't an Option
@@ -42,7 +39,7 @@ The O-line isn't suddenly elite. A 23% pressure rate and 105 rushing yards per g
 
 ## Playoff Knife Fight
 
-![AFC Playoff Picture]({{ site.baseurl }}assets/images/TexansPlayoffScenarios.png)
+![AFC Playoff Picture]({{ site.baseurl }}/assets/images/TexansPlayoffScenarios.png)
 
 Chiefs, Cardinals, Raiders, Chargers, and Colts. All that remains between the Texans and the playoffs. With the [Chiefs at 6-6, Chargers at 8-4, and Colts at 8-4](https://www.espn.com/nfl/standings/_/view/playoff), the Texans are competing with their direct rivals for the final playoff spots. The Cardinals (3-9) and Raiders (2-10) look like easy wins on paper. But spoilers don't care about records, and trap games end seasons. The premise is simple: win and they're in. Let's dive into the matchups.
 
@@ -76,7 +73,7 @@ This makes the path to winning straightforward. Blitz Geno Smith, double-cover B
 
 ### Chargers
 
-![Texans vs Chargers matchup art]({{ site.baseurl }}assets/images/houston-texans-la-chargers-week17.png)
+![Texans vs Chargers matchup art]({{ site.baseurl }}/assets/images/houston-texans-la-chargers-week17.png)
 
 The Chargers sit at 8-4, fifth in the AFC. Impressive, considering the injuries wracking their offensive line ([Joe Alt and Rashawn Slater out for the year](https://www.espn.com/nfl/team/injuries/_/name/lac/los-angeles-chargers)) and running back rotation (top two backs Najee Harris and Omarian Hampton both gone).
 
@@ -92,7 +89,7 @@ This will be a dogfight. The Chargers are fighting for playoff positioning too, 
 
 ### Colts
 
-![Texans vs Colts matchup art]({{ site.baseurl }}assets/images/texans-colts-week-18.png)
+![Texans vs Colts matchup art]({{ site.baseurl }}/assets/images/texans-colts-week-18.png)
 
 The Colts' loss to the Texans in Week 13 knocked them out of the division lead. Will this Week 18 matchup be the moment that knocks them out of the playoffs?
 
