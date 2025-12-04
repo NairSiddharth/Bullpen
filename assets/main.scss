@@ -4,23 +4,23 @@
 
 /* ------------------ Root / Variables ------------------ */
 :root {
-/* Base Retro Palette */
---retro-bg: #0e0f19;
---retro-cream: #fff4e1;
---retro-accent: #ff7247;
---retro-accent-light: #ff916b;
---accent-hover: #3affff;
+  /* Base Retro Palette */
+  --retro-bg: #0e0f19;
+  --retro-cream: #fff4e1;
+  --retro-accent: #ff7247;
+  --retro-accent-light: #ff916b;
+  --accent-hover: #3affff;
 
-/* Typography */
---body-font: 'Crimson Text', serif;
---header-font: 'Orbitron', sans-serif;
+  /* Typography */
+  --body-font: 'Crimson Text', serif;
+  --header-font: 'Orbitron', sans-serif;
 }
 
 /* ------------------ Typography ------------------ */
 body {
-font-family: var(--body-font);
-background: var(--retro-bg);
-color: var(--retro-cream);
+  font-family: var(--body-font);
+  background: var(--retro-bg);
+  color: var(--retro-cream);
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -30,294 +30,333 @@ h1, h2, h3, h4, h5, h6,
 .holo-title,
 .footer-title,
 .team-name {
-font-family: var(--header-font);
+  font-family: var(--header-font);
 }
 
 a {
-color: var(--retro-accent);
-text-decoration: none;
-transition: color 0.25s ease;
+  color: var(--retro-accent);
+  text-decoration: none;
+  transition: color 0.25s ease;
 }
 
 a:hover {
-color: var(--accent-hover);
+  color: var(--accent-hover);
 }
 
 /* ------------------ Header ------------------ */
 .retro-header {
-border-bottom: 4px solid var(--retro-accent);
-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  border-bottom: 4px solid var(--retro-accent);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 .site-logo {
-height: 32px;
-width: auto;
-margin-right: 8px;
+  height: 32px;
+  width: auto;
+  margin-right: 8px;
 }
 
 .header-inner {
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding: 0.75rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
 }
 
 .site-title {
-display: flex;
-align-items: center;
-gap: 8px;
-font-size: 1.25rem;
-font-weight: 700;
-color: var(--retro-cream);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--retro-cream);
 }
 
 .site-nav {
-position: relative;
-display: inline-block;
-align-items: center;
-gap: 1.5rem;
+  position: relative;
+  display: inline-block;
 }
 
-.page-link {
-font-size: 1rem;
-color: var(--retro-cream);
+/* UNIFIED NAV ITEM STYLING */
+.page-link,
+.nav-dropdown-label {
+  display: inline-block;
+  font-size: 1rem;
+  color: var(--retro-cream);
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.25s ease;
+  line-height: 1.5;
+  vertical-align: middle;
 }
 
-.page-link:hover {
-color: var(--accent-hover);
+.page-link:hover,
+.nav-dropdown-label:hover {
+  color: var(--accent-hover);
 }
 
 /* ------------------ Mobile Header ------------------ */
 .menu-icon {
-display: none;
-cursor: pointer;
+  display: none;
+  cursor: pointer;
 }
 
 .menu-icon svg {
-width: 24px;
-stroke: var(--retro-cream);
+  width: 24px;
+  stroke: var(--retro-cream);
 }
 
 .nav-trigger {
-display: none;
+  display: none;
 }
 
 .trigger {
-display: flex;
-gap: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
 }
 
 @media (max-width: 700px) {
-.menu-icon {
-display: block;
-}
+  .menu-icon {
+    display: block;
+  }
 
-.trigger {
-display: none;
-flex-direction: column;
-background: rgba(14, 15, 25, 0.95);
-padding: 1rem;
-position: absolute;
-right: 0;
-top: 100%;
-border: 1px solid var(--retro-accent-light);
-border-radius: 6px;
-}
+  .trigger {
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    background: rgba(14, 15, 25, 0.95);
+    padding: 1rem;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    border: 1px solid var(--retro-accent-light);
+    border-radius: 6px;
+  }
 
-.nav-trigger:checked ~ .trigger {
-display: flex;
-}
+  .nav-trigger:checked ~ .trigger {
+    display: flex;
+  }
 }
 
 /* ------------------ Dropdown Menu ------------------ */
 .nav-dropdown {
-position: relative;
-display: inline-block;
-}
-
-.nav-dropdown-label {
-transition: color 0.25s ease;
-color: var(--retro-cream);
-}
-
-.nav-dropdown-label:hover {
-color: var(--accent-hover);
+  position: relative;
+  display: inline-block;
 }
 
 .nav-dropdown-menu {
-position: absolute;
-top: 120%;
-left: 0;
-background: rgba(14, 15, 25, 0.96);
-border: 1px solid var(--retro-accent-light);
-border-radius: 10px;
-padding: 0.6rem 0;
-min-width: 180px;
-opacity: 0;
-transform: translateY(-8px);
-pointer-events: none;
-transition: opacity 0.25s ease, transform 0.25s ease;
-z-index: 999;
+  position: absolute;
+  top: 120%;
+  left: 0;
+  background: rgba(14, 15, 25, 0.96);
+  border: 1px solid var(--retro-accent-light);
+  border-radius: 10px;
+  padding: 0.6rem 0;
+  min-width: 180px;
+  opacity: 0;
+  transform: translateY(-8px);
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  z-index: 999;
 }
 
 .nav-dropdown-menu a {
-display: block;
-padding: 0.55rem 1rem;
-font-size: 0.9rem;
-color: var(--retro-cream);
-text-decoration: none;
-letter-spacing: 0.5px;
-transition: background 0.25s ease, color 0.25s ease;
+  display: block;
+  padding: 0.55rem 1rem;
+  font-size: 0.9rem;
+  color: var(--retro-cream);
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  transition: background 0.25s ease, color 0.25s ease;
 }
 
 .nav-dropdown-menu a:hover {
-background: rgba(255,114,71,0.15);
-color: var(--accent-hover);
+  background: rgba(255,114,71,0.15);
+  color: var(--accent-hover);
 }
 
 /* Desktop Hover Activation */
 @media (min-width: 701px) {
-.nav-dropdown:hover .nav-dropdown-menu {
-opacity: 1;
-transform: translateY(0);
-pointer-events: auto;
-}
+  .nav-dropdown:hover .nav-dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
 }
 
 /* Mobile Click-to-Open Activation */
 @media (max-width: 700px) {
-.nav-dropdown {
-width: 100%;
-}
+  .nav-dropdown {
+    width: 100%;
+  }
 
-.nav-dropdown-label {
-display: block;
-padding: 0.4rem 0;
-}
+  .nav-dropdown-label {
+    display: block;
+    padding: 0.4rem 0;
+  }
 
-.nav-trigger:checked ~ .trigger .nav-dropdown-menu {
-opacity: 1;
-transform: translateY(0);
-pointer-events: auto;
-position: relative;
-top: 0;
-left: 0;
-margin-top: 0.4rem;
-}
+  .nav-trigger:checked ~ .trigger .nav-dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 0.4rem;
+  }
 
-.nav-dropdown-menu a {
-padding-left: 1.2rem;
-}
+  .nav-dropdown-menu a {
+    padding-left: 1.2rem;
+  }
 }
 
 /* ------------------ Footer ------------------ */
 .neon-footer {
-margin-top: 4rem;
-padding: 2rem 0 2.5rem 0;
-background: linear-gradient(to bottom, rgba(255, 114, 71, 0.15), rgba(0,0,0,0.9)), var(--retro-bg);
-color: var(--retro-cream);
-text-align: center;
+  margin-top: 4rem;
+  padding: 2rem 0 2.5rem 0;
+  background: linear-gradient(to bottom, rgba(255, 114, 71, 0.15), rgba(0,0,0,0.9)), var(--retro-bg);
+  color: var(--retro-cream);
+  text-align: center;
 }
 
 .footer-grid {
-height: 90px;
-background-image:
-linear-gradient(to right, rgba(255,114,71,0.15) 1px, transparent 1px),
-linear-gradient(to bottom, rgba(255,114,71,0.15) 1px, transparent 1px);
-background-size: 40px 40px;
-opacity: 0.3;
+  height: 90px;
+  background-image:
+    linear-gradient(to right, rgba(255,114,71,0.15) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,114,71,0.15) 1px, transparent 1px);
+  background-size: 40px 40px;
+  opacity: 0.3;
 }
 
 .footer-title {
-font-size: 1.4rem;
-margin-top: 1rem;
-color: var(--retro-accent);
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  color: var(--retro-accent);
 }
 
 .footer-links {
-margin-top: 0.3rem;
-font-size: 0.95rem;
+  margin-top: 0.3rem;
+  font-size: 0.95rem;
 }
 
 .footer-link {
-color: var(--retro-cream);
-text-decoration: none;
+  color: var(--retro-cream);
+  text-decoration: none;
+  transition: color 0.25s ease; /* ADDED: consistent with other links */
+}
+
+.footer-link:hover {
+  color: var(--accent-hover); /* ADDED: consistent hover state */
 }
 
 .back-to-top {
-margin-top: 1rem;
-display: inline-block;
-font-size: 0.8rem;
-opacity: 0.8;
+  margin-top: 1rem;
+  display: inline-block;
+  font-size: 0.8rem;
+  opacity: 0.8;
+  transition: opacity 0.25s ease; /* ADDED: smooth transition */
+}
+
+.back-to-top:hover {
+  opacity: 1; /* ADDED: hover feedback */
 }
 
 /* ------------------ Post Cards ------------------ */
 .post-grid {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-gap: 2rem;
-margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
+/* UNIFIED: Single class for all post layouts */
 .post-preview {
-margin-bottom: 2.5em;
+  margin-bottom: 2.5rem; /* Changed from em to rem for consistency */
 }
 
 .post-preview img,
-.post-card-img {
-width: 100%;
-height: 180px;
-max-width: 600px;
-object-fit: cover;
-border-radius: 6px;
-margin-bottom: 0.8rem;
-display: block;
+.post-card img {
+  width: 100%;
+  height: 180px;
+  max-width: 600px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 0.8rem;
+  display: block;
+  transition: transform 0.25s ease; /* ADDED: smooth image interaction */
 }
 
-.post-preview h3 {
-margin-top: 0;
-margin-bottom: 5px;
+.post-preview img:hover,
+.post-card img:hover {
+  transform: scale(1.02); /* ADDED: subtle hover effect */
+}
+
+.post-preview h3,
+.post-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem; /* Changed from px to rem */
 }
 
 .post-preview .post-meta,
-.post-card-meta {
-margin-bottom: 10px;
-font-size: 0.75rem;
-opacity: 0.7;
+.post-card .post-meta {
+  margin-bottom: 0.625rem; /* Changed from px to rem */
+  font-size: 0.75rem;
+  opacity: 0.7;
 }
 
 .post-preview p,
-.post-card-excerpt {
-color: var(--retro-cream);
+.post-card p {
+  color: var(--retro-cream);
+  line-height: 1.6; /* ADDED: better readability */
 }
+
+/* REMOVED: Redundant .post-card-title, .post-card-meta, .post-card-excerpt, .post-card-img classes */
+/* These created duplicate selectors - consolidated above */
 
 /* ------------------ Hologram Banner ------------------ */
 .holo-banner {
---cat-color: var(--retro-accent);
-background: linear-gradient(135deg, var(--cat-color), transparent 70%), rgba(255,255,255,0.05);
-border: 2px solid var(--cat-color);
-padding: 40px 20px;
-text-align: center;
-margin-bottom: 40px;
-border-radius: 12px;
-backdrop-filter: blur(4px);
+  --cat-color: var(--retro-accent);
+  background: linear-gradient(135deg, var(--cat-color), transparent 70%), rgba(255,255,255,0.05);
+  border: 2px solid var(--cat-color);
+  padding: 2.5rem 1.25rem; /* Changed from px to rem */
+  text-align: center;
+  margin-bottom: 2.5rem; /* Changed from px to rem */
+  border-radius: 12px;
+  backdrop-filter: blur(4px);
 }
 
 .holo-title {
-font-size: 2.5rem;
-letter-spacing: 2px;
-color: var(--cat-color);
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  color: var(--cat-color);
+  margin: 0; /* ADDED: Remove default margin */
 }
 
 .hologram-title {
-margin: 2rem auto 1.5rem;
-padding: 1rem 2rem;
-width: fit-content;
-font-size: 1.8rem;
-color: var(--retro-cream);
-border: 2px solid var(--retro-accent);
-border-radius: 12px;
-position: relative;
-overflow: hidden;
-background: rgba(14, 15, 25, 0.85);
+  margin: 2rem auto 1.5rem;
+  padding: 1rem 2rem;
+  width: fit-content;
+  font-size: 1.8rem;
+  color: var(--retro-cream);
+  border: 2px solid var(--retro-accent);
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  background: rgba(14, 15, 25, 0.85);
+}
+
+/* ------------------ Responsive Typography ------------------ */
+@media (max-width: 700px) {
+  .holo-title {
+    font-size: 2rem; /* ADDED: Scale down on mobile */
+  }
+  
+  .hologram-title {
+    font-size: 1.5rem; /* ADDED: Scale down on mobile */
+    padding: 0.75rem 1.5rem;
+  }
+  
+  .site-title {
+    font-size: 1.1rem; /* ADDED: Slightly smaller on mobile */
+  }
 }
