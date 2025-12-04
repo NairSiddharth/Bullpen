@@ -8,20 +8,17 @@
 --retro-bg: #0e0f19;
 --retro-cream: #fff4e1;
 --retro-accent: #ff7247;
+--retro-accent-light: #ff916b;
+--accent-hover: #3affff;
 
-/* Neon / Interactive Palette */
---neon-cyan: #3affff;
---neon-pink: #ff4fd8;
---neon-purple: #9d5bff;
---neon-glow: 0 0 6px var(--neon-pink), 0 0 12px var(--neon-pink);
-
---accent-text: var(--neon-cyan);
---neon-accent: var(--neon-cyan);
+/* Typography */
+--body-font: 'Crimson Text', serif;
+--header-font: 'Orbitron', sans-serif;
 }
 
 /* ------------------ Typography ------------------ */
 body {
-font-family: 'Inter', sans-serif;
+font-family: var(--body-font);
 background: var(--retro-bg);
 color: var(--retro-cream);
 }
@@ -33,24 +30,23 @@ h1, h2, h3, h4, h5, h6,
 .holo-title,
 .footer-title,
 .team-name {
-font-family: 'Orbitron', sans-serif;
+font-family: var(--header-font);
 }
 
 a {
 color: var(--retro-accent);
 text-decoration: none;
-transition: color 0.25s ease, text-shadow 0.25s ease;
+transition: color 0.25s ease;
 }
 
 a:hover {
-color: var(--neon-cyan);
-text-shadow: var(--neon-glow);
+color: var(--accent-hover);
 }
 
 /* ------------------ Header ------------------ */
 .retro-header {
 border-bottom: 4px solid var(--retro-accent);
-box-shadow: 0 2px 4px rgba(0,0,0,.2);
+box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 .site-logo {
@@ -72,12 +68,27 @@ align-items: center;
 gap: 8px;
 font-size: 1.25rem;
 font-weight: 700;
+color: var(--retro-cream);
 }
 
 .site-nav {
 position: relative;
+display: flex;
+align-items: center;
+gap: 1.5rem;
 }
 
+.page-link {
+font-size: 1rem;
+font-family: 'Roboto Condensed', sans-serif;
+color: var(--retro-cream);
+}
+
+.page-link:hover {
+color: var(--accent-hover);
+}
+
+/* ------------------ Mobile Header ------------------ */
 .menu-icon {
 display: none;
 cursor: pointer;
@@ -97,40 +108,6 @@ display: flex;
 gap: 1.5rem;
 }
 
-.page-link {
-font-size: 1rem;
-font-family: 'Roboto Condensed', sans-serif;
-}
-
-/* ------------------ Neon Link Effects ------------------ */
-.neon-link {
-position: relative;
-color: var(--retro-cream);
-transition: color .25s ease, text-shadow .25s ease;
-}
-
-.neon-link::after {
-content: "";
-position: absolute;
-left: 0;
-bottom: -3px;
-width: 0%;
-height: 2px;
-background: var(--neon-cyan);
-box-shadow: 0 0 6px var(--neon-cyan), 0 0 12px var(--neon-cyan);
-transition: width .25s ease;
-}
-
-.neon-link:hover {
-color: var(--neon-cyan);
-text-shadow: var(--neon-glow);
-}
-
-.neon-link:hover::after {
-width: 100%;
-}
-
-/* ------------------ Mobile Header ------------------ */
 @media (max-width: 700px) {
 .menu-icon {
 display: block;
@@ -144,9 +121,8 @@ padding: 1rem;
 position: absolute;
 right: 0;
 top: 100%;
-border: 1px solid var(--neon-purple);
+border: 1px solid var(--retro-accent-light);
 border-radius: 6px;
-box-shadow: 0 0 16px var(--neon-purple);
 }
 
 .nav-trigger:checked ~ .trigger {
@@ -154,14 +130,97 @@ display: flex;
 }
 }
 
-/* ------------------ Neon Footer ------------------ */
+/* ------------------ Dropdown Menu ------------------ */
+.nav-dropdown {
+position: relative;
+display: inline-block;
+}
+
+.nav-dropdown-label {
+cursor: pointer;
+font-family: 'Roboto Condensed', sans-serif;
+letter-spacing: 1px;
+transition: color 0.25s ease;
+color: var(--retro-cream);
+}
+
+.nav-dropdown-label:hover {
+color: var(--accent-hover);
+}
+
+.nav-dropdown-menu {
+position: absolute;
+top: 120%;
+left: 0;
+background: rgba(14, 15, 25, 0.96);
+border: 1px solid var(--retro-accent-light);
+border-radius: 10px;
+padding: 0.6rem 0;
+min-width: 180px;
+opacity: 0;
+transform: translateY(-8px);
+pointer-events: none;
+transition: opacity 0.25s ease, transform 0.25s ease;
+z-index: 999;
+}
+
+.nav-dropdown-menu a {
+display: block;
+padding: 0.55rem 1rem;
+font-size: 0.9rem;
+color: var(--retro-cream);
+text-decoration: none;
+letter-spacing: 0.5px;
+transition: background 0.25s ease, color 0.25s ease;
+}
+
+.nav-dropdown-menu a:hover {
+background: rgba(255,114,71,0.15);
+color: var(--accent-hover);
+}
+
+/* Desktop Hover Activation */
+@media (min-width: 701px) {
+.nav-dropdown:hover .nav-dropdown-menu {
+opacity: 1;
+transform: translateY(0);
+pointer-events: auto;
+}
+}
+
+/* Mobile Click-to-Open Activation */
+@media (max-width: 700px) {
+.nav-dropdown {
+width: 100%;
+}
+
+.nav-dropdown-label {
+display: block;
+padding: 0.4rem 0;
+}
+
+.nav-trigger:checked ~ .trigger .nav-dropdown-menu {
+opacity: 1;
+transform: translateY(0);
+pointer-events: auto;
+position: relative;
+top: 0;
+left: 0;
+margin-top: 0.4rem;
+}
+
+.nav-dropdown-menu a {
+padding-left: 1.2rem;
+}
+}
+
+/* ------------------ Footer ------------------ */
 .neon-footer {
 margin-top: 4rem;
 padding: 2rem 0 2.5rem 0;
 background: linear-gradient(to bottom, rgba(255, 114, 71, 0.15), rgba(0,0,0,0.9)), var(--retro-bg);
 color: var(--retro-cream);
 text-align: center;
-position: relative;
 }
 
 .footer-grid {
@@ -177,7 +236,6 @@ opacity: 0.3;
 font-size: 1.4rem;
 margin-top: 1rem;
 color: var(--retro-accent);
-text-shadow: 0 0 8px var(--retro-accent);
 }
 
 .footer-links {
@@ -234,27 +292,25 @@ opacity: 0.7;
 
 .post-preview p,
 .post-card-excerpt {
-color: var(--retro-cream); /* retro-only for readability */
+color: var(--retro-cream);
 }
 
 /* ------------------ Hologram Banner ------------------ */
 .holo-banner {
---cat-color: var(--retro-accent); /* default */
+--cat-color: var(--retro-accent);
 background: linear-gradient(135deg, var(--cat-color), transparent 70%), rgba(255,255,255,0.05);
 border: 2px solid var(--cat-color);
-box-shadow: 0 0 16px var(--cat-color);
 padding: 40px 20px;
 text-align: center;
 margin-bottom: 40px;
 border-radius: 12px;
-backdrop-filter: blur(6px);
+backdrop-filter: blur(4px);
 }
 
 .holo-title {
 font-size: 2.5rem;
 letter-spacing: 2px;
 color: var(--cat-color);
-text-shadow: 0 0 10px var(--cat-color), 0 0 16px var(--cat-color);
 }
 
 .hologram-title {
@@ -268,105 +324,4 @@ border-radius: 12px;
 position: relative;
 overflow: hidden;
 background: rgba(14, 15, 25, 0.85);
-box-shadow: 0 0 10px rgba(255, 114, 71, 0.3);
-}
-
-.holo-scan {
-position: absolute;
-inset: 0;
-background: linear-gradient(rgba(255,114,71,0.1), rgba(255,114,71,0) 60%);
-opacity: 0.3;
-animation: holo-scan-animation 4s infinite linear;
-}
-
-@keyframes holo-scan-animation {
-from { transform: translateY(-100%); }
-to   { transform: translateY(100%); }
-}
-
-/* ------------------ Dropdown Menu ------------------ */
-.nav-dropdown {
-position: relative;
-display: inline-block;
-}
-
-.nav-dropdown-label {
-cursor: pointer;
-font-family: 'Roboto Condensed', sans-serif;
-letter-spacing: 1px;
-transition: color .25s ease, text-shadow .25s ease;
-}
-
-.nav-dropdown-label:hover {
-color: var(--neon-cyan);
-text-shadow: var(--neon-glow);
-}
-
-.nav-dropdown-menu {
-position: absolute;
-top: 120%;
-left: 0;
-background: rgba(14, 15, 25, 0.96);
-border: 1px solid var(--neon-purple);
-border-radius: 10px;
-box-shadow: 0 0 12px rgba(157, 91, 255, 0.35);
-padding: 0.6rem 0;
-min-width: 180px;
-opacity: 0;
-transform: translateY(-8px);
-pointer-events: none;
-transition: opacity 0.25s ease, transform 0.25s ease;
-z-index: 999;
-}
-
-.nav-dropdown-menu a {
-display: block;
-padding: 0.55rem 1rem;
-font-size: 0.9rem;
-color: var(--retro-cream);
-text-decoration: none;
-letter-spacing: 0.5px;
-transition: background 0.25s ease, color 0.25s ease;
-}
-
-.nav-dropdown-menu a:hover {
-background: rgba(255,114,71,0.15);
-color: var(--neon-cyan);
-text-shadow: var(--neon-glow);
-}
-
-/* Desktop Hover Activation */
-@media (min-width: 701px) {
-.nav-dropdown:hover .nav-dropdown-menu {
-opacity: 1;
-transform: translateY(0);
-pointer-events: auto;
-}
-}
-
-/* Mobile Click-to-Open Activation */
-@media (max-width: 700px) {
-.nav-dropdown {
-width: 100%;
-}
-
-.nav-dropdown-label {
-display: block;
-padding: 0.4rem 0;
-}
-
-.nav-trigger:checked ~ .trigger .nav-dropdown-menu {
-opacity: 1;
-transform: translateY(0);
-pointer-events: auto;
-position: relative;
-top: 0;
-left: 0;
-margin-top: 0.4rem;
-box-shadow: 0 0 12px rgba(157, 91, 255, 0.25);
-}
-
-.nav-dropdown-menu a {
-padding-left: 1.2rem;
-}
 }
