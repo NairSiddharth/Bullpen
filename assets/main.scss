@@ -346,13 +346,13 @@ a:hover {
 }
 
 /* Hide empty titles + their container */
-.hologram-title:empty,
-.hologram-title:empty {
+.post-title:empty,
+.page-title:empty {
   display: none;
 }
 
-.post-header:has(.hologram-title:empty),
-.page-header:has(.hologram-title:empty) {
+.post-header:has(.post-title:empty),
+.page-header:has(.page-title:empty) {
   display: none;
 }
 
