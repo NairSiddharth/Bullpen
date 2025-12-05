@@ -549,3 +549,118 @@ a:hover {
     margin-bottom: 0.5rem;
   }
 }
+
+/* === MLB BASEBALL THEME === */
+.player-card.mlb .card-face {
+  --accent: #c59d72;
+  --accent-dark: #a48e63;
+  --bg-top: #0f1a30;
+  --bg-bottom: #0c1626;
+}
+
+/* MLB front icon tint */
+.player-card.mlb .card-front::before {
+  content: "⚾";
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  opacity: 0.25;
+  font-size: 1.4rem;
+}
+
+/* === NFL FOOTBALL THEME === */
+.player-card.nfl .card-face {
+  --accent: #d2b48c;         /* tannish gold */
+  --accent-dark: #8f7753;
+  --bg-top: #1b0f0a;         /* warm leather tone */
+  --bg-bottom: #120a06;
+}
+
+/* Override background gradients for NFL */
+.player-card.nfl .card-face {
+  background-image:
+    url('{{ site.baseurl }}/assets/textures/vintage-leather.png'),
+    linear-gradient(var(--bg-top), var(--bg-bottom));
+  background-blend-mode: multiply;
+}
+
+/* Front icon watermark */
+.player-card.nfl .card-front::before {
+  content: "🏈";
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  opacity: 0.22;
+  font-size: 1.4rem;
+}
+
+/* Back – darker for contrast */
+.player-card.nfl .card-back {
+  background-image:
+    url('{{ site.baseurl }}/assets/textures/vintage-leather.png'),
+    linear-gradient(#111, #080808);
+}
+
+/* === NBA BASKETBALL THEME === */
+.player-card.nba .card-face {
+  --accent: #e3a16f;           /* basketball orange */
+  --accent-dark: #b87d52;
+  --bg-top: #1c1c22;
+  --bg-bottom: #141418;
+}
+
+/* Parquet + dark court background */
+.player-card.nba .card-face {
+  background-image:
+    url('{{ site.baseurl }}/assets/textures/basketball-parquet.png'),
+    linear-gradient(var(--bg-top), var(--bg-bottom));
+  background-blend-mode: multiply;
+}
+
+/* Icon watermark */
+.player-card.nba .card-front::before {
+  content: "🏀";
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  opacity: 0.22;
+  font-size: 1.4rem;
+}
+
+.player-card.nba .card-back {
+  background-image:
+    url('{{ site.baseurl }}/assets/textures/basketball-parquet.png'),
+    linear-gradient(#111, #0c0c0e);
+}
+
+/* === NHL HOCKEY THEME === */
+.player-card.nhl .card-face {
+  --accent: #c7d4df;        /* icy silver */
+  --accent-dark: #8aa0b3;   /* cold steel */
+  --bg-top: #0e1820;
+  --bg-bottom: #0a131a;
+}
+
+/* Frost texture */
+.player-card.nhl .card-face {
+  background-image:
+    url('{{ site.baseurl }}/assets/textures/frost.png'),
+    linear-gradient(var(--bg-top), var(--bg-bottom));
+  background-blend-mode: multiply;
+}
+
+/* Icon watermark */
+.player-card.nhl .card-front::before {
+  content: "🏒";
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  opacity: 0.22;
+  font-size: 1.4rem;
+}
+
+.player-card.nhl .card-back {
+  background-image:
+    url('{{ site.baseurl }}/assets/textures/frost.png'),
+    linear-gradient(#1a1a1a, #0c0c0c);
+}

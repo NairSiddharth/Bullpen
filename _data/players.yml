@@ -14,3 +14,40 @@
   summary: >
     Altuve is projected as a first-ballot Hall of Famer given elite postseason résumé,
     MVP-caliber peak, and career WAR totals exceeding most HOF second basemen.
+- name: JJ Watt
+  image: /assets/images/jjwattcard.png
+  sport: NFL
+  rank: lock
+  stats:
+    - "Sacks: 114.5"
+    - "DPOY: 3"
+    - "AP First Team: 5"
+    - "2017 Walter Payton Man of the Year"
+  hof_pace:
+    - "DE percentile vs HOF: 152%"
+    - "Peak: Arguable MVP of 2014, closest to a defensive MVP since 2000"
+    - "DPOY Awards: 3 (tied for 2nd most since 1971)"
+  summary: >
+    Watt is projected as a first-ballot Hall of Famer given MVP-caliber peak, multiple DPOY awards, 
+    status as one of the greatest defensive ends in NFL history. My favorite NFL player, truly represents Houston football.
+- name: James Harden
+  image: /assets/images/jameshardencard.png
+  sport: NBA
+  rank: lock
+  stats:
+    - "Points: 28,251"
+    - "Assists: 8,493"
+    - "Rebounds: 6,591"
+    - "MVP: 1"
+    - "All-NBA Selections: 8"
+    - "Scoring Titles: 3"
+    - "Assists Leader: 2"
+    - "All-Star Selections: 11"
+    - "6MOY: 1"
+  hof_pace:
+    - "SG percentile vs HOF: Arguable 3rd best SG all-time"
+    - "Peak: MVP"
+    - "All-NBA Selections: 8"
+  summary: >
+    Harden is projected as a first-ballot Hall of Famer given MVP-caliber peak, multiple All-NBA selections, 
+    and status as one of the greatest shooting guards in NBA history. The Rockets teams he led were the only challengers to the Warriors dynasty.
