@@ -1,6 +1,6 @@
 - name: José Altuve
   image: /assets/images/altuvecard.png
-  sport: MLB
+  sport: baseball
   rank: lock
   stats:
     - "Hits: 2,100+"
@@ -16,7 +16,7 @@
     MVP-caliber peak, and career WAR totals exceeding most HOF second basemen.
 - name: JJ Watt
   image: /assets/images/jjwattcard.png
-  sport: NFL
+  sport: football
   rank: lock
   stats:
     - "Sacks: 114.5"
@@ -32,7 +32,7 @@
     status as one of the greatest defensive ends in NFL history. My favorite NFL player, truly represents Houston football.
 - name: James Harden
   image: /assets/images/jameshardencard.png
-  sport: NBA
+  sport: basketball
   rank: lock
   stats:
     - "Points: 28,251"
@@ -40,13 +40,9 @@
     - "Rebounds: 6,591"
     - "MVP: 1"
     - "All-NBA Selections: 8"
-    - "Scoring Titles: 3"
-    - "Assists Leader: 2"
-    - "All-Star Selections: 11"
-    - "6MOY: 1"
   hof_pace:
     - "SG percentile vs HOF: Arguable 3rd best SG all-time"
-    - "Peak: MVP"
+    - "Peak: MVP (2018), 3x Scoring Champ, 2x Assists Leader"
     - "All-NBA Selections: 8"
   summary: >
     Harden is projected as a first-ballot Hall of Famer given MVP-caliber peak, multiple All-NBA selections, 
