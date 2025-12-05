@@ -36,15 +36,7 @@ nav: true
 
   <!-- Example Player Card -->
 {% for player in site.data.players %}
-  {% include player-card.html
-    name=player.name
-    image=player.image
-    sport=player.sport
-    rank=player.rank
-    stats=player.stats | join: ","
-    hof_pace=player.hof_pace | join: ","
-    summary=player.summary
-  %}
+  {% include player-card.html player=player %}
 {% endfor %}
 
 </div>
