@@ -48,7 +48,7 @@
     Harden is projected as a first-ballot Hall of Famer given MVP-caliber peak, multiple All-NBA selections, 
     and status as one of the greatest shooting guards in NBA history. 
 - name: Justin Verlander
-  image: /assets/images/justinverlandercard.png
+  image: /assets/images/verlandercard.png
   sport: baseball
   rank: lock
   stats:
@@ -65,7 +65,7 @@
     Verlander is projected as a first-ballot Hall of Famer given elite peak performance, 
     multiple Cy Young awards, and career WAR totals that exceed many HOF pitchers.
 - name: DeAndre Hopkins
-  image: /assets/images/deandrehopkinscard.png
+  image: /assets/images/dhopcard.png
   sport: football
   rank: doubtful
   stats:
@@ -82,7 +82,7 @@
     Hopkins is projected as a borderline Hall of Famer given multiple All-Pro selections and elite peak performance, 
     though his career stats may fall short of typical HOF thresholds for wide receivers.
 - name: Danielle Hunter
-  image: /assets/images/daniellehuntercard.png
+  image: /assets/images/huntercard.png
   sport: football
   rank: on-track
   stats:
@@ -98,7 +98,7 @@
     Hunter is projected as a borderline Hall of Famer given Pro Bowl and All-Pro selections, 
     though his career stats may fall short of typical HOF thresholds for defensive ends.
 - name: Carlos Correa
-  image: /assets/images/carloscorreacard.png
+  image: /assets/images/correacard.png
   sport: baseball
   rank: doubtful
   stats:
