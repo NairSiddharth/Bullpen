@@ -108,11 +108,11 @@
     - "HR: 200"
     - "RBI: 724"
     - "fWAR: 40.5"
-    - "JAWS: 38.4"
+    - "JAWS: 42.1"
   hof_pace:
-    - "vs HOF: 67%"
+    - "vs HOF: 32%"
     - "Career WAR Pace: Below HOF Average"
-    - "Peak WAR: At Standard"
+    - "Peak: MVP-5 (2021), 42.1 JAWS"
   summary: >
     Correa is projected as a longshot Hall of Famer given solid peak performance, 
     but career WAR totals that fall below typical HOF thresholds for shortstops due to injuries.
@@ -130,7 +130,23 @@
     - "Career Stats: *"
     - "Peak: All-NBA 3rd Team (1 vote away from spot in 2024-2025 season)"
   summary: >
-    Sengun has taken leaps every year so far. Called "baby Jokic" for his passing and versatility.
+    Sengun has taken leaps every year so far. Called "Baby Jokic" or "Senguini" for his passing and smoothness on the court.
     If he can continue to improve and stay healthy, he has a promising future ahead. 
     Career averages are promising and is on cusp of All-NBA. 
+- name: Derrick Stingley Jr.
+  image: /assets/images/derrickstingleycard.png
+  sport: NFL
+  rank: promising
+  stats:
+    - "Int: 14"
+    - "Cmp% When Targeted: 49.4%"
+    - "All-Pro: 1"
+    - "Tackles: 168"
+  hof_pace:
+    - "vs HOF: *"
+    - "Career Stats: *"
+    - "Peak: AP-1st Team (2025), AP-DPOY votes (2025)"
+  summary: >
+    Stingley has shown great promise as a shutdown cornerback early in his career. He's taken potentially another step as the best corner of 2025. 
+    If he remains consistent and earns more accolades, he'll remain on a promising path toward the Hall of Fame.
 
