@@ -552,10 +552,21 @@ a:hover {
 
 /* === MLB BASEBALL THEME === */
 .player-card.mlb .card-face {
+  background-image:
+    url('{{ site.baseurl }}/assets/textures/vintage-cardboard.png'),
+    linear-gradient(var(--bg-top), var(--bg-bottom));
+  background-blend-mode: multiply;
   --accent: #c59d72;
   --accent-dark: #a48e63;
   --bg-top: #0f1a30;
   --bg-bottom: #0c1626;
+}
+
+/* Back – darker for contrast */
+.player-card.mlb .card-back {
+  background-image:
+    url('{{ site.baseurl }}/assets/textures/vintage-cardboard.png'),
+    linear-gradient(#111, #080808);
 }
 
 /* MLB front icon tint */
@@ -579,7 +590,7 @@ a:hover {
 /* Override background gradients for NFL */
 .player-card.nfl .card-face {
   background-image:
-    url('{{ site.baseurl }}/assets/textures/vintage-leather.png'),
+    url('{{ site.baseurl }}/assets/textures/vintage-football.png'),
     linear-gradient(var(--bg-top), var(--bg-bottom));
   background-blend-mode: multiply;
 }
@@ -597,7 +608,7 @@ a:hover {
 /* Back – darker for contrast */
 .player-card.nfl .card-back {
   background-image:
-    url('{{ site.baseurl }}/assets/textures/vintage-leather.png'),
+    url('{{ site.baseurl }}/assets/textures/vintage-football.png'),
     linear-gradient(#111, #080808);
 }
 
@@ -612,7 +623,7 @@ a:hover {
 /* Parquet + dark court background */
 .player-card.nba .card-face {
   background-image:
-    url('{{ site.baseurl }}/assets/textures/basketball-parquet.png'),
+    url('{{ site.baseurl }}/assets/textures/vintage-basketball.png'),
     linear-gradient(var(--bg-top), var(--bg-bottom));
   background-blend-mode: multiply;
 }
@@ -629,7 +640,7 @@ a:hover {
 
 .player-card.nba .card-back {
   background-image:
-    url('{{ site.baseurl }}/assets/textures/basketball-parquet.png'),
+    url('{{ site.baseurl }}/assets/textures/vintage-basketball.png'),
     linear-gradient(#111, #0c0c0e);
 }
 

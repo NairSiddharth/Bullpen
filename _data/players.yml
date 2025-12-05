@@ -1,6 +1,6 @@
 - name: José Altuve
   image: /assets/images/altuvecard.png
-  sport: baseball
+  sport: MLB
   rank: solid
   stats:
     - "Hits: 2,388"
@@ -17,7 +17,7 @@
     MVP-caliber peak, and career WAR totals exceeding most HOF second basemen while accounting for defensive liability and controversy of 2017.
 - name: JJ Watt
   image: /assets/images/jjwattcard.png
-  sport: football
+  sport: NFL
   rank: lock
   stats:
     - "Sacks: 114.5"
@@ -33,7 +33,7 @@
     status as one of the greatest defensive ends in NFL history. My favorite NFL player, truly represents Houston football.
 - name: James Harden
   image: /assets/images/jameshardencard.png
-  sport: basketball
+  sport: NBA
   rank: lock
   stats:
     - "Points: 28,251"
@@ -49,7 +49,7 @@
     and status as one of the greatest shooting guards in NBA history. 
 - name: Justin Verlander
   image: /assets/images/verlandercard.png
-  sport: baseball
+  sport: MLB
   rank: lock
   stats:
     - "Wins: 266"
@@ -68,7 +68,7 @@
     multiple Cy Young awards, and career WAR totals that exceed many HOF pitchers.
 - name: DeAndre Hopkins
   image: /assets/images/dhopcard.png
-  sport: football
+  sport: NFL
   rank: 50-50
   stats:
     - "Receptions: 1001"
@@ -85,7 +85,7 @@
     though his career stats may fall short of typical HOF thresholds for wide receivers.
 - name: Danielle Hunter
   image: /assets/images/huntercard.png
-  sport: football
+  sport: NFL
   rank: on-track
   stats:
     - "Sacks: 110.5"
@@ -101,7 +101,7 @@
     What may be held against him is lack of awards and backlog of great defensive ends ahead of him.
 - name: Carlos Correa
   image: /assets/images/correacard.png
-  sport: baseball
+  sport: MLB
   rank: doubtful
   stats:
     - "Hits: 1,298"
@@ -118,7 +118,7 @@
     but career WAR totals that fall below typical HOF thresholds for shortstops due to injuries.
 - name: Alperen Sengun
   image: /assets/images/alperensenguncard.png
-  sport: basketball
+  sport: NBA
   rank: promising
   stats:
     - "Points: 5,021"
