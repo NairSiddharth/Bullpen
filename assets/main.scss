@@ -364,23 +364,23 @@ a:hover {
    Retro Houston Baseball Card Styles
    --------------------------- */
 
-/* Player card container */
-.player-card {
-  perspective: 1000px;
-  cursor: pointer;
-  position: relative;
-  width: 194px;   /* match PNG width */
-  height: 260px;  /* match PNG height */
-}
+// /* Player card container */
+// .player-card {
+//   perspective: 1000px;
+//   cursor: pointer;
+//   position: relative;
+//   width: 194px;   /* match PNG width */
+//   height: 260px;  /* match PNG height */
+// }
 
-/* Inner card for flip */
-.card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  transform-style: preserve-3d;
-  transition: transform 0.65s cubic-bezier(0.65, 0, 0.35, 1);
-}
+// /* Inner card for flip */
+// .card-inner {
+//   position: relative;
+//   width: 100%;
+//   height: 100%;
+//   transform-style: preserve-3d;
+//   transition: transform 0.65s cubic-bezier(0.65, 0, 0.35, 1);
+// }
 
 /* Card faces (front, back, expanded) */
 .card-face {
@@ -406,8 +406,8 @@ a:hover {
   background-blend-mode: multiply; /* subtle dark tint for readability */
 }
 
-/* Front face */
-.card-front {}
+// /* Front face */
+// .card-front {}
 
 /* Back face */
 .card-back {
@@ -489,6 +489,87 @@ a:hover {
   gap: 1rem;
   margin-bottom: 1.5rem;
 }
+
+/* ------------------------------------------
+   Player Card (Updated Layout)
+------------------------------------------- */
+
+.player-card {
+  perspective: 1000px;
+  cursor: pointer;
+  position: relative;
+  width: 194px;
+  height: 260px;
+}
+
+/* Flip container stays the same */
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.65s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+/* Front of card */
+.card-front {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+/* ---------------------------
+   Name Section (fixed height)
+----------------------------- */
+.card-front .player-name {
+  height: 46px;           /* consistent height across all */
+  line-height: 1.1;
+  text-transform: uppercase;
+  font-family: var(--retro-heading-font);
+  color: #f4ecd8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-front .player-name span {
+  display: block;
+}
+
+/* ---------------------------
+   Fixed Photo Box
+----------------------------- */
+.card-front .player-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  border: 2px solid #c59d72;
+  object-fit: cover;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}
+
+/* Stats next to photo */
+.card-front .content-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+/* Stats section grows to fill height */
+.card-front .card-stats {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.card-front .card-stats p {
+  margin: 0.15rem 0;
+  font-family: var(--retro-mono);
+  color: #f4ecd8;
+}
+
 
 .hof-filter-bar button {
   background: #0f1a30;

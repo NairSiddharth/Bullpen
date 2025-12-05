@@ -5,7 +5,23 @@
 
     <!-- Front -->
     <div class="card-face card-front">
-      <img class="player-photo"
+        <div class="player-name">
+          {% assign parts = player.name | split: " " %}
+          <span>{{ parts[0] }}</span>
+          <span>{{ parts[1] }}</span>
+        </div>
+
+        <div class="content-row">
+          <img class="player-photo" src="{{ site.baseurl }}{{ player.image }}" alt="{{ player.name }}">
+
+          <div class="card-stats">
+            {% for stat in player.stats %}
+              <p>{{ stat }}</p>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <!-- <img class="player-photo"
            src="{{ site.baseurl }}{{ player.image }}"
            alt="{{ player.name }}">
       <div class="card-stats">
@@ -14,7 +30,7 @@
           <p>{{ stat }}</p>
         {% endfor %}
       </div>
-    </div>
+    </div> -->
 
     <!-- Back -->
     <div class="card-face card-back">

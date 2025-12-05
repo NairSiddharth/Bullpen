@@ -13,21 +13,21 @@ nav: true
 
 <section class="halloffameexplanation">
   <p>
-    All Houston sports players (primarily Rockets, Texans, and Astros, with optional inclusion of other area players)   currently on track for Hall of Fame induction.
+    All ACTIVE AND CURRENT (sorry JJ, Harden, Verlander, DHop) Houston sports players (primarily Rockets, Texans, and Astros, with potential inclusion of other sports) currently on track for Hall of Fame induction.
   </p>
 </section>
 
 <section class="halloffamecategories">
-  <p>Categorized by: LOCK, SOLID, 50-50, DOUBTFUL, ON-TRACK, PROMISING.</p>
+  <p>Categorized by: INNER-CIRCLE (Among the best at their position, usually marked by MVP-level seasons. Potential for first-ballot), STRONG (meets the requirements for their sports Hall of Fame), BORDERLINE (contentious, flip a coin on candidacy), LONGSHOT (had some good seasons, needs career resurgence or voter partiality), ON-TRACK (if continues on pace, will move into STRONG. 3-5 seasons), PROMISING (early career prospect being highlighted 1-3 seasons).</p>
 </section>
 
 <!-- Filter Bar -->
 <div class="hof-filter-bar">
   <button data-filter="all" class="active">All</button>
-  <button data-filter="lock">Lock</button>
-  <button data-filter="solid">Solid</button>
-  <button data-filter="50-50">50/50</button>
-  <button data-filter="doubtful">Doubtful</button>
+  <button data-filter="inner-circle">Lock</button>
+  <button data-filter="strong">Strong</button>
+  <button data-filter="borderline">Borderline</button>
+  <button data-filter="longshot">Longshot</button>
   <button data-filter="on-track">On Track</button>
   <button data-filter="promising">Promising</button>
 </div>

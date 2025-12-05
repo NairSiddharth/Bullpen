@@ -1,7 +1,7 @@
 - name: José Altuve
   image: /assets/images/altuvecard.png
   sport: MLB
-  rank: solid
+  rank: strong
   stats:
     - "Hits: 2,388"
     - "HR: 255"
@@ -15,74 +15,74 @@
   summary: >
     Altuve is projected as a second to third-ballot Hall of Famer given elite postseason résumé,
     MVP-caliber peak, and career WAR totals exceeding most HOF second basemen while accounting for defensive liability and controversy of 2017.
-- name: JJ Watt
-  image: /assets/images/jjwattcard.png
-  sport: NFL
-  rank: lock
-  stats:
-    - "Sacks: 114.5"
-    - "DPOY: 3"
-    - "AP First Team: 5"
-    - "2017 Walter Payton Man of the Year"
-  hof_pace:
-    - "vs HOF: 152%"
-    - "Peak: Arguable MVP of 2014, closest to a defensive MVP since 2000"
-    - "DPOY Awards: 3 (tied for 2nd most since 1971)"
-  summary: >
-    Watt is projected as a first-ballot Hall of Famer given MVP-caliber peak, multiple DPOY awards, 
-    status as one of the greatest defensive ends in NFL history. My favorite NFL player, truly represents Houston football.
-- name: James Harden
-  image: /assets/images/jameshardencard.png
-  sport: NBA
-  rank: lock
-  stats:
-    - "Points: 28,251"
-    - "Assists: 8,493"
-    - "Rebounds: 6,591"
-    - "MVP: 1"
-  hof_pace:
-    - "vs HOF: Arguable 3rd best SG all-time"
-    - "Peak: MVP (2018), 3x Scoring Champ, 2x Assists Leader"
-    - "All-NBA: 8"
-  summary: >
-    Harden is projected as a first-ballot Hall of Famer given MVP-caliber peak, multiple All-NBA selections, 
-    and status as one of the greatest shooting guards in NBA history. 
-- name: Justin Verlander
-  image: /assets/images/verlandercard.png
-  sport: MLB
-  rank: lock
-  stats:
-    - "Wins: 266"
-    - "K: 3,553"
-    - "ERA: 3.32"
-    - "Cy Young: 2"
-    - "MVPs: 1"
-    - "fWAR: 84.3"
-    - "JAWS: 65.9"
-  hof_pace:
-    - "vs HOF: 112%"
-    - "Career WAR Pace: Above HOF Average"
-    - "Peak: MVP (2011), 2x Cy Young (2011,2019), 65.9 JAWS"
-  summary: >
-    Verlander is projected as a first-ballot Hall of Famer given elite peak performance, 
-    multiple Cy Young awards, and career WAR totals that exceed many HOF pitchers.
-- name: DeAndre Hopkins
-  image: /assets/images/dhopcard.png
-  sport: NFL
-  rank: 50-50
-  stats:
-    - "Receptions: 1001"
-    - "Yards: 13,222"
-    - "TDs: 85"
-    - "Pro Bowls: 5"
-    - "All-Pro: 5"
-  hof_pace:
-    - "vs HOF: 85%"
-    - "Peak: Multiple All-Pro selections, APOY level"
-    - "Career Stats: 17th all-time in receiving yards, 14th all-time in TDs, 14th in receptions"
-  summary: >
-    Hopkins is projected as a borderline Hall of Famer given multiple All-Pro selections and elite peak performance, 
-    though his career stats may fall short of typical HOF thresholds for wide receivers.
+# - name: JJ Watt
+#   image: /assets/images/jjwattcard.png
+#   sport: NFL
+#   rank: lock
+#   stats:
+#     - "Sacks: 114.5"
+#     - "DPOY: 3"
+#     - "AP First Team: 5"
+#     - "2017 Walter Payton Man of the Year"
+#   hof_pace:
+#     - "vs HOF: 152%"
+#     - "Peak: Arguable MVP of 2014, closest to a defensive MVP since 2000"
+#     - "DPOY Awards: 3 (tied for 2nd most since 1971)"
+#   summary: >
+#     Watt is projected as a first-ballot Hall of Famer given MVP-caliber peak, multiple DPOY awards, 
+#     status as one of the greatest defensive ends in NFL history. My favorite NFL player, truly represents Houston football.
+# - name: James Harden
+#   image: /assets/images/jameshardencard.png
+#   sport: NBA
+#   rank: lock
+#   stats:
+#     - "Points: 28,251"
+#     - "Assists: 8,493"
+#     - "Rebounds: 6,591"
+#     - "MVP: 1"
+#   hof_pace:
+#     - "vs HOF: Arguable 3rd best SG all-time"
+#     - "Peak: MVP (2018), 3x Scoring Champ, 2x Assists Leader"
+#     - "All-NBA: 8"
+#   summary: >
+#     Harden is projected as a first-ballot Hall of Famer given MVP-caliber peak, multiple All-NBA selections, 
+#     and status as one of the greatest shooting guards in NBA history. 
+# - name: Justin Verlander
+#   image: /assets/images/verlandercard.png
+#   sport: MLB
+#   rank: lock
+#   stats:
+#     - "Wins: 266"
+#     - "K: 3,553"
+#     - "ERA: 3.32"
+#     - "Cy Young: 2"
+#     - "MVPs: 1"
+#     - "fWAR: 84.3"
+#     - "JAWS: 65.9"
+#   hof_pace:
+#     - "vs HOF: 112%"
+#     - "Career WAR Pace: Above HOF Average"
+#     - "Peak: MVP (2011), 2x Cy Young (2011,2019), 65.9 JAWS"
+#   summary: >
+#     Verlander is projected as a first-ballot Hall of Famer given elite peak performance, 
+#     multiple Cy Young awards, and career WAR totals that exceed many HOF pitchers.
+# - name: DeAndre Hopkins
+#   image: /assets/images/dhopcard.png
+#   sport: NFL
+#   rank: 50-50
+#   stats:
+#     - "Receptions: 1001"
+#     - "Yards: 13,222"
+#     - "TDs: 85"
+#     - "Pro Bowls: 5"
+#     - "All-Pro: 5"
+#   hof_pace:
+#     - "vs HOF: 85%"
+#     - "Peak: Multiple All-Pro selections, APOY level"
+#     - "Career Stats: 17th all-time in receiving yards, 14th all-time in TDs, 14th in receptions"
+#   summary: >
+#     Hopkins is projected as a borderline Hall of Famer given multiple All-Pro selections and elite peak performance, 
+#     though his career stats may fall short of typical HOF thresholds for wide receivers.
 - name: Danielle Hunter
   image: /assets/images/huntercard.png
   sport: NFL
@@ -102,7 +102,7 @@
 - name: Carlos Correa
   image: /assets/images/correacard.png
   sport: MLB
-  rank: doubtful
+  rank: longshot
   stats:
     - "Hits: 1,298"
     - "HR: 200"
