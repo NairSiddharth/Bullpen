@@ -1,16 +1,16 @@
 - name: José Altuve
-  image: /assets/images/players/jose-altuve.png
+  image: /assets/images/players/altuvecard.png
   sport: MLB
   rank: lock
   stats:
-    - Hits: 2,100+
-    - HR: 200+
-    - SB: 300+
-    - WAR: 60+
+    - "Hits: 2,100+"
+    - "HR: 200+"
+    - "SB: 300+"
+    - "WAR: 60+"
   hof_pace:
-    - 2B percentile vs HOF: 92%
-    - Career WAR Pace: Above HOF Average
-    - Peak WAR: Meets Standard
+    - "2B percentile vs HOF: 92%"
+    - "Career WAR Pace: Above HOF Average"
+    - "Peak WAR: Meets Standard"
   summary: >
     Altuve is projected as a first-ballot Hall of Famer given elite postseason résumé,
     MVP-caliber peak, and career WAR totals exceeding most HOF second basemen.

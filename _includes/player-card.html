@@ -4,7 +4,7 @@
     <div class="card-face card-front">
       <img class="player-photo" src="{{ site.baseurl }}{{ player.image }}" alt="{{ player.name }}">
       <div class="card-stats">
-        <h2>{{ player.name }}</h2>
+        <h4>{{ player.name }}</h4>
         {% for stat in player.stats %}
           <p>{{ stat }}</p>
         {% endfor %}
@@ -13,7 +13,7 @@
 
     <!-- Back -->
     <div class="card-face card-back">
-      <h3>HOF Pace</h3>
+      <h4>HOF Pace</h4>
       {% for pace in player.hof_pace %}
         <p>{{ pace }}</p>
       {% endfor %}
@@ -21,7 +21,7 @@
 
     <!-- Expanded -->
     <div class="card-face card-expanded">
-      <h3>Summary</h3>
+      <h4>Summary</h4>
       <p>{{ player.summary }}</p>
     </div>
   </div>
