@@ -38,10 +38,7 @@ nav: true
 {% for player in site.data.players %}
   {% include player-card.html player=player %}
 {% endfor %}
-
-</div>
-
-  <!-- Add additional player cards here -->
+ <!-- Add additional player cards here -->
 </div>
 
 <!-- JavaScript for Flip/Expand & Filter -->

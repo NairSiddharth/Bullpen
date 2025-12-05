@@ -1,5 +1,5 @@
 - name: José Altuve
-  image: /assets/images/players/altuvecard.png
+  image: /assets/images/altuvecard.png
   sport: MLB
   rank: lock
   stats:
