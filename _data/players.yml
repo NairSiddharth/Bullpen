@@ -52,13 +52,13 @@
   sport: baseball
   rank: lock
   stats:
-    - "Wins: 245"
-    - "K: 3,300+"
-    - "ERA: 3.45"
+    - "Wins: 266"
+    - "K: 3,553"
+    - "ERA: 3.32"
     - "Cy Youngs: 2"
     - "MVPs: 1"
   hof_pace:
-    - "SP percentile vs HOF: 100%"
+    - "SP percentile vs HOF: 112%"
     - "Career WAR Pace: Above HOF Average"
     - "Peak WAR: Meets Standard"
   summary: >
@@ -67,17 +67,17 @@
 - name: DeAndre Hopkins
   image: /assets/images/dhopcard.png
   sport: football
-  rank: doubtful
+  rank: 50-50
   stats:
-    - "Receptions: 789"
-    - "Yards: 10,385"
-    - "TDs: 66"
+    - "Receptions: 1001"
+    - "Yards: 13,222"
+    - "TDs: 85"
     - "Pro Bowls: 5"
-    - "All-Pro: 3"
+    - "All-Pro: 5"
   hof_pace:
     - "WR percentile vs HOF: 85%"
-    - "Peak: Multiple All-Pro selections, elite route runner and hands"
-    - "Career Stats: On pace for solid but not spectacular totals"
+    - "Peak: Multiple All-Pro selections, APOY level"
+    - "Career Stats: 17th all-time in receiving yards, 14th all-time in TDs, 14th in receptions"
   summary: >
     Hopkins is projected as a borderline Hall of Famer given multiple All-Pro selections and elite peak performance, 
     though his career stats may fall short of typical HOF thresholds for wide receivers.
@@ -102,30 +102,31 @@
   sport: baseball
   rank: doubtful
   stats:
-    - "Hits: 1,200+"
-    - "HR: 150+"
-    - "SB: 50+"
-    - "WAR: 30+"
+    - "Hits: 1,298"
+    - "HR: 200"
+    - "RBI: 724"
+    - "fWAR: 40.5"
+    - "JAWS: 38.4"
   hof_pace:
-    - "SS percentile vs HOF: 60%"
+    - "SS percentile vs HOF: 67%"
     - "Career WAR Pace: Below HOF Average"
-    - "Peak WAR: Below Standard"
+    - "Peak WAR: At Standard"
   summary: >
     Correa is projected as a longshot Hall of Famer given solid peak performance, 
-    but career WAR totals that fall below typical HOF thresholds for shortstops.
+    but career WAR totals that fall below typical HOF thresholds for shortstops due to injuries.
 - name: Alperen Sengun
   image: /assets/images/alperensenguncard.png
   sport: basketball
   rank: promising
   stats:
-    - "Points: 2,500+"
-    - "Rebounds: 1,500+"
-    - "Assists: 500+"
-    - "All-NBA: 0"
+    - "Points: 5,021"
+    - "Rebounds: 2,619"
+    - "Assists: 1,295"
+    - "All-Star: 1"
   hof_pace:
     - "C percentile vs HOF: 50%"
     - "Career Stats: On pace for modest totals"
-    - "Peak: Yet to establish All-NBA level peak"
+    - "Peak: All-NBA 3rd Team (1 vote away from spot in 2024-2025 season)"
   summary: >
     Sengun is projected as a longshot Hall of Famer given modest career stats and 
     the absence of an established All-NBA level peak performance.
