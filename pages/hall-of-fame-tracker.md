@@ -40,7 +40,7 @@ nav: true
     <!-- Front -->
     <div class="card-face card-front">
       <!-- Player Photo -->
-      <img class="player-photo" src="/assets/images/altuvecard.png" alt="José Altuve">
+      <img class="player-photo" src="{{ site.baseurl }}/assets/images/altuvecard.png" alt="José Altuve">
 
       <!-- Stats -->
       <div class="card-stats">

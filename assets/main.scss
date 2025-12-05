@@ -398,7 +398,7 @@ a:hover {
 
   /* Vintage cardboard background */
   background-image:
-    url('/assets/textures/vintage-cardboard.png'),
+    url('{{ site.baseurl }}/assets/textures/vintage-cardboard.png'),
     linear-gradient(#0f1a30, #0c1626);
   background-size: cover;
   background-position: center;
@@ -414,7 +414,7 @@ a:hover {
   transform: rotateY(180deg);
   border-color: #a48e63;
   background-image:
-    url('/assets/textures/vintage-cardboard.png'),
+    url('{{ site.baseurl }}/assets/textures/vintage-cardboard.png'),
     linear-gradient(#1b1b1b, #111);
   background-size: cover;
   background-position: center;
