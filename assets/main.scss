@@ -359,3 +359,193 @@ a:hover {
     font-size: 1.1rem; /* ADDED: Slightly smaller on mobile */
   }
 }
+
+/* ---------------------------
+   Retro Houston Baseball Card Styles
+   --------------------------- */
+
+/* Player card container */
+.player-card {
+  perspective: 1000px;
+  cursor: pointer;
+  position: relative;
+  width: 194px;   /* match PNG width */
+  height: 260px;  /* match PNG height */
+}
+
+/* Inner card for flip */
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.65s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+/* Card faces (front, back, expanded) */
+.card-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  backface-visibility: hidden;
+  border: 3px solid #d8c7a1;
+  border-radius: 14px;
+  box-shadow: inset 0 0 0 2px #c59d72, 0 4px 8px rgba(0, 0, 0, 0.35);
+  font-family: var(--retro-body, sans-serif);
+  color: #f8f5ee;
+
+  /* Vintage cardboard background */
+  background-image:
+    url('/assets/textures/vintage-cardboard.png'),
+    linear-gradient(#0f1a30, #0c1626);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply; /* subtle dark tint for readability */
+}
+
+/* Front face */
+.card-front {}
+
+/* Back face */
+.card-back {
+  transform: rotateY(180deg);
+  border-color: #a48e63;
+  background-image:
+    url('/assets/textures/vintage-cardboard.png'),
+    linear-gradient(#1b1b1b, #111);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+}
+
+/* Expanded face */
+.card-expanded {
+  display: none;
+  background-color: #0d0d0d;
+  border: 2px solid #c59d72;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 1px #a78f64, 0 0 0 3px #0f1a30;
+  padding: 1.25rem;
+  font-family: var(--retro-body);
+}
+
+.card-expanded p {
+  font-size: 0.95rem;
+  line-height: 1.45;
+  color: #f4ecd8;
+}
+
+/* Headings */
+.card-face h2 {
+  font-family: var(--retro-heading-font);
+  color: #f4ecd8;
+  margin: 0 0 0.5rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.card-face h3 {
+  font-family: var(--retro-heading-font);
+  margin-bottom: 0.5rem;
+  color: #c59d72;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+/* Stats / text */
+.card-face p {
+  font-family: var(--retro-mono, "IBM Plex Mono", monospace);
+  font-size: 0.9rem;
+  line-height: 1.35;
+  margin: 0.2rem 0;
+  color: #f4ecd8;
+}
+
+/* Flip and expand states */
+.player-card.state-back .card-inner {
+  transform: rotateY(180deg);
+}
+
+.player-card.state-expanded .card-inner {
+  transform: none;
+}
+
+.player-card.state-expanded .card-front,
+.player-card.state-expanded .card-back {
+  display: none;
+}
+
+.player-card.state-expanded .card-expanded {
+  display: block;
+}
+
+/* Filter bar */
+.hof-filter-bar {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.hof-filter-bar button {
+  background: #0f1a30;
+  color: #f4ecd8;
+  border: 2px solid #d8c7a1;
+  padding: 0.4rem 0.9rem;
+  font-family: var(--retro-mono);
+  font-size: 0.9rem;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+  cursor: pointer;
+}
+
+.hof-filter-bar button.active {
+  background: #c59d72;
+  color: #0f1a30;
+}
+
+.hof-filter-bar button:hover {
+  background: #a78f64;
+  color: #0f1a30;
+}
+
+/* Grid container */
+.hof-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Player photo box */
+.card-front .player-photo {
+  width: 40%;             /* adjust as needed */
+  height: auto;           /* maintain aspect ratio */
+  float: left;            /* left-aligned */
+  margin-right: 1rem;     /* spacing between photo and stats */
+  border: 2px solid #c59d72; /* retro border */
+  border-radius: 10px;    /* rounded corners */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.4); /* subtle depth */
+  object-fit: cover;      /* crop without stretching */
+}
+
+/* Ensure stats remain visible next to photo */
+.card-front .card-stats {
+  overflow: hidden;
+}
+
+/* Optional: subtle tilt for vintage printed feel */
+.card-front .player-photo {
+  transform: rotate(-1deg);
+}
+
+@media (max-width: 500px) {
+  .card-front .player-photo {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+}

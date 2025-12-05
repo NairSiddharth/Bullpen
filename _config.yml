@@ -19,8 +19,7 @@ plugins:
 
 header_pages:
   - about.md
-  - stats.md
-  - contact.md
+  - pages/hall-of-fame.md
 
 jekyll-seo-tag:
   title: Full Count
