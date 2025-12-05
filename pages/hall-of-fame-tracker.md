@@ -25,6 +25,7 @@ nav: true
 <div class="hof-filter-bar">
   <button data-filter="all" class="active">All</button>
   <button data-filter="lock">Lock</button>
+  <button data-filter="solid">Lock</button>
   <button data-filter="50-50">50/50</button>
   <button data-filter="on-track">On Track</button>
   <button data-filter="promising">Promising</button>

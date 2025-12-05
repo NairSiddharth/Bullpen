@@ -1,19 +1,19 @@
 - name: José Altuve
   image: /assets/images/altuvecard.png
   sport: baseball
-  rank: lock
+  rank: solid
   stats:
-    - "Hits: 2,100+"
-    - "HR: 200+"
-    - "SB: 300+"
-    - "WAR: 60+"
+    - "Hits: 2,388"
+    - "HR: 255"
+    - "SB: 325"
+    - "fWAR: 60"
   hof_pace:
-    - "2B percentile vs HOF: 92%"
-    - "Career WAR Pace: Above HOF Average"
-    - "Peak WAR: Meets Standard"
+    - "vs HOF: 85%"
+    - "Career WAR Pace: At HOF Average"
+    - "Peak WAR: Below Standard"
   summary: >
-    Altuve is projected as a first-ballot Hall of Famer given elite postseason résumé,
-    MVP-caliber peak, and career WAR totals exceeding most HOF second basemen.
+    Altuve is projected as a second to third-ballot Hall of Famer given elite postseason résumé,
+    MVP-caliber peak, and career WAR totals exceeding most HOF second basemen while accounting for defensive liability and controversy of 2017.
 - name: JJ Watt
   image: /assets/images/jjwattcard.png
   sport: football
@@ -39,9 +39,8 @@
     - "Assists: 8,493"
     - "Rebounds: 6,591"
     - "MVP: 1"
-    - "All-NBA: 8"
   hof_pace:
-    - "SG percentile vs HOF: Arguable 3rd best SG all-time"
+    - "vs HOF: Arguable 3rd best SG all-time"
     - "Peak: MVP (2018), 3x Scoring Champ, 2x Assists Leader"
     - "All-NBA: 8"
   summary: >
@@ -58,7 +57,7 @@
     - "Cy Youngs: 2"
     - "MVPs: 1"
   hof_pace:
-    - "SP percentile vs HOF: 112%"
+    - "vs HOF: 112%"
     - "Career WAR Pace: Above HOF Average"
     - "Peak WAR: Meets Standard"
   summary: >
@@ -75,7 +74,7 @@
     - "Pro Bowls: 5"
     - "All-Pro: 5"
   hof_pace:
-    - "WR percentile vs HOF: 85%"
+    - "vs HOF: 85%"
     - "Peak: Multiple All-Pro selections, APOY level"
     - "Career Stats: 17th all-time in receiving yards, 14th all-time in TDs, 14th in receptions"
   summary: >
@@ -86,17 +85,17 @@
   sport: football
   rank: on-track
   stats:
-    - "Sacks: 60.5"
-    - "Tackles: 300+"
-    - "Pro Bowls: 2"
+    - "Sacks: 110.5"
+    - "Tackles: 546"
+    - "Pro Bowls: 5"
     - "All-Pro: 1"
   hof_pace:
-    - "DE percentile vs HOF: 70%"
-    - "Peak: Pro Bowl and All-Pro selections indicate high-level play"
-    - "Career Stats: On pace for solid but not spectacular totals"
+    - "vs HOF: 55%"
+    - "Peak: AP 2nd Team (2018)"
+    - "Career Stats: On track to surpass HOF sack average for DEs (128), currently top 30."
   summary: >
-    Hunter is projected as a borderline Hall of Famer given Pro Bowl and All-Pro selections, 
-    though his career stats may fall short of typical HOF thresholds for defensive ends.
+    Hunter is projected as a borderline Hall of Famer given impressive career stats and AP level consistency.
+    What may be held against him is lack of awards and backlog of great defensive ends ahead of him.
 - name: Carlos Correa
   image: /assets/images/correacard.png
   sport: baseball
@@ -108,7 +107,7 @@
     - "fWAR: 40.5"
     - "JAWS: 38.4"
   hof_pace:
-    - "SS percentile vs HOF: 67%"
+    - "vs HOF: 67%"
     - "Career WAR Pace: Below HOF Average"
     - "Peak WAR: At Standard"
   summary: >
@@ -124,10 +123,11 @@
     - "Assists: 1,295"
     - "All-Star: 1"
   hof_pace:
-    - "C percentile vs HOF: 50%"
-    - "Career Stats: On pace for modest totals"
+    - "vs HOF: *"
+    - "Career Stats: *"
     - "Peak: All-NBA 3rd Team (1 vote away from spot in 2024-2025 season)"
   summary: >
-    Sengun is projected as a longshot Hall of Famer given modest career stats and 
-    the absence of an established All-NBA level peak performance.
+    Sengun has taken leaps every year so far. Called "baby Jokic" for his passing and versatility.
+    If he can continue to improve and stay healthy, he has a promising future ahead. 
+    Career averages are promising and is on cusp of All-NBA. 
 
