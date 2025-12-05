@@ -12,13 +12,13 @@ nav: true
 </div>
 
 <section class="halloffameexplanation">
-  <h2>
+  <p>
     All Houston sports players (primarily Rockets, Texans, and Astros, with optional inclusion of other area players)   currently on track for Hall of Fame induction.
-  </h2>
+  </p>
 </section>
 
 <section class="halloffamecategories">
-  <h3>Categorized by: LOCK, 50-50, DOUBTFUL, ON-TRACK, PROMISING.</h3>
+  <p>Categorized by: LOCK, 50-50, DOUBTFUL, ON-TRACK, PROMISING.</p>
 </section>
 
 <!-- Filter Bar -->
@@ -44,7 +44,7 @@ nav: true
 
       <!-- Stats -->
       <div class="card-stats">
-        <h2>José Altuve</h2>
+        <h4>José Altuve</h4>
         <p>Hits: 2,100+</p>
         <p>HR: 200+</p>
         <p>SB: 300+</p>
