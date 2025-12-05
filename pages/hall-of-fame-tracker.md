@@ -35,42 +35,16 @@ nav: true
 <div class="hof-card-grid">
 
   <!-- Example Player Card -->
-<div class="player-card" data-rank="lock" data-sport="mlb">
-  <div class="card-inner">
-    <!-- Front -->
-    <div class="card-face card-front">
-      <!-- Player Photo -->
-      <img class="player-photo" src="{{ site.baseurl }}/assets/images/altuvecard.png" alt="José Altuve">
-
-      <!-- Stats -->
-      <div class="card-stats">
-        <h4>José Altuve</h4>
-        <p>Hits: 2,100+</p>
-        <p>HR: 200+</p>
-        <p>SB: 300+</p>
-        <p>WAR: 60+</p>
-      </div>
-    </div>
-
-    <!-- Back -->
-    <div class="card-face card-back">
-      <h3>HOF Pace</h3>
-      <p>2B percentile vs HOF: 92%</p>
-      <p>Career WAR Pace: Above HOF Average</p>
-      <p>Peak WAR: Meets Standard</p>
-    </div>
-
-    <!-- Expanded -->
-    <div class="card-face card-expanded">
-      <h3>Summary</h3>
-      <p>
-        Altuve is projected as a first-ballot Hall of Famer given elite postseason résumé,
-        MVP-caliber peak, and career WAR totals exceeding most HOF second basemen.
-      </p>
-    </div>
-  </div>
+{% include player-card.html
+  name="José Altuve"
+  image="{{ site.baseurl }}/assets/images/players/jose-altuve.png"
+  sport="MLB"
+  rank="lock"
+  stats=["Hits: 2,100+", "HR: 200+", "SB: 300+", "WAR: 60+"]
+  hof_pace=["2B percentile vs HOF: 92%", "Career WAR Pace: Above HOF Average", "Peak WAR: Meets Standard"]
+  summary="Altuve is projected as a first-ballot Hall of Famer given elite postseason résumé, MVP-caliber peak, and career WAR totals exceeding most HOF second basemen."
+%}
 </div>
-
 
   <!-- Add additional player cards here -->
 </div>
