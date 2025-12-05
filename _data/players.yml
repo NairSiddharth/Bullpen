@@ -7,10 +7,11 @@
     - "HR: 255"
     - "SB: 325"
     - "fWAR: 60"
+    - "JAWS: 46.8"
   hof_pace:
     - "vs HOF: 85%"
     - "Career WAR Pace: At HOF Average"
-    - "Peak WAR: Below Standard"
+    - "Peak: MVP (2017), 46.8 JAWS"
   summary: >
     Altuve is projected as a second to third-ballot Hall of Famer given elite postseason résumé,
     MVP-caliber peak, and career WAR totals exceeding most HOF second basemen while accounting for defensive liability and controversy of 2017.
@@ -24,7 +25,7 @@
     - "AP First Team: 5"
     - "2017 Walter Payton Man of the Year"
   hof_pace:
-    - "DE percentile vs HOF: 152%"
+    - "vs HOF: 152%"
     - "Peak: Arguable MVP of 2014, closest to a defensive MVP since 2000"
     - "DPOY Awards: 3 (tied for 2nd most since 1971)"
   summary: >
@@ -54,12 +55,14 @@
     - "Wins: 266"
     - "K: 3,553"
     - "ERA: 3.32"
-    - "Cy Youngs: 2"
+    - "Cy Young: 2"
     - "MVPs: 1"
+    - "fWAR: 84.3"
+    - "JAWS: 65.9"
   hof_pace:
     - "vs HOF: 112%"
     - "Career WAR Pace: Above HOF Average"
-    - "Peak WAR: Meets Standard"
+    - "Peak: MVP (2011), 2x Cy Young (2011,2019), 65.9 JAWS"
   summary: >
     Verlander is projected as a first-ballot Hall of Famer given elite peak performance, 
     multiple Cy Young awards, and career WAR totals that exceed many HOF pitchers.
