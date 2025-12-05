@@ -19,7 +19,7 @@ nav: true
 
 <section class="halloffamecategories">
   <p>Categorized by: LOCK, SOLID, 50-50, DOUBTFUL, ON-TRACK, PROMISING.</p>
-</section>s
+</section>
 
 <!-- Filter Bar -->
 <div class="hof-filter-bar">
