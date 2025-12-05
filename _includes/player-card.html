@@ -1,27 +1,30 @@
+{% assign stats_array = stats | split: "," %}
+{% assign hof_array = hof_pace | split: "," %}
+
 <div class="player-card" data-rank="{{ rank | downcase }}" data-sport="{{ sport | downcase }}">
   <div class="card-inner">
     <!-- Front -->
     <div class="card-face card-front">
-      <img class="player-photo" src="{{ image }}" alt="{{ name }}">
+      <img class="player-photo" src="{{ site.baseurl }}{{ image }}" alt="{{ name }}">
       <div class="card-stats">
-        <h4>{{ name }}</h4>
+        <h2>{{ name }}</h2>
         {% for stat in stats %}
-        <p>{{ stat }}</p>
+          <p>{{ stat }}</p>
         {% endfor %}
       </div>
     </div>
 
     <!-- Back -->
     <div class="card-face card-back">
-      <h4>HOF Pace</h4>
+      <h3>HOF Pace</h3>
       {% for pace in hof_pace %}
-      <p>{{ pace }}</p>
+        <p>{{ pace }}</p>
       {% endfor %}
     </div>
 
     <!-- Expanded -->
     <div class="card-face card-expanded">
-      <h4>Summary</h4>
+      <h3>Summary</h3>
       <p>{{ summary }}</p>
     </div>
   </div>

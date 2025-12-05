@@ -35,15 +35,18 @@ nav: true
 <div class="hof-card-grid">
 
   <!-- Example Player Card -->
-{% include player-card.html
-  name="José Altuve"
-  image="{{ site.baseurl }}/assets/images/players/jose-altuve.png"
-  sport="MLB"
-  rank="lock"
-  stats=["Hits: 2,100+", "HR: 200+", "SB: 300+", "WAR: 60+"]
-  hof_pace=["2B percentile vs HOF: 92%", "Career WAR Pace: Above HOF Average", "Peak WAR: Meets Standard"]
-  summary="Altuve is projected as a first-ballot Hall of Famer given elite postseason résumé, MVP-caliber peak, and career WAR totals exceeding most HOF second basemen."
-%}
+{% for player in site.data.players %}
+  {% include player-card.html
+    name=player.name
+    image=player.image
+    sport=player.sport
+    rank=player.rank
+    stats=player.stats | join: ","
+    hof_pace=player.hof_pace | join: ","
+    summary=player.summary
+  %}
+{% endfor %}
+
 </div>
 
   <!-- Add additional player cards here -->
