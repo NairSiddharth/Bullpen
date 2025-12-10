@@ -1,55 +1,55 @@
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="google-site-verification" content="d9jUc7PbN2wPMUc8wbTfr3f-HZstOEmM7E_ShR92Muo">
 
-  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="d9jUc7PbN2wPMUc8wbTfr3f-HZstOEmM7E_ShR92Muo">
 
-  <!-- Meta Description -->
-  <meta name="description" content="{{ page.description | default: site.description }}">
-  
-  <!-- Main CSS -->
-  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
-  
-  <!-- Jekyll SEO Tag -->
-  {% seo %}
+<title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
 
-  <!-- Canonical URL -->
-  <!-- NOTE: MINIMA ALREADY DOES THIS, ONLY PUT BACK WHEN NEEDING PAGINATION -->
-  <!-- <link rel="canonical" href="{{ page.url | absolute_url }}"> -->
+<!-- Meta Description -->
+<meta name="description" content="{{ page.description | default: site.description }}">
 
-  <!-- Favicon Set -->
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicons/apple-touch-icon.png' | relative_url }}">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicons/favicon-32x32.png' | relative_url }}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicons/favicon-16x16.png' | relative_url }}">
-  <link rel="manifest" href="{{ '/assets/favicons/site.webmanifest' | relative_url }}">
-  <link rel="shortcut icon" href="{{ '/assets/favicons/favicon.ico' | relative_url }}">
+<!-- Main CSS -->
+<link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
 
-  <!-- Extra fallback for browsers insisting on /favicon.ico -->
-  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
+<!-- Jekyll SEO Tag -->
+{% seo %}
 
-  <!-- Open Graph Image -->
-  <meta property="og:image" content="{{ '/assets/favicons/android-chrome-512x512.png' | relative_url }}">
+<!-- Canonical URL -->
+<!-- NOTE: MINIMA ALREADY DOES THIS, ONLY PUT BACK WHEN NEEDING PAGINATION -->
+<!-- <link rel="canonical" href="{{ page.url | absolute_url }}"> -->
 
-  <!-- Schema.org JSON-LD -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "{{ site.title }}",
-    "url": "{{ site.url }}",
-    "description": "{{ page.excerpt | default: site.description }}",
-    "publisher": {
-      "@type": "Person",
-      "name": "Siddharth Nair",
-      "sameAs": [
-        "https://www.linkedin.com/in/siddharthnair01/",
-        "https://github.com/NairSiddharth"
-      ]
-    }
+<!-- Favicon Set -->
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicons/apple-touch-icon.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicons/favicon-32x32.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicons/favicon-16x16.png' | relative_url }}">
+<link rel="manifest" href="{{ '/assets/favicons/site.webmanifest' | relative_url }}">
+<link rel="shortcut icon" href="{{ '/assets/favicons/favicon.ico' | relative_url }}">
+
+<!-- Extra fallback for browsers insisting on /favicon.ico -->
+<link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
+
+<!-- Open Graph Image -->
+<meta property="og:image" content="{{ '/assets/favicons/android-chrome-512x512.png' | relative_url }}">
+
+<!-- Schema.org JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ site.title }}",
+  "url": "{{ site.url }}",
+  "description": "{{ page.excerpt | default: site.description }}",
+  "publisher": {
+    "@type": "Person",
+    "name": "Siddharth Nair",
+    "sameAs": [
+      "https://www.linkedin.com/in/siddharthnair01/",
+      "https://github.com/NairSiddharth"
+    ]
   }
-  </script>
-</head>
+}
+</script>
+
