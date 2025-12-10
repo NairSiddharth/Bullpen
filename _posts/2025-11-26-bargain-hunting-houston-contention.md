@@ -7,16 +7,6 @@ image: /assets/images/houston-astros-logo-png_seeklogo-224486.png
 excerpt: The Astros are at a crossroads. How do they stay in the hunt?
 layout: post
 description: An in-depth look at how the Astros can stay competitive while staying under the luxury tax, identifying undervalued free-agent pitchers and bargain bats to bolster their roster for 2026.
-keywords:
-  - Soroka
-  - Caratini
-  - Griffin
-  - Verlander
-  - Yastrzemski
-  - Free Agency
-  - Astros
-  - Salary Cap
-  - Budget Signings
 ---
 
 > **AAV** — Average Annual Value, or total value for the contract divided by the years it runs for.

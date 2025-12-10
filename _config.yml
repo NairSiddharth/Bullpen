@@ -4,24 +4,6 @@ description: Houston Sports Analysis
 author: Siddharth Nair
 baseurl: "/Bullpen"
 
-keywords: 
-  - MLB
-  - baseball
-  - Houston Astros
-  - baseball analysis
-  - NBA
-  - Houston Rockets
-  - basketball
-  - NFL
-  - Houston Texans
-  - sports analytics
-  - advanced statistics
-  - player evaluations
-  - prospect scouting
-  - game breakdowns
-  - season reviews
-  - data-driven insights
-
 minima:
   skin: dark
   logo: /assets/favicons/android-chrome-512x512.png
