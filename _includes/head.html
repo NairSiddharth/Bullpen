@@ -3,14 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Page Title -->
-  <title>
-    {% if page.title %}
-      {{ page.title }} · {{ site.title }}
-    {% else %}
-      {{ site.title }}
-    {% endif %}
-  </title>
+<title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
 
   <!-- Main CSS -->
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
@@ -21,7 +14,8 @@
   {% seo %}
 
   <!-- Canonical URL -->
-  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <!-- NOTE: MINIMA ALREADY DOES THIS, ONLY PUT BACK WHEN NEEDING PAGINATION -->
+  <!-- <link rel="canonical" href="{{ page.url | absolute_url }}"> -->
 
   <!-- Favicon Set -->
   <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicons/apple-touch-icon.png' | relative_url }}">

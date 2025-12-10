@@ -756,3 +756,85 @@ a:hover {
     url('{{ site.baseurl }}/assets/textures/frost.png'),
     linear-gradient(#1a1a1a, #0c0c0c);
 }
+
+/* ------------------ 404 Page ------------------ */
+
+.error-page {
+  text-align: center;
+  padding: 6rem 1rem;
+  position: relative;
+  color: var(--retro-cream);
+}
+
+.error-glow {
+  font-family: var(--header-font);
+  font-size: 6rem;
+  font-weight: 700;
+  color: var(--retro-accent);
+  text-shadow:
+    0 0 12px rgba(255, 114, 71, 0.75),
+    0 0 24px rgba(255, 114, 71, 0.45);
+  letter-spacing: 2px;
+}
+
+.error-title {
+  font-family: var(--header-font);
+  font-size: 2rem;
+  margin-top: 1rem;
+  color: var(--retro-cream);
+}
+
+.error-message {
+  margin: 1rem auto 2.5rem;
+  max-width: 500px;
+  font-size: 1.1rem;
+  opacity: 0.85;
+}
+
+.error-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin-bottom: 3rem;
+}
+
+.error-link {
+  padding: 0.6rem 1.2rem;
+  border: 2px solid var(--retro-accent);
+  border-radius: 8px;
+  color: var(--retro-cream);
+  font-family: var(--header-font);
+  text-decoration: none;
+  transition: 0.25s ease;
+  letter-spacing: 1px;
+}
+
+.error-link:hover {
+  background: rgba(255, 114, 71, 0.15);
+  color: var(--accent-hover);
+  border-color: var(--accent-hover);
+}
+
+/* Retro grid background echoing footer style */
+.error-grid {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -2rem;
+  width: 100%;
+  max-width: 900px;
+  height: 150px;
+  opacity: 0.15;
+
+  background-image:
+    linear-gradient(to right, rgba(255,114,71,0.25) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,114,71,0.25) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+}
+
+@media (max-width: 600px) {
+  .error-glow { font-size: 4rem; }
+  .error-title { font-size: 1.6rem; }
+}
