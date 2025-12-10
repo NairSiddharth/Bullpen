@@ -6,6 +6,7 @@ categories:
 image: /assets/images/hooks_logo.png
 excerpt: Part II of coverage of Astros minor league system. Prospects to be excited about!
 layout: post
+description: Part II of our look at the Astros’ minor league system, highlighting the high-upside prospects and long-term bets who could shape Houston’s future.
 ---
 
 Part I covered the Astros prospects that you might see in the 2026 season. What you'll find here are the ones further down the pipeline, or those with a few more question marks. Any one of these prospects hitting would be massive for the Astros' competitiveness.

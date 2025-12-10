@@ -6,6 +6,8 @@ categories:
 image: /assets/images/Jose-Altuve-cover.png
 excerpt: Jose Altuve's road to 3000 is slim, but not impossible. Maybe.
 layout: post
+description: An in-depth analysis of Jose Altuve’s pursuit of 3,000 career hits, examining his recent performance, aging curve projections, potential lockout impacts, and historical precedent from Craig Biggio to assess whether reaching the milestone by the end of his current contract is realistic.
+keywords: "Jose Altuve, 3000 hits, Houston Astros"
 ---
 
 *Author's Note: All player statistics pulled from FanGraphs unless otherwise specifically stated*
