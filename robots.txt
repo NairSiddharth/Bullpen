@@ -12,4 +12,4 @@ Disallow: /drafts/
 Disallow: /private/
 
 # Link to the sitemap for better SEO
-Sitemap: https://nairsiddharth.github.io/Bullpen/sitemap.xml
+Sitemap: /Bullpen/sitemap.xml
