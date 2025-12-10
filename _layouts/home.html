@@ -23,6 +23,7 @@ layout: default
 
     <div class="post-card-meta">
       {{ post.date | date: "%b %d, %Y" }}
+      {% include read_time.html %}
     </div>
 
     <p class="post-card-excerpt">
