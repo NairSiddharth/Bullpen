@@ -21,13 +21,10 @@ layout: default
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </h2>
 
-    <div class="post-card-meta">
-      <span class="meta-item meta-date">
-        {{ post.date | date: "%b %d, %Y" }}
-      </span>
-      <span class="meta-item meta-read">
-        {% include read_time.html content=post.content %}
-      </span>
+    <div class="post-card-meta home-meta">
+      <span>{{ post.date | date: "%b %d, %Y" }}</span>
+      <span class="separator">|</span>
+      <span>{% include read_time.html content=post.content %}</span>
     </div>
 
     <p class="post-card-excerpt">

@@ -954,3 +954,15 @@ a:hover {
   align-items: center;
   gap: 4px;
 }
+
+.post-card-meta.home-meta {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #c5c5c5;
+  margin-top: 0.35rem;
+}
+
+.post-card-meta.home-meta .separator {
+  margin: 0 0.35rem;
+  opacity: 0.6;
+}
