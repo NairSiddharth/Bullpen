@@ -7,6 +7,8 @@ image: /assets/images/astros_milb_prospects.png
 excerpt: Part I of coverage of Astros minor league system. Prospects to be excited about!
 layout: post
 description: Part I of our deep dive into the Astros’ minor league system, highlighting MLB-ready talent and near-ready prospects who could make an impact in Houston’s lineup and rotation.
+series: prospect-watch
+series_order: 1
 ---
 
 The Astros finally missed the playoffs. For non-fans, I'm sure they've already thrown the parade. For fans, it makes you ask: what's next? Typically, you'd console yourself with a look at the farm system, imagining ranked prospects and a future back in the spotlight. Unfortunately, for the fifth straight year, the Astros have a bottom five ranked system. A far cry from when it produced Alex Bregman, George Springer, and Carlos Correa.
