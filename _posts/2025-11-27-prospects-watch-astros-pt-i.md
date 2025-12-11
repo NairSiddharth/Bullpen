@@ -7,7 +7,7 @@ image: /assets/images/astros_milb_prospects.png
 excerpt: Part I of coverage of Astros minor league system. Prospects to be excited about!
 layout: post
 description: Part I of our deep dive into the Astros’ minor league system, highlighting MLB-ready talent and near-ready prospects who could make an impact in Houston’s lineup and rotation.
-series: prospect-watch
+series: Prospect-Watch
 series_order: 1
 ---
 
