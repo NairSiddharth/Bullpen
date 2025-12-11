@@ -1,33 +1,20 @@
+{% comment %}
+  Series block: collapsible list of posts in the same series
+{% endcomment %}
 {% if page.series %}
-  {% assign all = site.posts | where: "series", page.series | sort: "series_order" %}
-  {% assign total = all | size %}
-
-  <div class="series-box">
-    <p><strong>Series:</strong> {{ page.series }} — Part {{ page.series_order }} of {{ total }}</p>
-
-    <ul>
-      {% for p in all %}
-        <li>
-          {% if p.url == page.url %}
-            <strong>{{ p.title }}</strong>
-          {% else %}
-            <a href="{{ p.url }}">{{ p.title }}</a>
-          {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
-
-    <div class="series-nav">
-      {% assign prev = all | where: "series_order", page.series_order | minus: 1 | first %}
-      {% assign next = all | where: "series_order", page.series_order | plus: 1 | first %}
-
-      {% if prev %}
-        <a href="{{ prev.url }}">&larr; Previous</a>
-      {% endif %}
-
-      {% if next %}
-        <a href="{{ next.url }}" style="float:right;">Next &rarr;</a>
-      {% endif %}
+  {% assign series_posts = site.posts | where: "series", page.series | sort: "series_order" %}
+  {% if series_posts.size > 0 %}
+    <div class="series-block">
+      <button class="collapsible">Series: {{ page.series | replace: "-", " " | capitalize }}</button>
+      <div class="series-content">
+        <ul>
+          {% for post in series_posts %}
+            <li {% if post.url == page.url %}class="current"{% endif %}>
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
     </div>
-  </div>
+  {% endif %}
 {% endif %}

@@ -1,16 +1,9 @@
+{% comment %}
+  Breadcrumbs: Home → Category → Post Title
+{% endcomment %}
 <nav class="breadcrumbs">
-  <a href="{{ '/' | relative_url }}">Home</a>
-
-  {% if page.categories and page.categories.size > 0 %}
-    {% assign cat = page.categories[0] %}
-    &nbsp;/&nbsp;
-    <a href="{{ '/categories/' | append: cat | append:'/' | relative_url }}">
-      {{ cat | capitalize }}
-    </a>
-  {% endif %}
-
-  {% if page.title %}
-    &nbsp;/&nbsp;
-    <span>{{ page.title }}</span>
-  {% endif %}
+  <a href="{{ site.baseurl }}/">Home</a> &raquo;
+  {% assign primary_category = page.categories[0] %}
+  <a href="{{ site.baseurl }}/categories/{{ primary_category | downcase }}/">{{ primary_category | capitalize }}</a> &raquo;
+  <span>{{ page.title }}</span>
 </nav>
