@@ -266,7 +266,20 @@ a:hover {
   grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   gap: 2rem;
   margin-top: 2rem;
+
+  padding: 0 2rem;      /* NEW → side padding so cards don’t touch screen edges */
+  max-width: 1400px;    /* NEW → caps total width on ultrawide screens */
+  margin-left: auto;    /* NEW → center the whole grid container */
+  margin-right: auto;   /* NEW → center the whole grid container */
 }
+
+/* NEW → Hard cap at 4 columns on large screens */
+@media (min-width: 1300px) {
+  .post-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
 
 /* UNIFIED: Single class for all post layouts */
 .post-preview {
