@@ -13,7 +13,7 @@ The Rockets are good, with a [15-6 record that has them 3rd in the Western Confe
 
 This isn't a piece about potential trade solutions though. The Rockets have a homegrown answer in Reed Sheppard, the third overall pick who struggled as a rookie but has exploded into a legitimate sixth man, averaging [13/3.3/3.1 on 60.3 TS% in 24.9 minutes per game](https://www.nba.com/stats/player/1642263?dir=D&sort=PTS). Is it time for him to make the starting jump, or should the Rockets stick with the status quo?
 
-## 2nd Year Jump
+### 2nd Year Jump
 
 Reed Sheppard wasn't good as a rookie. [46.5 TS%, a -2.7 net rating, and just 12.6 minutes per game](https://www.nba.com/stats/player/1642263?dir=D&sort=TS_PCT) on a team too good to let him work through his issues on the court.
 
@@ -30,21 +30,21 @@ The stats tell part of the story. The tape tells the rest. In the Rockets' NBA C
 
 Potential draft bust to pesky point guard is a stark evolution. I'm glad Reed stuck the landing.
 
-## Why Fix What Isn't Broken?
+### Why Fix What Isn't Broken?
 
 Reed looks completely different compared to last season, but the Rockets outdo his year-over-year jump with their own. They've jumped from a 4.8 aNET ([6th in the league last season](https://dunksandthrees.com/stats/team?season=2025)) to 8.8 ([2nd this season](https://dunksandthrees.com/stats/team?season=2026)). Their offense and defense are both elite, ranking 4th leaguewide. With the team humming and Reed already logging 24.9 mpg, more than starter Josh Okogie who plays 20.9 mpg, is there any reason to reinvent the wheel?
 
-Maybe not, honestly. The starting lineup of Amen Thompson, Josh Okogie, Jabari Smith Jr., Kevin Durant, and Alperen Sengun has a [net rating of 14.6](https://www.nba.com/stats/lineups/advanced?CF=TEAM_ABBREVIATION*E*HOU&dir=D&sort=MIN), 5th best in the NBA (GP >10, MIN >100 for lineups). It has everything: ball-handling from Sengun and Amen, shooting from Jabari and Okogie, scoring from KD, and elite defense across the board. While Okogie's individual numbers lag behind Sheppard's, his 3&D role in the lineup makes him valuable, he doesn't need the ball in his hands to add value. Reed *could* do the same thing, but it's a waste of his skillset.
+Maybe not, honestly. The starting lineup of Amen Thompson, Josh Okogie, Jabari Smith Jr., Kevin Durant, and Alperen Şengün has a [net rating of 14.6](https://www.nba.com/stats/lineups/advanced?CF=TEAM_ABBREVIATION*E*HOU&dir=D&sort=MIN), 5th best in the NBA (GP>10, MIN>100 for lineups). It has everything: ball-handling from Şengün and Amen, shooting from Jabari and Okogie, scoring from KD, and elite defense across the board. While Okogie's individual numbers lag behind Sheppard's, his 3&D role in the lineup makes him valuable, he doesn't need the ball in his hands to add value. Reed *could* do the same thing, but it's a waste of his skillset.
 
-The numbers bear this out. When Sheppard plays with the starters, they post a 9.8 net rating, but that's a notable drop from 14.6. Look at the Durant-Sengun-Amen-Reed quartet specifically. Across 158 possessions, they've posted a [+0.3 net rating](https://www.nba.com/stats/lineups/advanced?CF=MIN*GE*50&GroupQuantity=4&TeamID=1610612745&dir=D&slug=advanced&sort=NET_RATING), essentially treading water. For that much talent on the floor at once for the Rockets, those numbers are damning. I think Reed ends up being too much of a good thing here. The Rockets are developing Amen Thompson's on-ball skills in the starting lineup, reflected in his career-high assist and usage numbers. With three playmakers plus Durant's offensive responsibilities competing for touches, the sum ends up being less than the individual parts. Amen needs on-ball reps to grow into a capable playmaker, but reducing Reed to spot-up duty isn't working. All that talent, and they're barely keeping their head above water.
+The numbers bear this out. When Sheppard plays with the starters, they post a 9.8 net rating, but that's a notable drop from 14.6. Look at the Durant-Şengün-Amen-Reed quartet specifically. Across 158 possessions, they've posted a [+0.3 net rating](https://www.nba.com/stats/lineups/advanced?CF=MIN*GE*50&GroupQuantity=4&TeamID=1610612745&dir=D&slug=advanced&sort=NET_RATING), essentially treading water. For that much talent on the floor at once for the Rockets, those numbers are damning. I think Reed ends up being too much of a good thing here. The Rockets are developing Amen Thompson's on-ball skills in the starting lineup, reflected in his [career-high assist and usage numbers](https://www.nba.com/stats/player/1641708?dir=D&sort=AST_PCT). With three playmakers plus Durant's offensive responsibilities competing for touches, the sum ends up being less than the individual parts. Amen needs on-ball reps to grow into a capable playmaker, but reducing Reed to spot-up duty isn't working. All that talent, and they're barely keeping their head above water.
 
-There's also the playoff defensive question. Reed's been solid in the regular season (107.2 defensive rating, 3rd on the team among rotation players), but playoff basketball is different. Isolation defense matters more when games slow down and get physical. At 6'1.75" with a 6'3.25" wingspan, Reed is small even for a point guard. SGA, Luka, Anthony Edwards, really any of the West's top scorers would happily iso against him. Okogie's [6'4" frame and 7-foot wingspan](https://www.nbadraft.net/players/josh-okogie/) give Houston the switching versatility they need in those situations.
+There's also the playoff defensive question. Reed's been solid in the regular season (107.2 defensive rating, [3rd on the team among rotation players](https://www.nba.com/stats/team/1610612745/players-advanced?dir=A&sort=DEF_RATING)), but playoff basketball is different. Isolation defense matters more when games slow down and get physical. At 6'1.75" with a 6'3.25" wingspan, Reed is small even for a point guard. SGA, Luka, Anthony Edwards, really any of the West's top scorers would happily iso against him. Okogie's [6'4" frame and 7-foot wingspan](https://www.nbadraft.net/players/josh-okogie/) give Houston the switching versatility they need in those situations.
 
-What is working for the Rockets is Reed's current role split as a super sub and as lead guard for bench units. He comes on as a super sub when one of the big three (Durant, Thompson, or Sengun) sit, operating as a combo guard. He's a [scorer](https://www.pbpstats.com/on-off/nba/player?Season=2025-26&SeasonType=Regular%2BSeason&TeamId=1610612745&PlayerId=201142) when Durant rests or the [primary playmaker](https://www.pbpstats.com/on-off/nba/player?Season=2025-26&SeasonType=Regular%2BSeason&TeamId=1610612745&PlayerId=1630578) when Sengun is off the floor. Sort of a swiss army knife. When he's running bench-heavy lineups or these hybrid bench-starter groups, the results speak for themselves. Take the Reed-Durant-Adams-Jabari quartet. Reed runs the offense and provides spacing, Durant scores, Adams does the dirty work inside, Jabari spaces and guards. They've posted an elite +41.27 net rating in 62 minutes. Everyone has a clear role, everyone eats. That's what happens when you're not forcing three playmakers onto the floor at once.
+What is working for the Rockets is Reed's current role split as a super sub and as lead guard for bench units. He comes on as a super sub when one of the big three (Durant, Thompson, or Şengün) sit, operating as a combo guard. He's a [scorer](https://www.pbpstats.com/on-off/nba/player?Season=2025-26&SeasonType=Regular%2BSeason&TeamId=1610612745&PlayerId=201142) when Durant rests or the [primary playmaker](https://www.pbpstats.com/on-off/nba/player?Season=2025-26&SeasonType=Regular%2BSeason&TeamId=1610612745&PlayerId=1630578) when Şengün is off the floor. Sort of a swiss army knife. When he's running bench-heavy lineups or these hybrid bench-starter groups, the results speak for themselves. Take the Reed-Durant-Adams-Jabari quartet. Reed runs the offense and provides spacing, Durant scores, Adams does the dirty work inside, Jabari spaces and guards. They've posted an elite [+34.17 net rating in 67 minutes](https://www.pbpstats.com/wowy-combos/nba?TeamId=1610612745&Season=2025-26&SeasonType=Regular%2BSeason&PlayerIds=201142,1642263,1631095,203500). Everyone has a clear role, everyone eats. That's what happens when you're not forcing three playmakers onto the floor at once.
 
 So, case closed, everyone goes home?
 
-## Elevated Ceiling
+### Elevated Ceiling
 
 Not so fast.
 
@@ -54,22 +54,22 @@ I understand the appeal of trialing Amen out this way, who wouldn't want a supre
 
 <figure>
 <iframe src="https://streamable.com/e/kcgpyr" width="560" height="315" frameborder="0" allowfullscreen></iframe>
-<figcaption>More of this please! Amen Thompson in dunker's spot, gets the lob from Sengun for dunk</figcaption>
+<figcaption>More of this please! Amen Thompson in dunker's spot, gets the lob from Şengün for dunk</figcaption>
 </figure>
 
 Reed Sheppard starting would solve this. It'd allow Amen to get back to what he's best at, beastly point of attack defense and slashing to the rim on offense. When Reed sits, the lineup reverts to the current setup: Okogie at shooting guard, Amen at point guard. Amen still gets his developmental reps, just not for 30+ minutes a game. Reed's actual responsibilities wouldn't change; he'd still be the secondary playmaker and shooter. This just changes WHO he's playing with.
 
-Imagine a team playing the Rockets closely, and Sengun is subbed off for Adams. Offensive hub off the floor is a good thing, right? Well, it's more a pick your poison adventure with these Rockets. K. Durant - S. Adams - J. Smith Jr. - R. Sheppard posts a +44.7 net rating in 62 minutes. Elite, even if the sample is limited. Reed runs the show, Durant scores, Adams does the dirty work, Jabari spaces and guards. Clear roles unlocking everyone.
+Imagine a team playing the Rockets closely, and Şengün is subbed off for Adams. Offensive hub off the floor is a good thing, right? Well, it's more a pick your poison adventure with these Rockets. Reed-Durant-Adams-Jabari posts a [+34.17 net rating in 67 minutes](https://www.pbpstats.com/wowy-combos/nba?TeamId=1610612745&Season=2025-26&SeasonType=Regular%2BSeason&PlayerIds=201142,1642263,1631095,203500). Elite, even if the sample is limited. Reed runs the show, Durant scores, Adams does the dirty work, Jabari spaces and guards. Clear roles unlocking everyone.
 
-Apply that same principle to the starting lineup. Sengun operates as the primary hub in the post. Reed spaces the floor and acts as secondary playmaker when defenses scheme to take Sengun away. Amen simplifies his game down to pure cutting and slashing offensively. He doesn't need to run pick-and-rolls (0.79 PPP) or handoffs (0.5 PPP) that aren't working anyway. Jabari shoots, KD does everything, and suddenly you have a starting five where everyone's doing what they do best.
+Apply that same principle to the starting lineup. Şengün operates as the primary hub in the post. Reed spaces the floor and acts as secondary playmaker when defenses scheme to take Şengün away. Amen simplifies his game down to pure cutting and slashing offensively. He doesn't need to run pick-and-rolls ([0.80 PPP](https://www.nba.com/stats/players/ball-handler?CF=TEAM_ABBREVIATION*E*HOU)) or handoffs ([0.5 PPP](https://www.nba.com/stats/players/hand-off?CF=TEAM_ABBREVIATION*E*HOU&dir=D&sort=PPP)) that aren't working anyway. Jabari shoots, KD does everything, and suddenly you have a starting five where everyone's doing what they do best.
 
-Yes, it's the same lineup that's currently running a +0.2 net rating. But now, clearly defined responsibilities change everything. Currently, Amen is trying to be a playmaker when he should be slashing. Reed + Amen + Sengun = too many cooks (standard math rules not applicable).
+Yes, it's the same lineup that's currently running a +0.2 net rating. But now, clearly defined responsibilities change everything. Currently, Amen is trying to be a playmaker when he should be slashing. Reed + Amen + Şengün = too many cooks (standard math rules not applicable).
 
 What about the bench? Stagger Reed's minutes. Let him start, sub out with the rest of the starters, then bring him back to run bench units. He's too valuable not to maximize.
 
 This isn't about breaking what works. It's about making what works better.
 
-## Starting 5 or Bench Spark?
+### Starting 5 or Bench Spark?
 
 <figure>
 <iframe src="https://streamable.com/e/42jwym" width="560" height="315" frameborder="0" allowfullscreen></iframe>
