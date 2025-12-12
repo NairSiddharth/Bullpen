@@ -3,7 +3,7 @@ title: "The Houston Astros, Mired in Mediocrity"
 date: 2025-11-24
 categories: 
     - baseball
-image: /assets/images/houston-astros-logo-png_seeklogo-224486.png
+image: /assets/images/astros-disappointment.png
 excerpt: The Astros are going nowhere fast, is it too late to turn the tide?
 layout: post
 description: An analysis of the Houston Astros’ current struggles, examining an aging core, rotation concerns, and a depleted farm system, while highlighting the young talent that could shape their future amid looming MLB uncertainties.
