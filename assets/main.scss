@@ -980,3 +980,50 @@ a:hover {
   opacity: 0.6;
 }
 
+$avatar-size: 120px;            // default avatar diameter
+$avatar-size-sm: 48px;         // small variant / mobile
+$avatar-size-lg: 200px;        // large variant
+$bullpen-blue: #0042A5;
+$bullpen-red:  #E51A1A;
+$bullpen-cream:#F3E9D2;
+
+// utility mixin for circular avatar
+@mixin avatar-size($size) {
+  width: $size;
+  height: $size;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.author-box-avatar img {
+  @include avatar-size($avatar-size);
+
+  // subtle background so any transparent PNG reads well on/off dark backgrounds:
+  background-color: $bullpen-cream;
+
+  // outline: cream inner thin ring + red outer ring.
+  // Adjust spread (first = inner; second = outer)
+  box-shadow:
+    0 0 0 3px $bullpen-cream, // inner thin ring
+    0 0 0 7px $bullpen-red;   // outer thicker ring
+
+  // Optionally add a tiny hairline blue stroke for separation:
+  // outline: 1px solid rgba(0,0,0,0.04);
+
+  // contained <img> (preferred for responsive & srcset)
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   // important: preserves aspect & crops to circle
+    display: block;
+    -webkit-user-drag: none;
+    user-select: none;
+    image-rendering: auto;
+  }
+
+  // Responsive size variants
+  &--small { @include avatar-size($avatar-size-sm); box-shadow: 0 0 0 2px $bullpen-cream, 0 0 0 5px $bullpen-red; }
+  &--large { @include avatar-size($avatar-size-lg); box-shadow: 0 0 0 4px $bullpen-cream, 0 0 0 10px $bullpen-red; }
+}
