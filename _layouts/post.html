@@ -6,12 +6,14 @@ layout: default
 {% include breadcrumbs.html %}
 {% include series.html %}
 
-<div class="post-content">
-  {{ content }}
-</div>
-{% include author_box.html %}
+<div class="post">
+  <div class="post-content">
+    {{ content }}
+  </div>
+  {% include author_box.html %}
 
-{% include related_posts.html %}
+  {% include related_posts.html %}
+</div>
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {
