@@ -24,7 +24,7 @@ That improvement was earned. Sheppard put in offseason work to [bulk up and impr
 The stats tell part of the story. The tape tells the rest. In the Rockets' NBA Cup game against the Warriors, Sheppard dropped 31 points with 9 rebounds and 5 assists, and the highlights showcase exactly how his game has evolved. On one possession, he brings the ball up the floor and attacks the basket, briefly hesitating to get the crashing defense to bite and slip by for an easy layup. There's the aggression he lacked last season. Later, he doubles Steph Curry, forces the turnover, and drains the transition three. Defensive pest and transition threat all-in-one.
 
 <figure>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cdEEOdcR-54?si=LYy8dXaIU6AvbgEr&amp;start=24" title="Reed Sheppard 31 points vs Warriors" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width=auto height=auto src="https://www.youtube.com/embed/cdEEOdcR-54?si=LYy8dXaIU6AvbgEr&amp;start=24" title="Reed Sheppard 31 points vs Warriors" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <figcaption>Sheppard's breakout performance against the Warriors</figcaption>
 </figure>
 
@@ -53,7 +53,7 @@ It's not like the Rockets are perfect. That point guard experiment with Amen Tho
 I understand the appeal of trialing Amen out this way, who wouldn't want a supremely athletic 2-way wing that can lead an offense? But maybe the Rockets are asking him to do too much, too soon. Pulling back on his development carries risk, you're potentially limiting his growth for short-term gains. But the Rockets are 15-6 with a realistic title window.
 
 <figure>
-<iframe src="https://streamable.com/e/kcgpyr" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://streamable.com/e/kcgpyr" width=auto height=auto frameborder="0" allowfullscreen></iframe>
 <figcaption>More of this please! Amen Thompson in dunker's spot, gets the lob from Şengün for dunk</figcaption>
 </figure>
 
@@ -72,7 +72,7 @@ This isn't about breaking what works. It's about making what works better.
 ### Starting 5 or Bench Spark?
 
 <figure>
-<iframe src="https://streamable.com/e/42jwym" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://streamable.com/e/42jwym" width=auto height=auto frameborder="0" allowfullscreen></iframe>
 <figcaption>Reed Sheppard takes it to the rack!</figcaption>
 </figure>
 
