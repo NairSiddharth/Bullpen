@@ -4,7 +4,7 @@ date: 2025-12-09
 categories: 
     - basketball
 image: /assets/images/rockets-lynchpin.png
-excerpt: The Rockets are an up&coming contender in the Western Conference. Who's the reason behind it?
+excerpt: The Rockets are an up-and-coming contender in the Western Conference. Who's the reason behind it?
 layout: post
 description: Analyzing Şengün, Thompson, and Durant to determine the Houston Rockets’ true lynchpin in offense and defense this season.
 ---
