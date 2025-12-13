@@ -1100,18 +1100,12 @@ $avatar-size-lg: 200px;
   border: 2px solid var(--retro-accent-light);
   border-radius: 14px;
   backdrop-filter: blur(4px);
+  padding: 2rem 0;
 }
 
 /* Individual field wrapper */
 .fs-field {
   margin-bottom: 1.75rem;
-}
-
-.fs-form {
-  padding: 2rem 0;
-}
-
-.fs-field {
   padding: 0 1.5rem;
 }
 
