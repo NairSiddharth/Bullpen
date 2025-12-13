@@ -24,8 +24,7 @@ nav: true
   </p>
 
   <p>
-    If there’s a topic you want covered, <a href="mailto:nair.sid01@gmail.com">email me</a> and I’ll consider it
-    for a future breakdown.
+    {% include email.html %}
   </p>
 </div>
 

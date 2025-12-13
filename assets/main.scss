@@ -1090,3 +1090,101 @@ $avatar-size-lg: 200px;
   width: 100%;
   aspect-ratio: 16 / 9;
 }
+
+/* ------------------ Formspree Form ------------------ */
+
+.fs-form {
+  max-width: 680px;
+  margin: 3rem auto;
+  padding: 2rem 1.5rem;
+  background: rgba(14, 15, 25, 0.85);
+  border: 2px solid var(--retro-accent-light);
+  border-radius: 14px;
+  backdrop-filter: blur(4px);
+}
+
+/* Individual field wrapper */
+.fs-field {
+  margin-bottom: 1.75rem;
+}
+
+/* Labels */
+.fs-label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-family: var(--header-font);
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--retro-accent);
+}
+
+/* Inputs + textarea */
+.fs-input,
+.fs-textarea {
+  width: 100%;
+  padding: 0.65rem 0.75rem;
+  background: #0f0f1a;
+  border: 2px solid var(--retro-accent-light);
+  border-radius: 6px;
+  color: var(--retro-cream);
+  font-family: var(--body-font);
+  font-size: 0.95rem;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.fs-textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+/* Focus states */
+.fs-input:focus,
+.fs-textarea:focus {
+  outline: none;
+  border-color: var(--accent-hover);
+  box-shadow: 0 0 0 2px rgba(58, 255, 255, 0.25);
+}
+
+/* Descriptions / helper text */
+.fs-description {
+  margin-top: 0.35rem;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  opacity: 0.75;
+  color: var(--retro-cream);
+}
+
+/* Button container */
+.fs-button-group {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Submit button */
+.fs-button {
+  padding: 0.6rem 1.6rem;
+  font-family: var(--header-font);
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--retro-cream);
+  background: transparent;
+  border: 2px solid var(--retro-accent);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.fs-button:hover {
+  background: rgba(255, 114, 71, 0.15);
+  color: var(--accent-hover);
+  border-color: var(--accent-hover);
+}
+
+/* Mobile spacing tweak */
+@media (max-width: 600px) {
+  .fs-form {
+    padding: 1.5rem 1rem;
+  }
+}
