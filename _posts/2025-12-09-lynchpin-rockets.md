@@ -23,10 +23,12 @@ They've jumped from a 115.37 offensive rating ([13th in the league](https://www.
 
 In 2024-2025, the Rockets in the clutch had a [106.6](https://www.nba.com/stats/teams/clutch-advanced?Season=2024-25) offensive rating (bottom half of the league). In 2025-2026, that's up to [114.4](https://www.nba.com/stats/teams/clutch-advanced?Season=2025-26&dir=A&sort=OFF_RATING). Watch two separate isolation plays where the Rockets cleared out and let KD go 1-1 with the opposing defender. A crossover into a stepback, cooking Wendell Carter Jr. to force OT, then a fadeaway jumper over Tristan da Silva to take the lead in OT.
 
+<div class="wide">
 <figure>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c4ORDNUQKRY?si=ESSf9RWRQUTTvjNB" title="Kevin Durant clutch moments" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <figcaption>Durant's clutch scoring in OT against the Magic</figcaption>
 </figure>
+</div>
 
 Last year's Rockets were sorely lacking a clutch scorer, and with KD's addition, they have one.
 
@@ -40,10 +42,12 @@ Here's a player doing the most, Alperen Şengün. [Jumping](https://www.espn.com
 
 Şengün operates as Houston's hub. Here he's playing against the Cleveland Cavaliers, the league's 4th-ranked defense at the time. On the first play, Şengün drives to the basket, draws multiple defenders with his gravity, then finds the open man. The rest of the clip is pure domination: backing down defenders, spinning for scores, or making the right read when help rotates. Houston's offensive structure in a nutshell: Şengün as the hub making reads that unlock everyone else.
 
+<div class="wide">
 <figure>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/o8Z_vw_KJso?si=fRdYo1-Zv9bJwUFM" title="Alperen Sengun vs Cavaliers highlights" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <figcaption>Şengün orchestrating the Rockets offense against the Cavaliers</figcaption>
 </figure>
+</div>
 
 One game is one game. The [on/off splits with Şengün](https://www.pbpstats.com/on-off/nba/player?Season=2025-26&SeasonType=Regular%2BSeason&TeamId=1610612745&PlayerId=1630578) reveal his impact. When Şengün sits, teammates get fewer easy looks, period. [Assisted 2-point field goals drop across the roster](https://www.pbpstats.com/on-off/nba/player?Season=2025-26&SeasonType=Regular%2BSeason&TeamId=1610612745&PlayerId=201142) because no one else can create at the same level. The offense doesn't just slow down without him, it fundamentally changes, forcing players to create in isolation rather than flow through the system. That impact shows up clearly in the offensive rating. With Şengün on the floor, Houston posts a [124.4](https://www.statmuse.com/nba/ask/houston-rockets-offensive-rating-with-sengun-every-season) (would be 1st in NBA). Without him, it drops to [116.7](https://www.statmuse.com/nba/ask/houston-rockets-offensive-rating-without-sengun-every-season) (would be 10th).
 
@@ -57,10 +61,12 @@ Nitpicking? Maybe. But lynchpin is a heady title. The lynchpin should be unambig
 
 It's a bird, it's a plane, it's...Amen Thompson jumping out of the building to block Anthony Davis' dunk.
 
+<div class="wide">
 <figure>
 <iframe width="560" height="315" src="https://youtube.com/embed/6CBIa7WLThs?si=B6RrBTqGu_0Euybf" title="Amen Thompson blocks Anthony Davis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <figcaption>Thompson's chase-down block on Anthony Davis</figcaption>
 </figure>
+</div>
 
 That's a microcosm of the defensive abilities of Amen, the [most athletic man in the NBA](https://www.theringer.com/2025/04/09/nba/amen-thompson-houston-rockets-defense-athlete-nba-history). He can guard 1-5, go over screens, switch assignments easily, cover blown coverages, and sprint to chase down blocks. A go-go gadget man for the Rockets defense.
 

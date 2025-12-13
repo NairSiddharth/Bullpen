@@ -19,12 +19,14 @@ Let's get one thing out of the way. The defense hasn't changed. If anything, the
 
 So, what exactly has changed?
 
+<div class="wide">
 <figure>
 <video width="560" height="315" controls aria-label="CJ Stroud with improved blocking scheme against the Colts">
   <source src="{{ site.baseurl }}/assets/videos/cj_improved_protection.mp4" type="video/mp4">
 </video>
 <figcaption>Improved O-line giving CJ Stroud time against blitz by Colts</figcaption>
 </figure>
+</div>
 
 The offense. Start with protection: during the 0-3 start, the Texans allowed 8 sacks in three games (2.67 per game). Over the four-game winning streak? Two sacks per game, including a zero-sack performance against Buffalo in Week 12. The offensive line pressure rate dropped to around [23% during the streak](https://statrankings.com/nfl/advanced/players/qb/protection-rate?season=2025&teamId=e9568e0f-5863-4c69-8763-33fadc679dc3&team=Houston%20Texans). A couple percentage points of pressure relief changes everything in the NFL.
 

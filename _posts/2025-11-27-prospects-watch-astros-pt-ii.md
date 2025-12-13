@@ -17,28 +17,34 @@ Part I covered the Astros prospects that you might see in the 2026 season. What 
 
 #### Bryce Mayer
 
+<div class="wide">
 <figure>
 <iframe src="https://streamable.com/milb/bryce-mayer-tosses-a-career-high-eleven-strikeouts" width="560" height="315" frameborder="0" allowfullscreen title="Bryce Mayer K's 11 in Single-A"></iframe>
 <figcaption>Single-A Fayetteville: Bryce Mayer strikeout's 11</figcaption>
 </figure>
+</div>
 
 Before his [Tommy John surgery, Mayer was a potential first-round pick](https://www.mlb.com/milb/prospects/astros/bryce-mayer-809343). The surgery cost him all of 2023, and he fell to the 16th round in 2024. Now he's making up for lost time, putting up a great [11.50 K/9 and 3.25 FIP](https://www.fangraphs.com/players/bryce-mayer/sa3025558/stats?position=P#advanced) in his journey through Double-A. We've seen [two versions of Mayer](https://www.fangraphs.com/players/bryce-mayer/sa3025558/stats?position=P#dashboard), his default with high K% and good BB% but letting up contact, contrasted with a version we've only seen so far in High-A, where he sacrificed the high K% for exquisite control and boosted his GB% greatly, benefiting his run prevention. Either way, [he hasn't pitched much at any one level](https://www.fangraphs.com/players/bryce-mayer/sa3025558/stats?position=P#dashboard), speaking to the Astros' own faith in his ability. If he merges the two, he's a strikeout machine who limits walks and is top-of-the-rotation material. Either style on its own still projects as a mid-to-back rotation starter. He finished 2024 at Double-A. A strong first half could put him in Triple-A by summer, with a September callup possible if he keeps dealing.
 
 #### Alonzo Tredwell
 
+<div class="wide">
 <figure>
 <iframe src="https://streamable.com/milb/alonzo-tredwell-s-first-strikeout-in-scoreless-start" width="560" height="315" frameborder="0" allowfullscreen title="Alonzo Tredwell's first K (of 5) in scoreless start"></iframe>
 <figcaption>Single-A Fayetteville: Alonzo Tredwell's first K (of 5) in scoreless 4 2/3 innings</figcaption>
 </figure>
+</div>
 
 [Tredwell](https://www.fangraphs.com/players/alonzo-tredwell/sa3023524/stats?position=P) was a high draft pick, a second-rounder out of UCLA. He's backed that high selection up by dominating Double-A, putting up [15.88 K/9 (38.5 K%)](https://www.fangraphs.com/players/alonzo-tredwell/sa3023524/stats?position=P#advanced) and a [3.18 ERA](https://www.fangraphs.com/players/alonzo-tredwell/sa3023524/stats?position=P#dashboard). Best part is, he was unlucky, giving up a ludicrously high [.408 BABIP](https://www.fangraphs.com/players/alonzo-tredwell/sa3023524/stats?position=P#dashboard) (Batting Average on Balls in Play) meaning that his already great performance could've been even better. Two things hold him back: first is that his HR/FB% has been high, meaning that of the few fly balls he lets up, a high percentage go for home runs ([15.4% in Double-A](https://www.fangraphs.com/players/alonzo-tredwell/sa3023524/stats?position=P#batted-ball)), second is his walk rate: in his minor league career he's averaged a [10.5% BB%](https://www.baseball-reference.com/register/player.fcgi?id=tredwe000alo) so far, which will only get worse the better competition he faces. Worst case, these two issues snowball, with walked batters getting driven in with home runs in a vicious cycle. Even with these risks typed out, the best case is too tantalizing to ignore: a bona fide ace with strikeouts for days, making Tredwell an incredibly exciting prospect to watch in 2026, his age-24 season.
 
 #### Anderson Brito
 
+<div class="wide">
 <figure>
 <iframe src="https://streamable.com/m/anderson-brito-k-s-eight-in-great-fall-league-outing?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen title="Anderson Brito 8K's"></iframe>
 <figcaption>AFL: Anderson Brito has 8K's in 3 innings</figcaption>
 </figure>
+</div>
 
 At 5-foot-10, 155 lbs, you'd be forgiven for wondering why I put a JV baseball player on the list, but let me assure you, [Brito](https://www.fangraphs.com/players/anderson-brito/sa3024232/stats?position=P) is more akin to the actual "JV" (Justin Verlander) than a JV player. In High-A at age 20 this past season, Brito threw [98+ on his fastball](https://www.mlb.com/milb/prospects/astros/anderson-brito-820901), with a mean [11.86 K/9, 3.28 ERA and .18 HR/9](https://www.fangraphs.com/players/anderson-brito/sa3024232/stats?position=P#dashboard). Want something more recent? In AFL (Arizona Fall League) Brito took it up a notch and looked like a man against boys with a ludicrous [*17.50* K/9](https://www.baseball-reference.com/register/player.fcgi?id=brito-000and). The big concern is whether he can sustain this with his size and the injury concerns that come with it, as the few pitchers who made it to the bigs with this frame like Tim Lincecum flamed high as a two-time Cy Young winner but flamed out fast. That is a long way away though. If the concerns come to fruition, he'll become one of the many what-if prospects littering the MiLB graveyard. But hey, signed for $10,000 and now a top ten prospect, Brito could have the highest ceiling out of any prospect in the Astros' system.
 
@@ -50,28 +56,34 @@ The Rapid Risers were prospects blazing their way through the minor league level
 
 #### Walker Janek
 
+<div class="wide">
 <figure>
 <iframe src="https://streamable.com/milb/walker-janek-s-perfect-throw-to-nab-runner-at-second" width="560" height="315" frameborder="0" allowfullscreen title="Walter Janek throws out runner"></iframe>
 <figcaption>AFL: Walter Janek's perfect throw to nab runner at 2nd</figcaption>
 </figure>
+</div>
 
 [Janek](https://www.fangraphs.com/players/walker-janek/sa3025254/stats?position=C) is the rare first-rounder in the Houston system, out of Sam Houston State in 2024. The best catcher in college baseball, no biggie. He did struggle out of the gate in High-A, looking overmatched against higher-level arms ([.175/.214/.289](https://www.fangraphs.com/players/walker-janek/sa3025254/stats?position=C#advanced)) but in his second turn this past season, he's shown improvement, slashing [.263/.333/.433 in over three times the games](https://www.fangraphs.com/players/walker-janek/sa3025254/stats?position=C#advanced). In the AFL, we also saw the power he was known for in college as he [slugged .481](https://www.baseball-reference.com/register/player.fcgi?id=janek-000wal). Defensively? Slow going on game-calling, but flashing a wicked arm behind the plate through a [44% caught stealing rate](https://www.fangraphs.com/players/walker-janek/sa3025254/stats?position=C#fielding). With growth, he's the Astros' next Maldonado, with way better bat-to-ball skills. Expect him to open 2026 in High-A before a quick push to Double-A.
 
 #### Alimber Santa
 
+<div class="wide">
 <figure>
 <iframe src="https://streamable.com/milb/alimber-santa-notches-two-strikeouts" width="560" height="315" frameborder="0" allowfullscreen title="Alimber Santa 2 strikeouts in perfect inning"></iframe>
 <figcaption>Double-A Corpus Christi: Alimber Santa 2 strikeouts in perfect inning</figcaption>
 </figure>
+</div>
 
 This Santa delivers nasty pitches instead of gifts. Call him Krampus. [Santa](https://www.fangraphs.com/players/alimber-santa/sa3015478/stats?position=P) came up as an 18-year-old IFA and has reached Triple-A in his age-22 season, primarily as a reliever. He uses an eclectic mix ([100 mph fastball, slider, sinker, cutter, curve, change](https://prospectsavant.com/player/695001)) of pitches to good effect, having over [10 K/9 at every minor league level](https://www.fangraphs.com/players/alimber-santa/sa3015478/stats?position=P#advanced). Santa was selected to [represent the Astros at the 2025 All-Star Futures Game](https://www.milb.com/corpus-christi/news/alimber-santa-selected-to-futures-game) due to sheer dominance in Double-A where he pitched scoreless ball in 17 of 23 outings, going 2-1 with a 1.27 ERA. With big talent comes a huge walk problem. How bad? His K-BB% in the minor leagues has ranged from [-1.8% to 26.7%](https://www.fangraphs.com/players/alimber-santa/sa3015478/stats?position=P#advanced) across all levels, not a number that's supposed to be negative. His mix of pitches can overwhelm batters as a premier closer, assuming he can clean up the walks. Santa will start 2026 in Triple-A. He'll figure it out there or it's back to Double-A.
 
 #### Joseph Sullivan
 
+<div class="wide">
 <figure>
 <iframe src="https://streamable.com/m/joseph-sullivan-s-three-hit-four-rbi-game?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen title="Joseph Sullivan 3 hit game"></iframe>
 <figcaption>Double-A Corpus Christi: Joseph Sullivan 3 hit game</figcaption>
 </figure>
+</div>
 
 [Sullivan](https://www.fangraphs.com/players/patrick-sullivan/sa3025413/stats?position=OF#dashboard) has an uncommon pedigree, being the grandson of Heisman Trophy winner Pat Sullivan. Selected as a seventh-rounder out of South Alabama, Sullivan is the epitome of the Moneyball saying "he gets on base". His OBP carried him to a [135 wRC+ in Single-A and 148 wRC+ in High-A](https://www.fangraphs.com/players/patrick-sullivan/sa3025413/stats?position=OF#advanced) despite poor AVG. He's one of the faster Astros prospects, [stealing 50 bags](https://www.baseball-reference.com/register/player.fcgi?id=sulliv012jos) so far. He does all of this while playing [plus centre field](https://www.mlb.com/milb/prospects/astros/joseph-sullivan-813896). What I haven't mentioned is the wall he hit in Double-A. His [GB% shot up to 55.1% and his K% went to 30%](https://www.fangraphs.com/players/patrick-sullivan/sa3025413/stats?position=OF#batted-ball), losing the power he had in the process. His AFL numbers suggest it was just an adjustment period, slashing [.296/.435/.426](https://www.baseball-reference.com/register/player.fcgi?id=sulliv012jos), but it raises questions about his ability to adapt as he moves up the ranks. The tools are all there. The power is the last piece. At 23, he has time to figure it out and reach his top end as a 20/40 CF.
 
