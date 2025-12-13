@@ -1132,6 +1132,10 @@ $avatar-size-lg: 200px;
   font-family: var(--body-font);
   font-size: 0.95rem;
   transition: border-color 0.25s ease, box-shadow 0.25s ease;
+  padding-left: 0.75rem;
+  padding-right: 2.5rem; /* reserve space for browser icon */
+  box-sizing: border-box;
+
 }
 
 .fs-textarea {
