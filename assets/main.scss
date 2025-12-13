@@ -1096,7 +1096,6 @@ $avatar-size-lg: 200px;
 .fs-form {
   max-width: 680px;
   margin: 3rem auto;
-  padding: 2rem 1.5rem;
   background: rgba(14, 15, 25, 0.85);
   border: 2px solid var(--retro-accent-light);
   border-radius: 14px;
@@ -1106,6 +1105,14 @@ $avatar-size-lg: 200px;
 /* Individual field wrapper */
 .fs-field {
   margin-bottom: 1.75rem;
+}
+
+.fs-form {
+  padding: 2rem 0;
+}
+
+.fs-field {
+  padding: 0 1.5rem;
 }
 
 /* Labels */
