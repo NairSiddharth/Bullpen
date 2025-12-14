@@ -2,6 +2,7 @@
 layout: page
 title: Analysis Index
 permalink: /analysis/
+use_banner: true
 nav: true
 ---
 
