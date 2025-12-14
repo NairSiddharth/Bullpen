@@ -3,6 +3,9 @@ title: "Şengün, Thompson, and Durant: Identifying the Rockets' True Lynchpin"
 date: 2025-12-09
 categories: 
     - basketball
+tags:
+  - team
+  - scheme
 image: /assets/images/rockets-lynchpin.png
 excerpt: The Rockets are an up-and-coming contender in the Western Conference. Who's the reason behind it?
 layout: post
