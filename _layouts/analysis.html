@@ -1,0 +1,58 @@
+---
+layout: page
+title: Analysis Index
+permalink: /analysis/
+nav: true
+---
+
+<div class="analysis-index">
+
+  <section class="analysis-section">
+    <h2>Player Development</h2>
+    <p class="analysis-desc">
+      How individual players evolve — skill growth, role changes, and long-term projection.
+    </p>
+
+    {% assign dev_posts = site.posts | where_exp:"post","post.tags contains 'player-development'" %}
+    <ul class="analysis-list">
+      {% for post in dev_posts %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="analysis-section">
+    <h2>Scheme & Strategy</h2>
+    <p class="analysis-desc">
+      Tactical breakdowns, lineup construction, spacing theory, and in-game adjustments.
+    </p>
+
+    {% assign scheme_posts = site.posts | where_exp:"post","post.tags contains 'scheme'" %}
+    <ul class="analysis-list">
+      {% for post in scheme_posts %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="analysis-section">
+    <h2>Team Analysis</h2>
+    <p class="analysis-desc">
+        Comprehensive evaluations of team performance, chemistry, and organizational direction.
+    </p>
+
+    {% assign data_posts = site.posts | where_exp:"post","post.tags contains 'team'" %}
+    <ul class="analysis-list">
+      {% for post in data_posts %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+</div>

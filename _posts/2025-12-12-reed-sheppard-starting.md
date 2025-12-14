@@ -3,6 +3,8 @@ title: "Is Starting Reed Sheppard What the Rockets Need?"
 date: 2025-12-12
 categories: 
     - basketball
+tags:
+    - player-development
 image: /assets/images/reed-sheppard.png
 excerpt: Reed Sheppard has looked more comfortable on the court as a sophomore, are the Rockets better off with him starting?
 layout: post
