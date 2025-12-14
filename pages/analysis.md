@@ -18,50 +18,33 @@ nav: true
     <div class="post-grid analysis-grid">
       {% assign dev_posts = site.posts | where_exp:"post","post.tags contains 'player-development'" | slice: 0, 4 %}
       {% for post in dev_posts %}
-        {% include post_card.html post=post %}
+        <article class="post-card neon-card">
+
+          {% if post.image %}
+          <div class="post-card-img-wrapper">
+            <img src="{{ post.image | relative_url }}" class="post-card-img" />
+          </div>
+          {% endif %}
+
+          <h2 class="post-card-title">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h2>
+
+          <div class="post-card-meta">
+            {{ post.date | date: "%b %d, %Y" }}
+            {% include read_time.html content=post.content %}
+          </div>
+
+          <p class="post-card-excerpt">
+            {{ post.excerpt }}
+          </p>
+
+        </article>
       {% endfor %}
     </div>
 
     <div class="analysis-cta">
       <a href="{{ '/tags/player-development/' | relative_url }}">View all →</a>
-    </div>
-  </section>
-
-  <!-- Scheme & Strategy -->
-  <section class="analysis-section">
-    <h2 class="analysis-title">Scheme & Strategy</h2>
-    <p class="analysis-desc">
-      Tactical breakdowns, lineup construction, spacing theory, and in-game adjustments.
-    </p>
-
-    <div class="post-grid analysis-grid">
-      {% assign scheme_posts = site.posts | where_exp:"post","post.tags contains 'scheme'" | slice: 0, 4 %}
-      {% for post in scheme_posts %}
-        {% include post_card.html post=post %}
-      {% endfor %}
-    </div>
-
-    <div class="analysis-cta">
-      <a href="{{ '/tags/scheme/' | relative_url }}">View all →</a>
-    </div>
-  </section>
-
-  <!-- Team Analysis -->
-  <section class="analysis-section">
-    <h2 class="analysis-title">Team Analysis</h2>
-    <p class="analysis-desc">
-      Comprehensive evaluations of team performance, chemistry, and organizational direction.
-    </p>
-
-    <div class="post-grid analysis-grid">
-      {% assign team_posts = site.posts | where_exp:"post","post.tags contains 'team'" | slice: 0, 4 %}
-      {% for post in team_posts %}
-        {% include post_card.html post=post %}
-      {% endfor %}
-    </div>
-
-    <div class="analysis-cta">
-      <a href="{{ '/tags/team/' | relative_url }}">View all →</a>
     </div>
   </section>
 
