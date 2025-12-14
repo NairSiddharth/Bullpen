@@ -1255,7 +1255,6 @@ $avatar-size-lg: 200px;
 
 .featured-card::before {
   content: "FEATURED";
-  display: block;
   font-family: var(--header-font);
   font-size: 0.7rem;
   letter-spacing: 1px;
