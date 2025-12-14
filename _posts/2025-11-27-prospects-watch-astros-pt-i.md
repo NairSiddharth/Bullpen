@@ -3,6 +3,9 @@ title: "Prospects to Watch in the Astros' System, Pt. I"
 date: 2025-11-27
 categories: 
     - baseball
+tags:
+    - player-development
+    - team
 image: /assets/images/astros_milb_prospects.png
 excerpt: Part I of coverage of Astros minor league system. Prospects to be excited about!
 layout: post
