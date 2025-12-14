@@ -7,16 +7,18 @@ nav: true
 nav_order: 3
 ---
 
+{% assign dev_posts = site.posts | where_exp:"post","post.tags contains 'player-development'" %}
+{% assign featured_dev = dev_posts | where: "featured_player", true | first %}
+
+{% assign scheme_posts = site.posts | where_exp:"post","post.tags contains 'scheme'" %}
+{% assign featured_scheme = scheme_posts | where: "featured_scheme", true | first %}
+
+{% assign team_posts = site.posts | where_exp:"post","post.tags contains 'team'" %}
+{% assign featured_team = team_posts | where: "featured_team", true | first %}
+
 <div class="analysis-index">
 
   <!-- Player Development -->
-  {% assign dev_posts = site.posts | where_exp:"post","post.tags contains 'player-development'" %}
-  {% assign featured_dev = dev_posts | where: "featured", true | first %}
-  {% assign scheme_posts = site.posts | where_exp:"post","post.tags contains 'scheme'" %}
-  {% assign featured_scheme = scheme_posts | where: "featured_scheme", true | first %}
-  {% assign team_posts = site.posts | where_exp:"post","post.tags contains 'team'" %}
-  {% assign featured_team = team_posts | where: "featured_team", true | first %}
-  {% unless post == featured_scheme %}
   <section class="analysis-section">
     <h2 class="analysis-title">Player Development</h2>
     <p class="analysis-desc">
@@ -32,9 +34,7 @@ nav_order: 3
         {% endif %}
 
         <h3 class="post-card-title">
-          <a href="{{ featured_dev.url | relative_url }}">
-            {{ featured_dev.title }}
-          </a>
+          <a href="{{ featured_dev.url | relative_url }}">{{ featured_dev.title }}</a>
         </h3>
 
         <div class="post-card-meta">
@@ -42,9 +42,7 @@ nav_order: 3
           {% include read_time.html content=featured_dev.content %}
         </div>
 
-        <p class="post-card-excerpt">
-          {{ featured_dev.excerpt }}
-        </p>
+        <p class="post-card-excerpt">{{ featured_dev.excerpt }}</p>
       </article>
     {% endif %}
 
@@ -67,9 +65,7 @@ nav_order: 3
               {% include read_time.html content=post.content %}
             </div>
 
-            <p class="post-card-excerpt">
-              {{ post.excerpt }}
-            </p>
+            <p class="post-card-excerpt">{{ post.excerpt }}</p>
           </article>
         {% endunless %}
       {% endfor %}
@@ -81,36 +77,55 @@ nav_order: 3
   </section>
 
   <!-- Scheme & Strategy -->
-  {% assign scheme_posts = site.posts | where_exp:"post","post.tags contains 'scheme'" %}
-
   <section class="analysis-section">
     <h2 class="analysis-title">Scheme & Strategy</h2>
     <p class="analysis-desc">
       Tactical breakdowns, lineup construction, spacing theory, and in-game adjustments.
     </p>
 
+    {% if featured_scheme %}
+      <article class="post-card neon-card featured-card">
+        {% if featured_scheme.image %}
+          <div class="post-card-img-wrapper">
+            <img src="{{ featured_scheme.image | relative_url }}" class="post-card-img" />
+          </div>
+        {% endif %}
+
+        <h3 class="post-card-title">
+          <a href="{{ featured_scheme.url | relative_url }}">{{ featured_scheme.title }}</a>
+        </h3>
+
+        <div class="post-card-meta">
+          {{ featured_scheme.date | date: "%b %d, %Y" }}
+          {% include read_time.html content=featured_scheme.content %}
+        </div>
+
+        <p class="post-card-excerpt">{{ featured_scheme.excerpt }}</p>
+      </article>
+    {% endif %}
+
     <div class="post-grid analysis-grid">
       {% for post in scheme_posts %}
-        <article class="post-card neon-card">
-          {% if post.image %}
-            <div class="post-card-img-wrapper">
-              <img src="{{ post.image | relative_url }}" class="post-card-img" />
+        {% unless post == featured_scheme %}
+          <article class="post-card neon-card">
+            {% if post.image %}
+              <div class="post-card-img-wrapper">
+                <img src="{{ post.image | relative_url }}" class="post-card-img" />
+              </div>
+            {% endif %}
+
+            <h2 class="post-card-title">
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h2>
+
+            <div class="post-card-meta">
+              {{ post.date | date: "%b %d, %Y" }}
+              {% include read_time.html content=post.content %}
             </div>
-          {% endif %}
 
-          <h2 class="post-card-title">
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </h2>
-
-          <div class="post-card-meta">
-            {{ post.date | date: "%b %d, %Y" }}
-            {% include read_time.html content=post.content %}
-          </div>
-
-          <p class="post-card-excerpt">
-            {{ post.excerpt }}
-          </p>
-        </article>
+            <p class="post-card-excerpt">{{ post.excerpt }}</p>
+          </article>
+        {% endunless %}
       {% endfor %}
     </div>
 
@@ -120,36 +135,55 @@ nav_order: 3
   </section>
 
   <!-- Team Analysis -->
-  {% assign team_posts = site.posts | where_exp:"post","post.tags contains 'team'" %}
-
   <section class="analysis-section">
     <h2 class="analysis-title">Team Analysis</h2>
     <p class="analysis-desc">
       Comprehensive evaluations of team performance, chemistry, and organizational direction.
     </p>
 
+    {% if featured_team %}
+      <article class="post-card neon-card featured-card">
+        {% if featured_team.image %}
+          <div class="post-card-img-wrapper">
+            <img src="{{ featured_team.image | relative_url }}" class="post-card-img" />
+          </div>
+        {% endif %}
+
+        <h3 class="post-card-title">
+          <a href="{{ featured_team.url | relative_url }}">{{ featured_team.title }}</a>
+        </h3>
+
+        <div class="post-card-meta">
+          {{ featured_team.date | date: "%b %d, %Y" }}
+          {% include read_time.html content=featured_team.content %}
+        </div>
+
+        <p class="post-card-excerpt">{{ featured_team.excerpt }}</p>
+      </article>
+    {% endif %}
+
     <div class="post-grid analysis-grid">
       {% for post in team_posts %}
-        <article class="post-card neon-card">
-          {% if post.image %}
-            <div class="post-card-img-wrapper">
-              <img src="{{ post.image | relative_url }}" class="post-card-img" />
+        {% unless post == featured_team %}
+          <article class="post-card neon-card">
+            {% if post.image %}
+              <div class="post-card-img-wrapper">
+                <img src="{{ post.image | relative_url }}" class="post-card-img" />
+              </div>
+            {% endif %}
+
+            <h2 class="post-card-title">
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h2>
+
+            <div class="post-card-meta">
+              {{ post.date | date: "%b %d, %Y" }}
+              {% include read_time.html content=post.content %}
             </div>
-          {% endif %}
 
-          <h2 class="post-card-title">
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </h2>
-
-          <div class="post-card-meta">
-            {{ post.date | date: "%b %d, %Y" }}
-            {% include read_time.html content=post.content %}
-          </div>
-
-          <p class="post-card-excerpt">
-            {{ post.excerpt }}
-          </p>
-        </article>
+            <p class="post-card-excerpt">{{ post.excerpt }}</p>
+          </article>
+        {% endunless %}
       {% endfor %}
     </div>
 
