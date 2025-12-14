@@ -9,6 +9,7 @@ image: /assets/images/reed-sheppard.png
 excerpt: Reed Sheppard has looked more comfortable on the court as a sophomore, are the Rockets better off with him starting?
 layout: post
 description: In-depth analysis of Reed Sheppard's sophomore jump as a player, and whether the Rockets' would be better served with him coming off the bench vs. as a starter.
+featured: true
 ---
 
 The Rockets are good, with a [15-6 record that has them 3rd in the Western Conference](https://www.espn.com/nba/standings). But they could be better. Over the past 10 games, their starting lineup has posted a [-6.5 net rating](https://www.nba.com/stats/lineups/advanced?slug=advanced&TeamID=1610612745&LastNGames=10), a sharp drop from its early-season dominance. The main culprit? Josh Okogie, whose three-point shooting has fallen from [40.4% to 30%](https://www.nba.com/stats/player/1629006/traditional?Split=lastn) over that stretch.

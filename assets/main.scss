@@ -1222,3 +1222,38 @@ $avatar-size-lg: 200px;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
+
+.analysis-title{
+  text-align: center;
+}
+
+.analysis-grid {
+  justify-content: center;
+}
+
+.featured-card {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+  padding: 1.5rem;
+}
+
+.featured-card .post-card-img {
+  border-radius: 10px;
+}
+
+.featured-card .post-card-title {
+  font-size: 1.35rem;
+}
+
+.featured-card .post-card-excerpt {
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+@media (max-width: 800px) {
+  .featured-card {
+    grid-template-columns: 1fr;
+  }
+}
