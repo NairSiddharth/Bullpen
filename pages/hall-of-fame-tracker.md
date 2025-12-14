@@ -4,6 +4,7 @@ title: Hall of Fame Tracker
 permalink: /hall-of-fame/
 use_banner: true
 nav: true
+nav_order: 2
 description: Track Houston sports Hall of Fame candidates with up-to-date stats, rankings, and player insights.
 ---
 

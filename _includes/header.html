@@ -27,7 +27,8 @@
       <div class="trigger">
 
         <!-- Static pages with nav: true -->
-        {% for page in site.pages %}
+        {% assign nav_pages = site.pages | where: "nav", true | sort: "nav_order" %}
+        {% for page in nav_pages %}
           {% if page.nav == true %}
             <a 
               class="page-link {% if page.url == page.url %}active-link{% endif %}" 

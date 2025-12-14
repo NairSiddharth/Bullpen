@@ -4,6 +4,7 @@ title: Analysis Index
 permalink: /analysis/
 use_banner: true
 nav: true
+nav_order: 3
 ---
 
 <div class="analysis-index">
@@ -11,7 +12,11 @@ nav: true
   <!-- Player Development -->
   {% assign dev_posts = site.posts | where_exp:"post","post.tags contains 'player-development'" %}
   {% assign featured_dev = dev_posts | where: "featured", true | first %}
-
+  {% assign scheme_posts = site.posts | where_exp:"post","post.tags contains 'scheme'" %}
+  {% assign featured_scheme = scheme_posts | where: "featured_scheme", true | first %}
+  {% assign team_posts = site.posts | where_exp:"post","post.tags contains 'team'" %}
+  {% assign featured_team = team_posts | where: "featured_team", true | first %}
+  {% unless post == featured_scheme %}
   <section class="analysis-section">
     <h2 class="analysis-title">Player Development</h2>
     <p class="analysis-desc">
