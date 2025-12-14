@@ -1232,19 +1232,14 @@ $avatar-size-lg: 200px;
 }
 
 .featured-card {
-  display: grid;
-  grid-template-columns: 1.3fr 1fr;
-  gap: 1.5rem;
   margin-bottom: 2.5rem;
   padding: 1.5rem;
-}
+  border-color: var(--accent-hover);
 
-.featured-card .post-card-img {
-  border-radius: 10px;
 }
 
 .featured-card .post-card-title {
-  font-size: 1.35rem;
+  font-size: 1.25rem;
 }
 
 .featured-card .post-card-excerpt {
@@ -1257,3 +1252,14 @@ $avatar-size-lg: 200px;
     grid-template-columns: 1fr;
   }
 }
+
+.featured-card::before {
+  content: "FEATURED";
+  display: block;
+  font-family: var(--header-font);
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  color: var(--accent-hover);
+  margin-bottom: 0.5rem;
+}
+
