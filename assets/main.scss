@@ -1193,3 +1193,32 @@ $avatar-size-lg: 200px;
     padding: 1.5rem 1rem;
   }
 }
+
+.analysis-section {
+  margin-bottom: 4rem;
+}
+
+.analysis-title {
+  font-family: var(--header-font);
+  color: var(--retro-accent);
+  margin-bottom: 0.25rem;
+}
+
+.analysis-desc {
+  max-width: 640px;
+  margin: 0 auto 1.5rem;
+  text-align: center;
+  opacity: 0.85;
+}
+
+.analysis-cta {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.analysis-cta a {
+  font-family: var(--header-font);
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
