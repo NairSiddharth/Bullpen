@@ -54,5 +54,12 @@
 </script>
 
 <!-- Search (Lunr) -->
+ <script>
+  window.SITE_CONFIG = {
+    baseurl: '{{ site.baseurl }}',
+    searchJsonPath: '{{ "/search.json" | relative_url }}'
+  };
+</script>
 <script src="https://unpkg.com/lunr/lunr.js"></script>
 <script src="{{ '/assets/js/header-search.js' | relative_url }}" defer></script>
+

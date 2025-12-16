@@ -1,4 +1,4 @@
-fetch('/search.json')
+fetch(window.SITE_CONFIG.searchJsonPath)
   .then(res => res.json())
   .then(data => {
     const params = new URLSearchParams(window.location.search);
