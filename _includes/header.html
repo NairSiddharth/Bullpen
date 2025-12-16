@@ -37,15 +37,27 @@
           </a>
         {% endfor %}
 
-        <!-- Header Search -->
-        {% include search-box.html %}
+        <!-- Search (inline dropdown results) -->
+        <div class="header-search">
+          <input
+            type="search"
+            id="header-search-input"
+            placeholder="Search Bullpen…"
+            autocomplete="off"
+            aria-label="Search articles"
+          />
+          <div
+            id="header-search-results"
+            class="header-search-results"
+            aria-live="polite"
+          ></div>
+        </div>
 
         <!-- Categories Dropdown -->
         <div class="nav-dropdown">
           <a class="nav-dropdown-label" href="javascript:void(0)">
             Categories
           </a>
-
           <div class="nav-dropdown-menu">
             {% for cat in site.categories %}
               {% assign cat_name = cat[0] %}
@@ -55,17 +67,7 @@
             {% endfor %}
           </div>
         </div>
-      
-      <div class="header-search">
-        <input
-          type="search"
-          id="header-search-input"
-          placeholder="Search…"
-          autocomplete="off"
-          aria-label="Search"
-        />
-        <div id="header-search-results" class="header-search-results"></div>
-      </div>
+
       </div>
     </nav>
 

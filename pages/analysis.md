@@ -5,6 +5,7 @@ permalink: /analysis/
 use_banner: true
 nav: true
 nav_order: 3
+nav_group: right
 ---
 
 {% assign dev_posts = site.posts | where_exp:"post","post.tags contains 'player-development'" %}

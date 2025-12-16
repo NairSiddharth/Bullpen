@@ -4,7 +4,8 @@ title: About
 permalink: /about/
 use_banner: true
 nav: true
-nav_order: 2
+nav_order: 1
+nav_group: left
 ---
 
 <!-- Retro Hologram Banner -->
