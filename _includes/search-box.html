@@ -1,10 +1,18 @@
 <div class="header-search">
-  <form class="header-search-form" action="{{ '/search/' | relative_url }}" method="get">
+  <form
+    class="header-search-form"
+    action="{{ '/search/' | relative_url }}"
+    method="get"
+    role="search"
+  >
     <input
       type="search"
-      id="search-box"
+      id="header-search-input"
       name="query"
       placeholder="Search analysis, teams, players…"
+      autocomplete="off"
     >
   </form>
+
+  <ul id="header-search-results" class="search-results"></ul>
 </div>
