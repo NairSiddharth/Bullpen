@@ -1262,3 +1262,28 @@ $avatar-size-lg: 200px;
   margin-bottom: 0.5rem;
 }
 
+.header-search {
+  position: relative;
+}
+
+.header-search-results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #111;
+  border: 1px solid #333;
+  z-index: 1000;
+}
+
+.search-result {
+  display: block;
+  padding: 0.5rem;
+  color: #eee;
+  text-decoration: none;
+}
+
+.search-result:hover {
+  background: #222;
+}
+
