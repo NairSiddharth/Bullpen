@@ -10,7 +10,7 @@ image: /assets/images/rockets-lynchpin.png
 excerpt: The Rockets are an up-and-coming contender in the Western Conference. Who's the reason behind it?
 layout: post
 description: Analyzing Şengün, Thompson, and Durant to determine the Houston Rockets’ true lynchpin in offense and defense this season.
-featured_scheme: true
+# featured_scheme: true
 ---
 
 [Gamecube, Nintendo](https://youtu.be/h42Dv8ReWqo?si=3BJWy5CgsVYDuO8W). A celebration born from tough times that's now become the soundtrack to Rockets dominance, with them sitting at 15-6 and fourth in the Western Conference ([1 games back of 2nd, 6.5 games back of 1st](https://www.espn.com/nba/standings)). They're better than the record indicates, with a net rating of 8.8 ([2nd](https://dunksandthrees.com/stats/team)) and point differential of 10.6 ([2nd](https://www.espn.com/nba/stats/team/_/view/differential/table/offensive/sort/avgPoints/dir/desc)).
