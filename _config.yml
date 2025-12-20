@@ -23,10 +23,6 @@ header_pages:
   - about.md
   - pages/hall-of-fame.md
 
-sitemap:
-  # full URL to your site including baseurl
-  url: "https://nairsiddharth.github.io"
-
 jekyll-seo-tag:
   title: Full Count
   tagline: Houston Sports Analysis & Data-Driven Insights
