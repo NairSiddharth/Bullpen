@@ -6,10 +6,11 @@ Disallow: /cgi-bin/
 Disallow: /_config.yml
 Disallow: /Gemfile
 Disallow: /Gemfile.lock
+Disallow: /Bullpen/*
 
 # Optional: Disallow access to drafts or private directories (if any)
 Disallow: /drafts/
 Disallow: /private/
 
 # Link to the sitemap for better SEO
-Sitemap: /Bullpen/sitemap.xml
+Sitemap: https://nairsiddharth.github.io/Bullpen/sitemap.xml
