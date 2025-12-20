@@ -1,16 +1,9 @@
 User-agent: *
 Allow: /
 
-# Disallow crawling of GitHub Pages system files
-Disallow: /cgi-bin/
-Disallow: /_config.yml
-Disallow: /Gemfile
-Disallow: /Gemfile.lock
-Disallow: /Bullpen/*
-
-# Optional: Disallow access to drafts or private directories (if any)
+# Optional hygiene (mostly symbolic on GitHub Pages)
 Disallow: /drafts/
 Disallow: /private/
 
-# Link to the sitemap for better SEO
+# Sitemap location
 Sitemap: https://nairsiddharth.github.io/Bullpen/sitemap.xml
