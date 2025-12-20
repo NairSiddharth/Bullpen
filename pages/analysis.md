@@ -21,7 +21,10 @@ nav_group: right
 
   <!-- Player Development -->
   <section class="analysis-section">
+  <!-- Retro Hologram Banner -->
+  <div class="holo-banner about-banner">
     <h1 class="holo-title">Analysis Index</h1>
+  </div>
     <h2 class="analysis-title">Player Development</h2>
     <p class="analysis-desc">
       How individual players evolve — skill growth, role changes, and long-term projection.
