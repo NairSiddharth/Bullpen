@@ -9,7 +9,7 @@ tags:
 excerpt: The Rockets are looking up at a self-imposed ceiling. How can they break it and truly challenge OKC and beat the other top contenders in the Western Conference?
 layout: post
 description: In-depth analysis of the Rockets competitors in the Western Conference, and what it'll take to beat them. 
-image: /assets/images/rockets-ceiling.png
+image: /assets/images/rockets-struggling.png
 featured_scheme: true
 ---
 
