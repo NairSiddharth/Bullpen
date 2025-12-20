@@ -39,10 +39,12 @@ The Nuggets are a knife fight. Every possession matters, every matchup is crucia
 
 The Spurs are led by the scariest defender in the NBA, Victor Wembanyama. Wemby averages 25.1/12.3/3.9 with 3.5 blocks per game. His presence on the court changes the shot profile of opposing offenses, with teams shooting [38.2% of their shots from less than six feet](https://www.nba.com/stats/player/1641705/defense-dash), and only making 47.4% of them ([12.2% below average](https://www.nba.com/stats/player/1641705/defense-dash)). Those are some of the most valuable shots to take, erased by Wemby simply existing.
 
+<div class="wide">
 <figure>
 <iframe width="315" height="560" src="https://youtube.com/shorts/jUxAoTaDcUI?si=-QlCmwxT_s-UKdfk" title="Wembanyama defensive highlights" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <figcaption>Wembanyama's defensive impact</figcaption>
 </figure>
+</div>
 
 They aren't just a one-man show either. Their team has young, shifty guards in Stephon Castle, Dylan Harper and De'Aaron Fox and veterans like Luke Kornet/Harrison Barnes to anchor the team. It results in a team that does the fundamentals well, ranking in the top five in TS% (60%) and seventh in offensive rating (118.1). Defensively, the Spurs rank among the best in limiting shots close to the basket (fourth under five feet, allowing 61.8% FG%; sixth between five-nine feet, allowing 40.5% FG%) and in long 2s (fourth between 20-24 feet, allowing 35.3% FG%). Where they struggle is allowing 48.6% from midrange (second-worst) and 38.1% from three (third-worst).
 
@@ -58,10 +60,12 @@ Their defensive scheme has no exploitable weaknesses. They're elite at the rim (
 
 How do they do it? Aggression. OKC leads the league in deflections, contested three-point rate, and charges drawn per game. They foul more than anyone, betting that refs won't call everything, especially in the playoffs where physicality increases. For Houston's offense, which already struggles with shot selection, 48 minutes of getting grabbed, bumped, and disrupted turns a manageable problem into a fatal one.
 
+<div class="wide">
 <figure>
 <iframe src="https://streamable.com/e/ngexgj" width="560" height="315" frameborder="0" allowfullscreen></iframe>
 <figcaption>OKC's defensive intensity on display</figcaption>
 </figure>
+</div>
 
 So if the Thunder are this good and get to play this physically, are they unbeatable? The regular season says no. The Rockets took them to double overtime in a 125-124 thriller that came down to the final possession. Houston has shown they can hang with OKC's defense and trade punches for 50+ minutes. The question is whether they can do it four times in seven games, and whether their depth holds up. Players like Tari Eason, Aaron Holiday, and Reed Sheppard will need to step up when the starters struggle. If the bench can't consistently hit threes and space the floor for Sengun and Amen, OKC's defense will pack the paint and dare Houston to beat them from outside. That's exactly where the Rockets break down. They cannot beat OKC four times in a series without fixing their shot selection. Nothing in their approach suggests that fix is coming.
 
