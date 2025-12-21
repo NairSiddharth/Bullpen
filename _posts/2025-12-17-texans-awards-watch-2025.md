@@ -43,10 +43,12 @@ Lassiter forms the other half of Houston's lockdown cornerback duo with Stingley
 
 Pitre is a throwback. Your favorite safety's favorite safety. He's laying down hits that wouldn't look out of place on the old ESPN "Jacked Up" show.
 
+<div class="wide">
 <figure>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gq8mRpitOB8?si=efGxwvm7veRxSM6I" title="Jalen Pitre big hits compilation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <figcaption>Pitre bringing the boom</figcaption>
 </figure>
+</div>
 
 That physicality is a huge part of what makes Houston's defense dominant. Pitre isn't just an enforcer, though. He allows just a [49.4 rating when targeted, has 64.4% completion percentage rate, and 4 interceptions (tied for fifth league-wide)](https://www.pro-football-reference.com/players/P/PitrJa00.htm). That's elite. PFF agrees, rating him [89.5 or 1st/98 safeties](https://www.pff.com/nfl/players/jalen-pitre/57737). The only reason he isn't in the All-Pro tier is he's only played 11 games this season, and on track for 14 total. Great player, just not enough games. **Prediction: Pro Bowl**
 
