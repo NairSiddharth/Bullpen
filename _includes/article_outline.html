@@ -1,0 +1,16 @@
+<div class="article-outline related-posts">
+  <button class="collapsible">Article Outline</button>
+  <div class="related-content">
+    {% assign outline_content = content | split: '<!-- OUTLINE -->' | last | split: '<!-- /OUTLINE -->' | first %}
+    {% if outline_content %}
+      <ul class="outline-list">
+        {% for line in outline_content | split: '\n' %}
+          {% assign line = line | strip %}
+          {% if line != '' %}
+            <li>{{ line }}</li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+</div>

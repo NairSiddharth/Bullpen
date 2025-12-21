@@ -1386,3 +1386,64 @@ $avatar-size-lg: 200px;
   transform-origin: left;
   transition: transform 0.1s linear;
 }
+
+/* ------------------ Article Outline / Table of Contents ------------------ */
+
+.article-outline {
+  background: rgba(14, 15, 25, 0.85);
+  border: 2px solid var(--retro-accent-light);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  margin: 2rem 0;
+  font-family: var(--body-font);
+  color: var(--retro-cream);
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  .collapsible {
+    background: var(--retro-bg);
+    color: var(--retro-accent);
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    border: 2px solid var(--retro-accent);
+    border-radius: 8px;
+    font-family: var(--header-font);
+    transition: all 0.25s ease;
+    margin-bottom: 0.5rem;
+    
+    &:hover {
+      background: rgba(255, 114, 71, 0.1);
+    }
+  }
+
+  .outline-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s ease;
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0.5rem 0;
+    }
+
+    li {
+      padding: 0.25rem 0;
+      a {
+        color: var(--retro-cream);
+        text-decoration: none;
+        transition: color 0.25s ease;
+        &:hover {
+          color: var(--accent-hover);
+        }
+      }
+    }
+  }
+}
+
+/* Optional: add open state if using JS toggle */
+.article-outline.open .outline-content {
+  max-height: 1000px; // arbitrary large number for expansion
+}

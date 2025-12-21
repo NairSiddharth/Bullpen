@@ -15,7 +15,7 @@ featured_scheme: true
 
 Life comes at you fast. The Rockets last week were sitting 2nd in the Western Conference, 5.5 games behind the OKC Thunder and viewed as one of the few legitimate threats to their dominance. After going 2-2 over their past four games, they've dropped to [5th](https://www.espn.com/nba/standings), falling behind the Spurs, Nuggets, and Lakers. Questions are mounting about whether this roster, utilizing 37-year-old Kevin Durant as an offensive catalyst for a young core, is enough to compete for a championship. These losses, combined with earlier defeats against the West's elite, have exposed something. Can Houston fix it?
 
-### Crank the Volume, Break the Ceiling?
+### Crank the Volume, Break the Ceiling? {#offensive-ceiling}
 
 Let's take a step back and discuss what, exactly, the Rockets offensive system is. Under Ime Udoka, the Rockets have jumped to the top of the leaderboards in offensive rebounding by a country mile. In 2024-2025, the Rockets had [14.6 offensive rebounds](https://www.nba.com/stats/teams/traditional?Season=2024-25&dir=A&sort=OREB), 1.7 higher than the next on the list. In 2025-2026, the Rockets have increased their share of offensive rebounds to [16.5](https://www.nba.com/stats/teams/traditional?dir=A&sort=OREB) a game. Doing this while simultaneously slowing down the game year-over-year ([99.03 pace in the 2024-2025 season](https://www.nba.com/stats/teams/advanced?Season=2024-25&dir=A&sort=PACE), 18th in the NBA, to [97.81 pace in 2025-2026](https://www.nba.com/stats/teams/advanced?dir=A&sort=PACE), a mere 28th) shows what the name of the game is. Control. Adding in KD and getting Reed Sheppard out of his rookie funk, injecting efficiency into that mix, jumping their TS% from 55.3% in 2024-2025 ([24th](https://www.nba.com/stats/teams/advanced?Season=2024-25&dir=A&sort=TS_PCT)) to 59.1% in 2025-2026 ([9th](https://www.nba.com/stats/teams/advanced?Season=2025-26)). So, the Rockets system is unique, and better than ever. What's the problem?
 
@@ -27,7 +27,7 @@ The Rockets are playing bizarro basketball at a time when they should be maximiz
 
 I get why the Rockets might lean 2-point heavy. Their main lineup, Alperen Sengun -- Kevin Durant -- Jabari Smith Jr. -- Amen Thompson -- Reed Sheppard, has shooters, but the main ball handlers all lean to post shots (Sengun), slashing to the basket (Amen), or midrange shots (KD). The personnel explains the tendency. That doesn't excuse being dead last in threes. Udoka needs to modernize the scheme, either by pushing the pace to get more shots up or by shifting Houston's shot profile from inefficient to efficient. They're already playing the West's elite to one-possession games. Fixing this would unlock a new gear. As it stands, it's a self-imposed ceiling on the Rockets' potential.
 
-### 7 Game Slugfests
+### 7 Game Slugfests {#playoff-matchups}
 
 The self-imposed ceiling shows up when it matters most, and it's already shown up in losses to contenders. Those weren't just regular season games. They were playoff previews. The Rockets, Nuggets, and Spurs are all playoff locks, and with the Thunder holding the one seed, the bracket is brutal. Houston has to get through Denver or San Antonio to reach OKC. No cakewalks here. The question is whether the Rockets can win four times in seven games when opponents have a full series to gameplan around their flaws.
 
@@ -52,7 +52,7 @@ It's something of a catch-22. While the Spurs at first glance don't match up wel
 
 Ultimately. Those are wars the Rockets can win. It'd leave them battered and bruised, but wouldn't expose their ceiling. OKC is a different story.
 
-### OKC Conundrum
+### OKC Conundrum {#okc-analysis}
 
 OKC is what Houston wants to become. They reached contention a year earlier, as the current championship defenders, and they've built the blueprint for modern NBA dominance. On the court, surround scorers like MVP frontrunner SGA and Jalen Williams with lanky, switchable defenders like Chet Holmgren, Lu Dort, Alex Caruso, and Cason Wallace. Every position can guard multiple spots, every lineup can switch 1-through-5, and opponents never get a favorable matchup. It's given the Thunder the flexibility to do what the Rockets want to do, only better. Defensively, OKC posts a microscopic [103.2 defensive rating, 7.9 points better](https://www.nba.com/stats/teams/advanced?dir=A&sort=DEF_RATING) than the second-ranked defense and nearly 10 points better than Houston's 112.2. That, combined with their [119.0 offensive rating](https://www.nba.com/stats/teams/advanced?dir=A&sort=OFF_RATING), gives them a [+15.8 net rating](https://www.nba.com/stats/teams/advanced?dir=A&sort=NET_RATING) that leads the league by miles. The Thunder are 25-2 for a reason.
 
@@ -69,7 +69,7 @@ How do they do it? Aggression. OKC leads the league in [deflections](https://www
 
 So if the Thunder are this good and get to play this physically, are they unbeatable? The regular season says no. The Rockets took them to double overtime in a [125-124](https://www.espn.com/nba/boxscore/_/gameId/401809243) thriller that came down to the final possession. Houston has shown they can hang with OKC's defense and trade punches for 50+ minutes. The question is whether they can do it four times in seven games, and whether their depth holds up. Players like Tari Eason, Aaron Holiday, and Reed Sheppard will need to step up when the starters struggle. If the bench can't consistently hit threes and space the floor for Sengun and Amen, OKC's defense will pack the paint and dare Houston to beat them from outside. That's exactly where the Rockets break down. They cannot beat OKC four times in a series without fixing their shot selection. Nothing in their approach suggests that fix is coming.
 
-### What's the Rockets' Move?
+### What's the Rockets' Move? {#conclusion}
 
 The easy answer is to overhaul the offense, jack up threes, and play faster. But that's armchair coaching. Realistically, they're in an interesting spot, stuck in a tier of contention where the path to improvement seems clear, but the personnel that they have doesn't work with the coach's desired scheme (Udoka wants to play more methodically, defense heavy, not a 3 heavy scheme). Starters like Amen or Sengun aren't good three-point shooters, and minimizing KD to being only that is a waste of his skillset. He could hope that the elite defense carries them, but last year's playoffs showed that there's a ceiling to that as well.
 
