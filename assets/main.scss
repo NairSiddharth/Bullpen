@@ -1325,3 +1325,25 @@ $avatar-size-lg: 200px;
   color: var(--accent-hover);
 }
 
+/* ------------------ Reading Progress ------------------ */
+
+.reading-progress {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  height: 3px;
+  background: rgba(255, 114, 71, 0.15);
+}
+
+.reading-progress-bar {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    var(--retro-accent),
+    var(--accent-hover)
+  );
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.1s linear;
+}
