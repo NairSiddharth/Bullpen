@@ -1,16 +1,29 @@
-<div class="article-outline related-posts">
-  <button class="collapsible">Article Outline</button>
-  <div class="related-content">
-    {% assign outline_content = content | split: '<!-- OUTLINE -->' | last | split: '<!-- /OUTLINE -->' | first %}
-    {% if outline_content %}
-      <ul class="outline-list">
-        {% for line in outline_content | split: '\n' %}
-          {% assign line = line | strip %}
-          {% if line != '' %}
-            <li>{{ line }}</li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    {% endif %}
+{% comment %}
+Article Outline
+- Collapsible, styled like related-posts / series blocks
+- Automatically lists headings from <!-- OUTLINE --> block
+{% endcomment %}
+
+{% assign outline_content = content | split: '<!-- OUTLINE -->' | last | split: '<!-- /OUTLINE -->' | first %}
+
+{% if outline_content contains "###" %}
+<div class="article-outline">
+  <button class="collapsible outline-toggle">
+    Article Outline
+  </button>
+
+  <div class="outline-content">
+    <ul class="outline-list">
+      {% for line in outline_content | split: "\n" %}
+        {% if line contains "### " %}
+          {% assign heading_text = line | remove: '### ' | strip %}
+          {% assign heading_id = heading_text | downcase | replace: ' ', '-' | replace: '?', '' | replace: "'", '' %}
+          <li>
+            <a href="#{{ heading_id }}">{{ heading_text }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
   </div>
 </div>
+{% endif %}
