@@ -32,11 +32,11 @@ nav_group: left
   </p>
 </div>
 
-<!-- Neon Team Card Grid -->
+<!-- Neon Team Card Grid
 <div class="team-card-grid">
 
   <!-- Astros Card -->
-  <div class="team-card neon-card">
+  <!-- <div class="team-card neon-card">
     <div class="team-icon">
         <img src="{{ '/assets/icons/baseball.svg' | relative_url }}" alt="Baseball Icon">
     </div>
@@ -45,21 +45,21 @@ nav_group: left
   </div>
 
   <!-- Rockets Card -->
-  <div class="team-card neon-card">
+  <!-- <div class="team-card neon-card">
     <div class="team-icon">
         <img src="{{ '/assets/icons/basketball.svg' | relative_url }}" alt="Basketball Icon">
     </div>
     <h2 class="team-name">Houston Rockets</h2>
     <p>Shot selection analytics, lineup efficiency modeling, and game-by-game data visualization.</p>
-  </div>
+  </div> -->
 
   <!-- Texans Card -->
-  <div class="team-card neon-card">
+  <!-- <div class="team-card neon-card">
     <div class="team-icon">
         <img src="{{ '/assets/icons/football.svg' | relative_url }}" alt="Football Icon">
     </div>
     <h2 class="team-name">Houston Texans</h2>
     <p>Drive efficiency charts, QB breakdowns, EPA modeling, and defensive coverage exploration.</p>
-  </div>
+  </div> -->
 
-</div>
+<!-- </div> --> 
