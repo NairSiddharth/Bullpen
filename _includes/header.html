@@ -52,6 +52,20 @@
           </div>
         </div>
 
+        <!-- Sitewide Search -->
+        <div class="header-search">
+          <form action="{{ '/search/' | relative_url }}" method="get" class="header-search-form">
+            <input
+              type="search"
+              id="header-search-input"
+              name="query"
+              placeholder="Search site..."
+              autocomplete="off"
+              aria-label="Search all articles"
+            />
+          </form>
+        </div>
+
       </div>
     </nav>
 
