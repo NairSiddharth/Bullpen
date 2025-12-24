@@ -1549,3 +1549,18 @@ $avatar-size-lg: 200px;
     overflow-x: hidden;
   }
 }
+
+/* Remove default margins that create gaps */
+.holo-banner {
+  margin-bottom: 0;
+}
+
+.analysis-section:first-of-type {
+  margin-top: 0;
+  padding-top: 2rem; /* Adjust this value to control spacing */
+}
+
+/* Also ensure no extra space above the banner */
+.page-content {
+  padding-top: 0;
+}
