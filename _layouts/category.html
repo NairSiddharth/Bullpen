@@ -27,8 +27,9 @@ nav_group: right
       </h2>
 
       <div class="post-card-meta">
-        {{ post.date | date: "%b %d, %Y" }}
-        {% include read_time.html content=post.content %}
+        <span>{{ post.date | date: "%b %d, %Y" }}</span>
+        <span class="separator">|</span>
+        <span>{% include read_time.html content=post.content %}</span>
       </div>
 
       <p class="post-card-excerpt">
