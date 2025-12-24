@@ -13,7 +13,7 @@ description: Jeremy Peña's breakout 2025 season - elite hitting, Gold Glove def
 
 Jeremy Peña was the story of 2025 for the Astros, carrying them to the divisional lead with his career year, appearing set for MVP votes at year end when his year was interrupted with injuries. With him went the Astros' playoff hopes, as his eventual return was too little too late. Is this improvement here to stay?
 
-## Improved Batting Approach
+### Improved Batting Approach
 
 A career year, yes. But Peña's been putting the changes in motion for a while now. The most significant change to his batting approach has been his change in stance from 2023 onwards, from [-2.6 inches behind the front of the plate, to -.5 inches, to 1.6 inches this past season](https://baseballsavant.mlb.com/savant-player/jeremy-pena-665161?stats=statcast-r-bat_tracking-mlb#statcast_batting_stance). He's combined this with taking a more open stance to great effect, as we can see in this comparison between his 2024 and 2025 batting stances.
 
@@ -74,7 +74,7 @@ The career-long platoon gap? Check the progression. 132 to 82 in 2023. 129 to 89
 
 His K% (17.4%) staying consistent year over year while almost doubling his BB% ([3.8 -> 6.4%](https://www.fangraphs.com/players/jeremy-pena/21636/stats?position=SS#dashboard)) is icing on the cake.
 
-## Gold Glove Calibre Defence
+### Gold Glove Calibre Defence
 
 Before the offensive breakout, Peña's calling card was his silky-smooth defence at shortstop. With such a glove at the most valuable position, the Astros knew key outs were locked in.
 
@@ -93,7 +93,7 @@ Could've been better, too. Peña's DP and assist numbers were down from career a
 
 That's almost one fWAR added to his total. It's clear 2024 was an aberration. This is who Peña is.
 
-## Flash in the Pan or New Norm?
+### Flash in the Pan or New Norm?
 
 ![Peña's arrival]({{ site.baseurl }}/assets/images/pena-arrival.png)
 
