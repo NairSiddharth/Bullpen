@@ -9,6 +9,7 @@ fetch(window.SITE_CONFIG.searchJsonPath)
       this.ref('id');
       this.field('title', { boost: 10 });
       this.field('content');
+      this.field('categories');
 
       data.forEach((doc, i) => {
         doc.id = i;
@@ -21,39 +22,47 @@ fetch(window.SITE_CONFIG.searchJsonPath)
 const input = document.getElementById('header-search-input');
 const results = document.getElementById('header-search-results');
 
-input.addEventListener('input', () => {
-  const query = input.value.trim();
+if (input && results) {
+  input.addEventListener('input', () => {
+    const query = input.value.trim();
 
-  if (!query || !index) {
-    results.style.display = 'none';
-    return;
-  }
+    if (!query || !index) {
+      results.classList.remove('show');
+      return;
+    }
 
-  const matches = index.search(query).slice(0, 5);
+    const matches = index.search(query).slice(0, 6);
 
-  if (!matches.length) {
-    results.innerHTML = '<li>No results</li>';
-    results.style.display = 'block';
-    return;
-  }
+    if (!matches.length) {
+      results.innerHTML = '<div class="search-no-results">No results found</div>';
+      results.classList.add('show');
+      return;
+    }
 
-  results.innerHTML = matches.map(match => {
-    const item = store[match.ref];
-    return `
-      <li>
-        <a href="${item.url}">
+    results.innerHTML = matches.map(match => {
+      const item = store[match.ref];
+      return `
+        <a href="${item.url}" class="search-result">
           <strong>${item.title}</strong>
         </a>
-      </li>
-    `;
-  }).join('');
+      `;
+    }).join('');
 
-  results.style.display = 'block';
-});
+    results.classList.add('show');
+  });
 
-// Close on click outside
-document.addEventListener('click', e => {
-  if (!e.target.closest('.header-search')) {
-    results.style.display = 'none';
-  }
-});
+  // Close on click outside
+  document.addEventListener('click', e => {
+    if (!e.target.closest('.header-search')) {
+      results.classList.remove('show');
+    }
+  });
+
+  // Close on escape key
+  input.addEventListener('keydown', e => {
+    if (e.key === 'Escape') {
+      results.classList.remove('show');
+      input.blur();
+    }
+  });
+}

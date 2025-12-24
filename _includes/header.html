@@ -54,16 +54,18 @@
 
         <!-- Sitewide Search -->
         <div class="header-search">
-          <form action="{{ '/search/' | relative_url }}" method="get" class="header-search-form">
-            <input
-              type="search"
-              id="header-search-input"
-              name="query"
-              placeholder="Search site..."
-              autocomplete="off"
-              aria-label="Search all articles"
-            />
-          </form>
+          <input
+            type="search"
+            id="header-search-input"
+            placeholder="Search site..."
+            autocomplete="off"
+            aria-label="Search all articles"
+          />
+          <div
+            id="header-search-results"
+            class="header-search-results"
+            aria-live="polite"
+          ></div>
         </div>
 
       </div>
