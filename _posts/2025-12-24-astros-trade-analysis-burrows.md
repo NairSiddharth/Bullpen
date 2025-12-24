@@ -21,7 +21,21 @@ Mike Burrows is a 26-year-old righty pitcher, former 40+ FV prospect for the Pir
 
 Jacob Melton, Houston's top prospect entering 2026, was the main piece the Astros surrendered. He profiles as a [45+ FV OF](https://www.fangraphs.com/players/jacob-melton/31661/stats/batting) prospect with great power at every level of the minor leagues, slugging over .450 at every level ([.556 in Triple-A](https://www.fangraphs.com/players/jacob-melton/31661/stats/batting#advanced)). He stole [40 bases in just 86 High-A games and 23 more in 82 Triple-A](https://www.fangraphs.com/players/jacob-melton/31661/stats/batting#dashboard) contests, with the defensive instincts to stick in center field. The tools are there. The contact isn't. Melton struck out over 20% of the time at every minor league stop, then ballooned to 37.2% in the majors ([league average is 22.2%](https://www.fangraphs.com/leaders/major-league?pos=all&stats=bat&lg=all&qual=0&type=8&month=0&ind=0&team=0%2Css&rost=0&players=0&sort=0%2Cd&startdate=&enddate=&season1=1901&season=2025)). He's either going to fix the strikeouts and become an everyday player, or he'll be a fourth outfielder with tantalizing tools.
 
+<div class="wide">
+<figure>
+<iframe src="https://streamable.com/m/jacob-melton-s-go-ahead-homer?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen title="Jacob Melton shows off his power, getting the opposite field homerun"></iframe>
+<figcaption>2025: Melton shows off the power, going oppo for a home run</figcaption>
+</figure>
+</div>
+
 Then there's Anderson Brito, [Houston's No. 3 prospect](https://www.threads.com/@baseballamerica/post/DSdLtphkToR/the-rays-are-set-to-acquire-astros-prospects-jacob-melton-no-and-anderson-brito). Brito has worked as a starter in the minors, posting elite strikeout numbers ([11.5+ K/9](https://www.fangraphs.com/players/anderson-brito/sa3024232/stats/pitching#dashboard)) with a fastball touching 99. However, his below-average command (4.94 BB/9 at Single-A, 5.11 BB/9 at High-A) and undersized frame ([5'11, 155 lbs](https://www.mlb.com/milb/prospects/rays/anderson-brito-820901)) suggest he's more likely to stick around as a high-leverage reliever. In one-inning bursts, the stuff works before the walks pile up. He's further from the majors than Melton, but has dominated at every level, posting [ERA- and FIP- marks well below league average](https://www.fangraphs.com/players/anderson-brito/sa3024232/stats/pitching#advanced) (100) and could end up having the higher ceiling of the two prospects.
+
+<div class="wide">
+<figure>
+<iframe src="https://streamable.com/m/anderson-brito-s-fifth-strikeout?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen title="Anderson Brito shows off his fastball, getting his 5th K"></iframe>
+<figcaption>2025: Anderson Brito shows off his fastball, getting his 5th K</figcaption>
+</figure>
+</div>
 
 ### All-In Gamble
 
@@ -32,6 +46,13 @@ The Astros aren't just betting on Burrows' current performance level. They're be
 Burrows' 2025 season tells two distinct stories. Through July, relying heavily on his four-seam fastball (averaging 47% usage), he posted ugly underlying numbers with FIPs consistently above 5.00 and multiple blow-up outings. His July 12th disaster against Minnesota epitomized the problem. He allowed six earned runs in 1.1 innings while throwing his fastball 50% of the time.
 
 Then Pittsburgh made an adjustment. Starting in [late August and accelerating through September](https://www.fangraphs.com/players/mike-burrows/24728/game-log?position=P&gds=&gde=&season=2025&type=10), Burrows incorporated a sinker (peaking at 34% usage) while reducing his four-seam reliance. The results were immediate and sustained. His [xFIP dropped from 4.58+ early in the season to sub-2.50 in his final starts](https://www.fangraphs.com/players/mike-burrows/24728/game-log?position=P&season=2025&gds=&gde=&type=0). This wasn't luck. Burrows genuinely got better.
+
+<div class="wide">
+<figure>
+<iframe src="https://streamable.com/m/carlos-narvaez-called-out-on-strikes-vdrjjs?partnerId=web_video-playback-page_video-share" width="560" height="315" frameborder="0" allowfullscreen title="Mike Burrow K's Narvaez with his sinker"></iframe>
+<figcaption>2025: Mike Burrow K's Narvaez with his sinker</figcaption>
+</figure>
+</div>
 
 It's a big ask, practically doubling a pitcher's inning count and completely changing his pitch arsenal year-over-year. Houston is betting they can complete what Pittsburgh started. By fully committing to a sinker/changeup/slider mix and abandoning the four-seam fastball that got hammered for a [.525 SLG](https://www.fangraphs.com/players/mike-burrows/24728/pitch-type-splits?position=P#advanced), the Astros believe Burrows can sustain his September form across a full season. If the sinker gets figured out or injury concerns pop up, the Astros may have paid too much.
 
