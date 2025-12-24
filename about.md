@@ -9,7 +9,7 @@ nav_group: left
 ---
 
 <!-- Retro Hologram Banner -->
-<div class="holo-banner about-banner">
+<div class="holo-banner">
   <h1 class="holo-title">About Full Count</h1>
 </div>
 

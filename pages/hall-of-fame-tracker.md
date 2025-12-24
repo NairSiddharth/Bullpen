@@ -10,7 +10,7 @@ description: Track Houston sports Hall of Fame candidates with up-to-date stats,
 ---
 
 <!-- Retro Hologram Banner -->
-<div class="holo-banner about-banner">
+<div class="holo-banner">
   <h1 class="holo-title">Houston Sports Hall of Fame Tracker</h1>
 </div>
 

@@ -20,6 +20,7 @@ nav_group: right
     <h1 class="holo-title">Analysis Index</h1>
   </div>
   <!-- Player Development -->
+  <section class="analysis-section">
   <!-- Retro Hologram Banner -->
     <h2 class="analysis-title">Player Development</h2>
     <p class="analysis-desc">
@@ -75,8 +76,10 @@ nav_group: right
     <div class="analysis-cta">
       <a href="{{ '/tags/player-development/' | relative_url }}">View all →</a>
     </div>
+  </section>
 
   <!-- Scheme & Strategy -->
+  <section class="analysis-section">
     <h2 class="analysis-title">Scheme & Strategy</h2>
     <p class="analysis-desc">
       Tactical breakdowns, lineup construction, spacing theory, and in-game adjustments.
@@ -131,8 +134,10 @@ nav_group: right
     <div class="analysis-cta">
       <a href="{{ '/tags/scheme/' | relative_url }}">View all →</a>
     </div>
+  </section>
 
   <!-- Team Analysis -->
+  <section class="analysis-section">
     <h2 class="analysis-title">Team Analysis</h2>
     <p class="analysis-desc">
       Comprehensive evaluations of team performance, chemistry, and organizational direction.
@@ -187,3 +192,5 @@ nav_group: right
     <div class="analysis-cta">
       <a href="{{ '/tags/team/' | relative_url }}">View all →</a>
     </div>
+  </section>
+
