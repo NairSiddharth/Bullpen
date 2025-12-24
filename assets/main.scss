@@ -1301,54 +1301,60 @@ $avatar-size-lg: 200px;
   margin-bottom: 0.5rem;
 }
 
-/* ------------------ Header Search ------------------ */
+/* ------------------ Category Search ------------------ */
 
-.header-search {
+.category-search {
+  max-width: 520px;
+  margin: 2rem auto 2.5rem;
+  padding: 0 1rem;
   position: relative;
-  min-width: 220px;
 }
 
-#header-search-input {
-  width: 220px;
-  padding: 0.45rem 0.65rem;
+#category-search-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
   background: rgba(14, 15, 25, 0.9);
   border: 2px solid var(--retro-accent-light);
-  border-radius: 8px;
+  border-radius: 10px;
   color: var(--retro-cream);
   font-family: var(--body-font);
-  font-size: 0.85rem;
+  font-size: 0.95rem;
+  text-align: center;
   transition: border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
-#header-search-input::placeholder {
+#category-search-input::placeholder {
   color: rgba(255, 244, 225, 0.5);
 }
 
-#header-search-input:focus {
+#category-search-input:focus {
   outline: none;
   border-color: var(--accent-hover);
-  box-shadow: 0 0 0 2px rgba(58, 255, 255, 0.25);
+  box-shadow: 0 0 0 3px rgba(58, 255, 255, 0.15);
+  text-align: left;
 }
 
-/* ------------------ Search Results Dropdown ------------------ */
+/* ------------------ Category Search Results Dropdown ------------------ */
 
-.header-search-results {
+.category-search-results {
   position: absolute;
-  top: calc(100% + 6px);
-  left: 0;
-  right: 0;
-  background: rgba(14, 15, 25, 0.96);
+  top: calc(100% + 8px);
+  left: 1rem;
+  right: 1rem;
+  background: rgba(14, 15, 25, 0.98);
   border: 2px solid var(--retro-accent-light);
   border-radius: 12px;
   overflow: hidden;
   z-index: 1000;
-  box-shadow: 0 10px 24px rgba(0,0,0,0.5);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.6);
+  max-height: 400px;
+  overflow-y: auto;
 }
 
 .search-result {
   display: block;
-  padding: 0.6rem 0.75rem;
-  font-size: 0.85rem;
+  padding: 0.75rem 1rem;
+  font-size: 0.9rem;
   color: var(--retro-cream);
   text-decoration: none;
   border-bottom: 1px solid rgba(255,114,71,0.15);
@@ -1362,6 +1368,17 @@ $avatar-size-lg: 200px;
 .search-result:hover {
   background: rgba(255,114,71,0.15);
   color: var(--accent-hover);
+}
+
+@media (max-width: 600px) {
+  .category-search {
+    margin: 1.5rem auto 2rem;
+  }
+  
+  #category-search-input {
+    font-size: 0.9rem;
+    padding: 0.65rem 0.85rem;
+  }
 }
 
 /* ------------------ Reading Progress ------------------ */

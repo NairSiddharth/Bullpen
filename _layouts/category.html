@@ -5,8 +5,24 @@ nav_group: right
 ---
 
 <!-- Category Banner -->
-<div class="holo-banner">
+<div class="holo-banner" data-category="{{ page.categories | downcase }}">
   <h1 class="holo-title">{{ page.title }}</h1>
+</div>
+
+<!-- Category Search -->
+<div class="category-search">
+  <input
+    type="search"
+    id="category-search-input"
+    placeholder="Search {{ page.title }}…"
+    autocomplete="off"
+    aria-label="Search {{ page.title }} articles"
+  />
+  <div
+    id="category-search-results"
+    class="category-search-results"
+    aria-live="polite"
+  ></div>
 </div>
 
 <div class="post-grid">
@@ -40,3 +56,6 @@ nav_group: right
     {% endif %}
   {% endfor %}
 </div>
+
+<!-- Load category search script -->
+<script src="{{ '/assets/js/category-search.js' | relative_url }}"></script>
