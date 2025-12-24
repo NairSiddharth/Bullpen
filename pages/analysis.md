@@ -17,14 +17,12 @@ nav_group: right
 {% assign team_posts = site.posts | where_exp:"post","post.tags contains 'team'" %}
 {% assign featured_team = team_posts | where: "featured_team", true | first %}
 
-<div class="analysis-index">
-
-  <!-- Player Development -->
-  <section class="analysis-section">
-  <!-- Retro Hologram Banner -->
   <div class="holo-banner about-banner">
     <h1 class="holo-title">Analysis Index</h1>
   </div>
+  <!-- Player Development -->
+  <section class="analysis-section">
+  <!-- Retro Hologram Banner -->
     <h2 class="analysis-title">Player Development</h2>
     <p class="analysis-desc">
       How individual players evolve — skill growth, role changes, and long-term projection.
@@ -197,4 +195,3 @@ nav_group: right
     </div>
   </section>
 
-</div>
