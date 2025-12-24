@@ -4,33 +4,104 @@ layout: default
 
 <!-- Hologram Page Banner -->
 <div class="holo-banner">
-  <h1 class="holo-title">Latest Posts</h1>
+  <h1 class="holo-title">Latest Analysis</h1>
 </div>
 
-<div class="post-grid">
-  {% for post in site.posts %}
-  <article class="post-card neon-card">
-    
-    {% if post.image %}
-      <div class="post-card-img-wrapper">
-        <img src="{{ post.image | relative_url }}" class="post-card-img" width="600" height="180" alt="" role="presentation"/>
-      </div>
-    {% endif %}
+<!-- ================= Baseball ================= -->
+<section class="analysis-section">
+  <h2 class="analysis-title">Astros</h2>
 
-    <h2 class="post-card-title">
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </h2>
+  <div class="row-scroll">
+    {% assign baseball_posts = site.posts
+      | where_exp: "post", "post.categories contains 'baseball'"
+    %}
 
-    <div class="post-card-meta home-meta">
-      <span>{{ post.date | date: "%b %d, %Y" }}</span>
-      <span class="separator">|</span>
-      <span>{% include read_time.html content=post.content %}</span>
-    </div>
+    {% for post in baseball_posts limit:4 %}
+      <article class="post-card neon-card">
+        {% if post.image %}
+          <img src="{{ post.image | relative_url }}" alt="" role="presentation" />
+        {% endif %}
 
-    <p class="post-card-excerpt">
-      {{ post.excerpt }}
-    </p>
+        <h3 class="post-card-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h3>
 
-  </article>
-  {% endfor %}
-</div>
+        <div class="post-card-meta home-meta">
+          <span>{{ post.date | date: "%b %d, %Y" }}</span>
+          <span class="separator">|</span>
+          <span>{% include read_time.html content=post.content %}</span>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+
+  <div class="analysis-cta">
+    <a href="{{ '/baseball/' | relative_url }}">View all Astros analysis →</a>
+  </div>
+</section>
+
+<!-- ================= Football ================= -->
+<section class="analysis-section">
+  <h2 class="analysis-title">Texans</h2>
+
+  <div class="row-scroll">
+    {% assign football_posts = site.posts
+      | where_exp: "post", "post.categories contains 'football'"
+    %}
+
+    {% for post in football_posts limit:4 %}
+      <article class="post-card neon-card">
+        {% if post.image %}
+          <img src="{{ post.image | relative_url }}" alt="" role="presentation" />
+        {% endif %}
+
+        <h3 class="post-card-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h3>
+
+        <div class="post-card-meta home-meta">
+          <span>{{ post.date | date: "%b %d, %Y" }}</span>
+          <span class="separator">|</span>
+          <span>{% include read_time.html content=post.content %}</span>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+
+  <div class="analysis-cta">
+    <a href="{{ '/football/' | relative_url }}">View all Texans analysis →</a>
+  </div>
+</section>
+
+<!-- ================= Basketball ================= -->
+<section class="analysis-section">
+  <h2 class="analysis-title">Rockets</h2>
+
+  <div class="row-scroll">
+    {% assign basketball_posts = site.posts
+      | where_exp: "post", "post.categories contains 'basketball'"
+    %}
+
+    {% for post in basketball_posts limit:4 %}
+      <article class="post-card neon-card">
+        {% if post.image %}
+          <img src="{{ post.image | relative_url }}" alt="" role="presentation" />
+        {% endif %}
+
+        <h3 class="post-card-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h3>
+
+        <div class="post-card-meta home-meta">
+          <span>{{ post.date | date: "%b %d, %Y" }}</span>
+          <span class="separator">|</span>
+          <span>{% include read_time.html content=post.content %}</span>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+
+  <div class="analysis-cta">
+    <a href="{{ '/basketball/' | relative_url }}">View all Rockets analysis →</a>
+  </div>
+</section>

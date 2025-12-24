@@ -1463,3 +1463,87 @@ $avatar-size-lg: 200px;
     max-height: 1000px; // arbitrary large number for expansion
   }
 }
+
+/* ===============================
+   Home – Category Rows
+   =============================== */
+
+.analysis-section {
+  margin: 3rem auto;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+
+.analysis-title {
+  font-family: var(--header-font);
+  font-size: 1.4rem;
+  color: var(--retro-cream);
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+}
+
+.row-scroll {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(260px, 1fr);
+  gap: 1.25rem;
+
+  overflow-x: auto;
+  padding-bottom: 0.75rem;
+
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+
+  /* subtle scrollbar handling */
+  scrollbar-width: thin;
+  scrollbar-color: var(--retro-accent-light) transparent;
+
+  &::-webkit-scrollbar {
+    height: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--retro-accent-light);
+    border-radius: 4px;
+  }
+}
+
+.row-scroll .post-card {
+  scroll-snap-align: start;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.row-scroll .post-card-img {
+  height: 140px;
+  object-fit: cover;
+}
+
+.row-scroll .post-card-title {
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+.analysis-cta {
+  margin-top: 0.75rem;
+  text-align: right;
+
+  a {
+    font-family: var(--body-font);
+    font-size: 0.9rem;
+    color: var(--retro-accent);
+    text-decoration: none;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: var(--accent-hover);
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .row-scroll {
+    overflow-x: hidden;
+  }
+}

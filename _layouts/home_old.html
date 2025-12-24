@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<!-- Hologram Page Banner -->
+<div class="holo-banner">
+  <h1 class="holo-title">Latest Posts</h1>
+</div>
+
+<div class="post-grid">
+  {% for post in site.posts %}
+  <article class="post-card neon-card">
+    
+    {% if post.image %}
+      <div class="post-card-img-wrapper">
+        <img src="{{ post.image | relative_url }}" class="post-card-img" width="600" height="180" alt="" role="presentation"/>
+      </div>
+    {% endif %}
+
+    <h2 class="post-card-title">
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </h2>
+
+    <div class="post-card-meta home-meta">
+      <span>{{ post.date | date: "%b %d, %Y" }}</span>
+      <span class="separator">|</span>
+      <span>{% include read_time.html content=post.content %}</span>
+    </div>
+
+    <p class="post-card-excerpt">
+      {{ post.excerpt }}
+    </p>
+
+  </article>
+  {% endfor %}
+</div>
