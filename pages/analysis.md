@@ -97,9 +97,10 @@ nav_group: right
           <a href="{{ featured_scheme.url | relative_url }}">{{ featured_scheme.title }}</a>
         </h3>
 
-        <div class="post-card-meta">
-          {{ featured_scheme.date | date: "%b %d, %Y" }}
-          {% include read_time.html content=featured_scheme.content %}
+        <div class="post-card-meta home-meta">
+          <span>{{ post.date | date: "%b %d, %Y" }}</span>
+          <span class="separator">|</span>
+          <span>{% include read_time.html content=post.content %}</span>
         </div>
 
         <p class="post-card-excerpt">{{ featured_scheme.excerpt }}</p>
@@ -120,10 +121,11 @@ nav_group: right
               <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
             </h2>
 
-            <div class="post-card-meta">
-              {{ post.date | date: "%b %d, %Y" }}
-              {% include read_time.html content=post.content %}
-            </div>
+         <div class="post-card-meta home-meta">
+          <span>{{ post.date | date: "%b %d, %Y" }}</span>
+          <span class="separator">|</span>
+          <span>{% include read_time.html content=post.content %}</span>
+        </div>
 
             <p class="post-card-excerpt">{{ post.excerpt }}</p>
           </article>
@@ -155,9 +157,10 @@ nav_group: right
           <a href="{{ featured_team.url | relative_url }}">{{ featured_team.title }}</a>
         </h3>
 
-        <div class="post-card-meta">
-          {{ featured_team.date | date: "%b %d, %Y" }}
-          {% include read_time.html content=featured_team.content %}
+        <div class="post-card-meta home-meta">
+          <span>{{ post.date | date: "%b %d, %Y" }}</span>
+          <span class="separator">|</span>
+          <span>{% include read_time.html content=post.content %}</span>
         </div>
 
         <p class="post-card-excerpt">{{ featured_team.excerpt }}</p>
@@ -178,10 +181,11 @@ nav_group: right
               <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
             </h2>
 
-            <div class="post-card-meta">
-              {{ post.date | date: "%b %d, %Y" }}
-              {% include read_time.html content=post.content %}
-            </div>
+         <div class="post-card-meta home-meta">
+          <span>{{ post.date | date: "%b %d, %Y" }}</span>
+          <span class="separator">|</span>
+          <span>{% include read_time.html content=post.content %}</span>
+        </div>
 
             <p class="post-card-excerpt">{{ post.excerpt }}</p>
           </article>
