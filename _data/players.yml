@@ -148,4 +148,18 @@
   summary: >
     Stingley has shown great promise as a shutdown cornerback early in his career. He's taken another step as the best corner of 2025. 
     If he remains consistent and earns more accolades, he'll remain on a path toward the Hall of Fame.
-
+- name: Will Anderson Jr.
+  image: /assets/images/wajcard.png
+  rank: promising
+  stats:
+    - "Sacks: 29.5"
+    - "Tackles: 127"
+    - "Pressures: 93"
+    - "Pro Bowls: 2"
+  hof_pace:
+    - "vs HOF: *"
+    - "Career Stats: *"
+    - "Peak: AP-DROY (2023), AP-DPOY votes (2024)"
+  summary: >
+    Anderson has quickly established himself as one of the premier edge rushers in the NFL. 
+    With multiple Pro Bowl selections early in his career, he is on a promising path toward the Hall of Fame if he continues to perform at a high level.
