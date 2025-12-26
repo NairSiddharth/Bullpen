@@ -13,8 +13,8 @@
     - "Career WAR Pace: At HOF Average"
     - "Peak: MVP (2017), 46.8 JAWS"
   summary: >
-    Altuve is projected as a second to third-ballot Hall of Famer given elite postseason résumé,
-    MVP-caliber peak, and career WAR totals exceeding most HOF 2nd basemen + accounting for controversy of 2017.
+    Altuve is projected as a second to third-ballot Hall of Famer (accounting for controversy of 2017) given elite postseason résumé,
+    MVP, and career WAR totals exceeding most HOF 2nd basemen.
 # - name: JJ Watt
 #   image: /assets/images/jjwattcard.png
 #   sport: NFL
@@ -115,7 +115,7 @@
     - "Peak: MVP-5 (2021), 42.1 JAWS"
   summary: >
     Correa is projected as a longshot Hall of Famer given solid peak performance, 
-    but career WAR totals that fall below typical HOF thresholds for shortstops due to injuries.
+    but career WAR totals that fall short due to injuries.
 - name: Alperen Şengün
   image: /assets/images/alperensenguncard.png
   sport: NBA
