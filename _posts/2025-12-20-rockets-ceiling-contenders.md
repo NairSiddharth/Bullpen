@@ -40,11 +40,20 @@ The Nuggets are a knife fight. Every possession matters, every matchup is crucia
 The Spurs are led by the scariest defender in the NBA, Victor Wembanyama. Wemby averages [25.1/12.3/3.9 with 3.5 blocks per game](https://www.nba.com/stats/player/1641705/defense-dash). His presence on the court changes the shot profile of opposing offenses, with teams shooting [38.2% of their shots from less than six feet](https://www.nba.com/stats/player/1641705/defense-dash), and only making 47.4% of them ([12.2% below average](https://www.nba.com/stats/player/1641705/defense-dash)). Those are some of the most valuable shots to take, erased by Wemby simply existing.
 
 <div class="wide">
-<figure>
-<iframe width="315" height="560" src="https://youtube.com/shorts/jUxAoTaDcUI?si=-QlCmwxT_s-UKdfk" title="Wembanyama defensive highlights" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<figcaption>Wembanyama's defensive impact</figcaption>
-</figure>
+  <figure>
+    <iframe
+      width="315"
+      height="560"
+      src="https://www.youtube.com/embed/jUxAoTaDcUI"
+      title="Wembanyama defensive highlights"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+    <figcaption>Wembanyama's defensive impact</figcaption>
+  </figure>
 </div>
+
 
 They aren't just a one-man show either. Their team has young, shifty guards in Stephon Castle, Dylan Harper and De'Aaron Fox and veterans like Luke Kornet/Harrison Barnes to anchor the team. It results in a team that does the fundamentals well, ranking in the top five in TS% ([60%](https://www.nba.com/stats/teams/advanced?dir=A&sort=TS_PCT)) and seventh in offensive rating ([118.1](https://www.nba.com/stats/teams/advanced?dir=A&sort=OFF_RATING)). Defensively, the Spurs rank among the best in limiting shots close to the basket (fourth under five feet, allowing [61.8% FG%](https://www.nba.com/stats/teams/opponent-shooting?dir=A&sort=Less%20Than%205%20ft.%20FG%20PCT); sixth between five-nine feet, allowing [40.5% FG%](https://www.nba.com/stats/teams/opponent-shooting?dir=A&sort=5-9%20ft.%20FG%20PCT)) and in long 2s (fourth between 20-24 feet, allowing [35.3% FG%](https://www.nba.com/stats/teams/opponent-shooting?dir=A&sort=20-24%20ft.%20FG%20PCT)). Where they struggle is allowing 48.6% from midrange ([second-worst](https://www.nba.com/stats/teams/opponent-shooting?dir=D&sort=15-19%20ft.%20FG%20PCT)) and 38.1% from three ([third-worst](https://www.nba.com/stats/teams/opponent-shooting?dir=D&sort=25-29%20ft.%20FG%20PCT)).
 
