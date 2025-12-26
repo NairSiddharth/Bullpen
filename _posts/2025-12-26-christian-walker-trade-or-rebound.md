@@ -5,6 +5,7 @@ categories:
     - baseball
 tags:
   - team
+  - player-development
 image: /assets/images/christian-walker.png
 excerpt: Christian Walker struggled for the Astros in his first season. Did his 2nd half resurgence mean something more or should the Astros try selling high?
 layout: post
