@@ -673,10 +673,21 @@ a {
   iframe,
   video {
     display: block;
-    max-width: 100%;
-    height: 100%;
+    width: 560px;
+    height: 315px;
     margin: 2rem auto;
+    object-fit: contain;
   }
+
+  @media (max-width: 600px) {
+    img,
+    iframe,
+    video {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16 / 9;
+    }
+}
 
   .wide {
     margin-left: auto;
