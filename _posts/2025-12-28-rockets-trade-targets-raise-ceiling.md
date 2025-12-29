@@ -6,9 +6,9 @@ categories:
 tags:
   - team
   - scheme
-excerpt: The Rockets are looking up at a self-imposed ceiling. How can they break it and truly challenge OKC and beat the other top contenders in the Western Conference?
+excerpt: It's trade season. What does that mean? A discussion about way's to make the Rockets' better without gutting the team. An in-depth look at trade targets and why they help the team, and why Rafael Stone should (or shouldn't) be pounding the table for them. 
 layout: post
-description: In-depth analysis of the Rockets competitors in the Western Conference, and what it'll take to beat them. 
+description: In-depth analysis of common Rockets' trade targets. Who's worth the squeeze, and who'll cost the Rockets' in the longterm. 
 image: /assets/images/rockets-tradetargets.png
 ---
 
