@@ -43,7 +43,7 @@ Even then, why does Chicago say yes? They're swapping a building block for an in
 
 **Darius Garland:** Darius Garland is a prototypical floor general who can shoot and Cleveland's second option behind Donovan Mitchell. He's [averaged](https://www.espn.com/nba/player/_/id/4396907/darius-garland) 18.8 ppg and 6.7 apg on 38.7% from three over his career.
 
-Adding Garland would smooth out the kinks in Houston's starting lineup. Amen Thompson becomes a defense-focused shooting guard, the same role where he finished fifth in DPOY voting. Josh Okogie becomes a defensive specialist off the bench who can space the floor. The starting five gets a true secondary playmaker behind Sengun. Amen gets back to doing what he does best, being a defensive menace
+Adding Garland would smooth out the kinks in Houston's starting lineup. Amen Thompson becomes a defense-focused shooting guard, the same role where he finished fifth in DPOY voting. Josh Okogie becomes a defensive specialist off the bench who can space the floor. The starting five gets a true secondary playmaker behind Şengün. Amen gets back to doing what he does best, being a defensive menace
 
 Nothing is as simple as pen and paper GM'ing. In reality, Garland makes [$39.4 million annually through 2028](https://www.spotrac.com/nba/player/_/id/31562/darius-garland). The Rockets are hardcapped over the first apron, meaning they need to send out more salary than they take back. Getting to $40+ million outgoing means packaging FVV and a quality rotation player (think Dorian Finney-Smith at $12.7 million and Josh Okogie on a minimum salary, which introduces new problems for Houston since they'd need to take back additional players just to meet the [NBA minimum 14 players](https://www.spotrac.com/news/_/id/2487/the-nbas-vanishing-15th-roster-spot)). Cleveland has to eat older players' salaries in return for their second-best player. Stone would need to attach the Brooklyn first-rounder as trade bait to make this remotely appealing. That's a premium for a player who doesn't want to be there.
 
@@ -69,7 +69,7 @@ The issue is money and timeline. Sexton makes [$17.7M](https://www.spotrac.com/n
 
 This season, Monk's averaging 12.4 ppg and 2.3 apg in 22.8 mpg, down from 28+ minutes the previous two years. A quick glance shows a down year stats-wise, but Monk's talent hasn't gone anywhere. In [2023-24](https://www.nba.com/stats/player/1628370/by-position?Season=2023-24) and [2024-25](https://www.nba.com/stats/player/1628370/by-position?Season=2024-25), Monk averaged over 5 assists per game while allowing 44.5% shooting to opposing guards ([defensive ratings of 115.1 and 114.5 respectively](https://www.nba.com/stats/player/1628370/by-position?Season=2023-24)). He's not an elite defender, but he's competent in team schemes. His shooting is the concern. Monk's career [35.3% from three](https://www.espn.com/nba/player/_/id/4066262/malik-monk) is below league average, but he takes them at volume (5+ attempts per game). The shot-making ability is there even if the efficiency isn't elite.
 
-For Houston, Monk would slide into the starting point guard spot next to Amen Thompson. He'd operate as a secondary playmaker behind Sengun, taking pressure off Amen to orchestrate an offense he's not ready to run. The fit is clean on paper. Monk can create his own shot, hit open threes at a passable rate, and won't get hunted defensively in the playoffs. That checks the boxes Houston needs.
+For Houston, Monk would slide into the starting point guard spot next to Amen Thompson. He'd operate as a secondary playmaker behind Şengün, taking pressure off Amen to orchestrate an offense he's not ready to run. The fit is clean on paper. Monk can create his own shot, hit open threes at a passable rate, and won't get hunted defensively in the playoffs. That checks the boxes Houston needs.
 
 <div class="wide">
 <figure>
@@ -95,7 +95,7 @@ Monk makes [$19.5M annually through 2028](https://www.spotrac.com/nba/player/_/i
 </figure>
 </div>
 
-Ellis solves half of Houston's problem. The shooting is real, the defense is there, and he doesn't need the ball in his hands to contribute. What he doesn't do? Handle the ball. Ellis isn't running pick-and-rolls or orchestrating an offense when Sengun sits. He's a spot-up threat who makes the right pass but doesn't create for others. That matters when Houston's offense gets stagnant in the halfcourt.
+Ellis solves half of Houston's problem. The shooting is real, the defense is there, and he doesn't need the ball in his hands to contribute. What he doesn't do? Handle the ball. Ellis isn't running pick-and-rolls or orchestrating an offense when Şengün sits. He's a spot-up threat who makes the right pass but doesn't create for others. That matters when Houston's offense gets stagnant in the halfcourt.
 
 [Dan Woike reported](https://www.nytimes.com/athletic/6902319/2025/12/19/lakers-trade-rumors-deadline-needs/?source=user_shared_article) Sacramento wants a protected first-rounder for him. For a rental who averages under 10 ppg and only fixes the spacing problem? That's steep. Ellis makes the Rockets better. Whether he makes them better enough to justify the cost is another question entirely.
 
@@ -120,7 +120,7 @@ If CP3 has anything left for playoff minutes, great. If not, his value is in pra
 
 **Coby White:**  Since Josh Giddey's arrival as the Bulls' primary playmaker, White is a dead man walking in Chicago. That hasn't stopped him from putting up career numbers. Currently, he's averaging [21.4 ppg in 29.6 mpg on 59.2% TS%](https://www.nba.com/stats/player/1629632), shooting a [career 36.7% from three](https://www.espn.com/nba/player/_/id/4395651/coby-white) while dishing 4.9 assists over the past three seasons. At [6'4", 195 lbs with a 6'5" wingspan](https://x.com/DraftExpress/status/1128722751106240513?lang=en), he has the size to defend multiple positions. His 113.14 career defensive rating backs that up. He's not a defensive stopper, but he's not a liability either. That matters when you're trying to fit into Houston's scheme.
 
-White makes sense for Houston in ways the other names on this list don't. He doesn't need the ball in his hands to be effective. Plug him in at point guard next to Amen Thompson, and suddenly everyone's doing what they do best. Sengun operates as the primary hub. White spaces the floor and makes the right read. Amen cuts, slashes, and defends without forcing playmaking duties he's not ready for. Durant scores, Jabari shoots. Clear roles, no overlap.
+White makes sense for Houston in ways the other names on this list don't. He doesn't need the ball in his hands to be effective. Plug him in at point guard next to Amen Thompson, and suddenly everyone's doing what they do best. Şengün operates as the primary hub. White spaces the floor and makes the right read. Amen cuts, slashes, and defends without forcing playmaking duties he's not ready for. Durant scores, Jabari shoots. Clear roles, no overlap.
 
 <div class="wide">
 <figure>
