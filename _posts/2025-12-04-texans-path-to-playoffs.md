@@ -9,7 +9,6 @@ image: /assets/images/houstontexansthumbnail.png
 excerpt: The Texans have come far since their 0-3 start. Here's how they've come this far and what's left on the road to the playoffs.
 layout: post
 description: How the Houston Texans rebounded from 0-3 to 7-5 and their path to the playoffs with emerging stars, improved offense, and elite defense.
-featured_team: true
 ---
 
 >Author's Note: Certain images are pulled from CornDoggyLoL's posts in Texan's subreddit. Love her art, [support her here](https://www.corndoggysports.com/>category/all-products)
