@@ -1,6 +1,6 @@
 ---
 title: "La Tormenta's Career Year"
-date: 2025-11-28
+date: 2025-11-30
 categories: 
     - baseball
 tags:

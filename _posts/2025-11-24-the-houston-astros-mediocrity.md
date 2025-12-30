@@ -1,6 +1,6 @@
 ---
 title: "The Houston Astros, Mired in Mediocrity"
-date: 2025-11-24
+date: 2025-11-22
 categories: 
     - baseball
 tags:

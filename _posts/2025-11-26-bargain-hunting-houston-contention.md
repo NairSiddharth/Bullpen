@@ -1,6 +1,6 @@
 ---
 title: "Bargain Bin Hunting: How Houston Stays in Contention"
-date: 2025-11-26
+date: 2025-11-24
 categories: 
     - baseball
 tags:

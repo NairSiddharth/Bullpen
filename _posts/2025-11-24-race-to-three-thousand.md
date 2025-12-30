@@ -1,6 +1,6 @@
 ---
 title: "Altuve's Race to 3,000 Hits"
-date: 2025-11-24
+date: 2025-11-17
 categories: 
     - baseball
 image: /assets/images/Jose-Altuve-cover.png
