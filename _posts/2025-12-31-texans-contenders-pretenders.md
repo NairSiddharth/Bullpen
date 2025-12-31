@@ -1,5 +1,6 @@
 ---
 title: "The Texans' Playoff Ceiling: Super Bowl or Another Divisional Round Exit?"
+seo_title: "Texans' Ceiling: Super Bowl or Divisional Exit?"
 date: 2025-12-31
 categories: 
     - football

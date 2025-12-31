@@ -1,5 +1,6 @@
 ---
 title: "Şengün, Thompson, and Durant: Identifying the Rockets' True Lynchpin"
+seo_title: "Who's the Rockets' True Lynchpin?"
 date: 2025-12-09
 categories: 
     - basketball

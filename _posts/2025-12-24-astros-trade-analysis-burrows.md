@@ -1,5 +1,6 @@
 ---
 title: "Astros get Mike Burrows for Brito & Melton, Gamble or Smart Buy-Low?"
+seo_title: "Burrows Trade: Gamble or Smart Buy-Low?"
 date: 2025-12-24
 categories: 
     - baseball
