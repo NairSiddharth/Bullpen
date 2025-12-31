@@ -76,9 +76,9 @@ nav_group: right
     {% endfor %}
   </div>
 
-  <div class="analysis-cta">
+  <!-- <div class="analysis-cta">
     <a href="{{ '/tags/player-development/' | relative_url }}">View all →</a>
-  </div>
+  </div> -->
 </section>
 
 <!-- Scheme & Strategy -->
@@ -136,9 +136,9 @@ nav_group: right
     {% endfor %}
   </div>
 
-  <div class="analysis-cta">
+  <!-- <div class="analysis-cta">
     <a href="{{ '/tags/scheme/' | relative_url }}">View all →</a>
-  </div>
+  </div> -->
 </section>
 
 <!-- Team Analysis -->
@@ -196,7 +196,7 @@ nav_group: right
     {% endfor %}
   </div>
 
-  <div class="analysis-cta">
+  <!-- <div class="analysis-cta">
     <a href="{{ '/tags/team/' | relative_url }}">View all →</a>
-  </div>
+  </div> -->
 </section>
