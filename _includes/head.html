@@ -15,7 +15,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
 
 <!-- Jekyll SEO Tag -->
-{% seo %}
+{% seo title=false %}
+<title>{% if page.seo_title %}{{ page.seo_title }}{% else %}{{ page.title }}{% endif %} | {{ site.title }}</title>
 
 <!-- Canonical URL -->
 <!-- NOTE: MINIMA ALREADY DOES THIS, ONLY PUT BACK WHEN NEEDING PAGINATION -->

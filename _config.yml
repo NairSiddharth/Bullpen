@@ -39,6 +39,12 @@ jekyll-seo-tag:
        - https://github.com/NairSiddharth
        - https://siddharthnair.pages.dev/
 
+exclude:
+  - README.md
+  - LICENSE
+  - .gitignore
+  - TODO.md
+
 # jekyll-archives:
 #   enabled:
 #     - categories

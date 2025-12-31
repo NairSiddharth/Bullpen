@@ -32,7 +32,7 @@ nav_group: right
     <article class="post-card neon-card featured-card">
       {% if featured_dev.image %}
         <div class="post-card-img-wrapper">
-          <img src="{{ featured_dev.image | relative_url }}" class="post-card-img" alt="{{ post.title }}"/>
+          <img src="{{ featured_dev.image | relative_url }}" class="post-card-img" alt="{{ featured_dev.title }}"/>
         </div>
       {% endif %}
 
@@ -56,7 +56,7 @@ nav_group: right
         <article class="post-card neon-card">
           {% if post.image %}
             <div class="post-card-img-wrapper">
-              <img src="{{ post.image | relative_url }}" class="post-card-img" alt="{{ post.title }}"/>
+              <img src="{{ featured_scheme.image | relative_url }}" class="post-card-img" alt="{{ featured_scheme.title }}"/>
             </div>
           {% endif %}
 
@@ -92,7 +92,7 @@ nav_group: right
     <article class="post-card neon-card featured-card">
       {% if featured_scheme.image %}
         <div class="post-card-img-wrapper">
-          <img src="{{ featured_scheme.image | relative_url }}" class="post-card-img" alt="{{ post.title }}"/>
+          <img src="{{ featured_team.image | relative_url }}" class="post-card-img" alt="{{ featured_team.title }}"/>
         </div>
       {% endif %}
 
