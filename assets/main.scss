@@ -455,6 +455,11 @@ a {
   background: rgba(14, 15, 25, 0.85);
 }
 
+.hologram-title h1 {
+  margin: 0;
+  font-size: inherit;
+}
+
 /* ==================== POST CARDS & GRIDS ==================== */
 .post-grid {
   display: grid;
