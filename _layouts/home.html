@@ -19,7 +19,7 @@ layout: default
     {% for post in baseball_posts limit:4 %}
       <article class="post-card neon-card">
         {% if post.image %}
-          <img src="{{ post.image | relative_url }}" alt="" role="presentation" />
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" />
         {% endif %}
 
         <h3 class="post-card-title">
@@ -52,7 +52,7 @@ layout: default
     {% for post in football_posts limit:4 %}
       <article class="post-card neon-card">
         {% if post.image %}
-          <img src="{{ post.image | relative_url }}" alt="" role="presentation" />
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" />
         {% endif %}
 
         <h3 class="post-card-title">
@@ -85,7 +85,7 @@ layout: default
     {% for post in basketball_posts limit:4 %}
       <article class="post-card neon-card">
         {% if post.image %}
-          <img src="{{ post.image | relative_url }}" alt="" role="presentation" />
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" />
         {% endif %}
 
         <h3 class="post-card-title">

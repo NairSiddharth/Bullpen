@@ -34,7 +34,7 @@ nav_group: right
 
       {% if post.image %}
       <div class="post-card-img-wrapper">
-        <img src="{{ post.image | relative_url }}" class="post-card-img" width="600" height="180" alt="" role="presentation"/>
+        <img src="{{ post.image | relative_url }}" class="post-card-img" width="600" height="180" alt="{{ post.title }}"/>
       </div>
       {% endif %}
 
