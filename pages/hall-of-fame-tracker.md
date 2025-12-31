@@ -16,7 +16,7 @@ description: Track Houston sports Hall of Fame candidates with up-to-date stats,
 
 <section class="halloffameexplanation">
   <p>
-    All ACTIVE AND CURRENT (sorry JJ, Harden, Verlander, DHop) Houston sports players (primarily Rockets, Texans, and Astros, with potential inclusion of other sports) currently on track for Hall of Fame induction.
+    All ACTIVE AND CURRENT (sorry JJ, Lechler, Harden, Verlander, DHop) Houston sports players (primarily Rockets, Texans, and Astros, with potential inclusion of other sports) currently on track for Hall of Fame induction.
   </p>
 </section>
 
