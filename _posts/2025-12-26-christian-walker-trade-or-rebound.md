@@ -11,6 +11,7 @@ excerpt: Christian Walker struggled for the Astros in his first season. Did his 
 layout: post
 description: An in-depth look at the first year of Christian Walker in Houston. What went wrong, how he bounced back, and whether or not that is real or not. Are the Astros better served trying to trade him? 
 ---
+>Author's Note: Minor edits made for accuracy (updated Altuve defensive stats to reflect time at 2nd only, instead of comprehensive total)
 
 First base has been Houston's problem position for years. Prospects failed. Veterans underperformed. Stopgaps came and went (Jon Singleton somehow fits in all three of these). The most recent player to disappoint is Christian Walker, signed as a free agent from the Arizona Diamondbacks for a [three-year, $60 million deal last offseason](https://www.fangraphs.com/roster-resource/payroll/astros). Walker was supposed to be different. A proven three-time All-Star coming off three solid seasons in Arizona ([.250/.332/.481](https://www.fangraphs.com/players/christian-walker/13419/stats/batting#dashboard)). Instead, he slashed .238/.297/.421 in year one, matching Houston's first base frustrations rather than solving them. Do the Astros move on and start fresh, or bet on Walker returning to form in year two?
 

@@ -11,6 +11,7 @@ layout: post
 description: In-depth analysis of common Rockets' trade targets. Who's worth the squeeze, and who'll cost the Rockets' in the longterm. 
 image: /assets/images/rockets-tradetargets.png
 ---
+>Author's Note: Minor edits made for spelling (additional s removed in Keon Ellis)
 
 The Rockets are good. They could be better. They're currently [19-10](https://www.espn.com/nba/standings), fourth in the Western Conference, and they're doing it without Fred VanVleet, who tore his ACL in the preseason and won't return. Amen Thompson has slid into the starting point guard spot, with rookie Reed Sheppard running the second unit. The results? A mixed bag. Houston needs someone who can handle the ball and space the floor. Preferably both.
 
@@ -90,7 +91,7 @@ Monk makes [$19.5M annually through 2028](https://www.spotrac.com/nba/player/_/i
 
 <div class="wide">
 <figure>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uhIILmSDEY4?si=XHhWVp5IHXOs4vLR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>s
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uhIILmSDEY4?si=XHhWVp5IHXOs4vLR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <figcaption>Defensive Highlights for Ellis</figcaption>
 </figure>
 </div>
@@ -112,7 +113,7 @@ CP3 has done this before. He took OKC's young core to the playoffs before their 
 <div class="wide">
 <figure>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KrNGudeTXSE?si=sdXiAepeGqDc68Ub" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<figcaption>CP3 Showing the San Antonio Spurs his Playmaking Chops even in limited minutes</figcaption>
+<figcaption>CP3 showing the San Antonio Spurs his Playmaking Chops even in limited minutes</figcaption>
 </figure>
 </div>
 
