@@ -2,6 +2,36 @@
 layout: default
 ---
 
+{% comment %} BlogPosting Structured Data for Google {% endcomment %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ page.title | jsonify }},
+  "image": {% if page.image %}"{{ page.image | absolute_url }}"{% else %}null{% endif %},
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Siddharth Nair",
+      "jobTitle": "Sports Journalist",
+      "url": "{{ '/about/' | absolute_url }}"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Full Count",
+    "url": "{{ site.url }}{{ site.baseurl }}"
+  },
+  "description": {{ page.excerpt | strip_html | truncate: 160 | jsonify }},
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url | absolute_url }}"
+  }
+}
+</script>
+
 {% include page_title.html %}
 <div class="reading-progress">
   <div class="reading-progress-bar"></div>
@@ -52,4 +82,3 @@ layout: default
     bar.style.transform = `scaleX(${clamped})`;
   });
 </script>
-
