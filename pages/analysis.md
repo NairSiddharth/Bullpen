@@ -17,7 +17,9 @@ nav_group: right
 {% assign outlook_posts = site.posts | where_exp:"post","post.tags contains 'outlook'" %}
 {% assign featured_outlook = outlook_posts | where: "featured_outlook", true | first %}
 
-{% assign move_posts = site.posts | where_exp: "post", "post.tags contains 'free-agency' or post.tags contains 'trade'" %}
+{% assign fa_posts = site.posts | where_exp: "post", "post.tags contains 'free-agency'" %}
+{% assign trade_posts = site.posts | where_exp: "post", "post.tags contains 'trade'" %}
+{% assign move_posts = fa_posts | concat: trade_posts | uniq %}
 {% assign featured_move = move_posts | where: "featured_move", true | first %}
 
 {% assign awards_posts = site.posts | where_exp:"post","post.tags contains 'awards'" %}
