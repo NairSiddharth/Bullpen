@@ -4,8 +4,7 @@ date: 2025-12-28
 categories: 
     - basketball
 tags:
-  - team
-  - scheme
+  - trade
 excerpt: It's trade season. What does that mean? A discussion about way's to make the Rockets' better without gutting the team. An in-depth look at trade targets and why they help the team, and why Rafael Stone should (or shouldn't) be pounding the table for them. 
 layout: post
 description: In-depth analysis of common Rockets' trade targets. Who's worth the squeeze, and who'll cost the Rockets' in the longterm. 

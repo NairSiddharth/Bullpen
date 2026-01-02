@@ -4,7 +4,7 @@ date: 2025-11-22
 categories: 
     - baseball
 tags:
-    - team
+    - outlook
 image: /assets/images/astros-disappointment.png
 excerpt: The Astros are going nowhere fast, is it too late to turn the tide?
 layout: post

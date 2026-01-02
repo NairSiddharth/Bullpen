@@ -5,7 +5,7 @@ date: 2026-01-02
 categories: 
     - baseball
 tags:
-  - team
+  - free-agency
 image: /assets/images/tatsuya-imai-astros.png
 excerpt: The Astros signed NPB star Tatsuya Imai for 3 years, $54 million. Are the Astros getting a steal? What does his addition do for the Astros contender status?
 layout: post

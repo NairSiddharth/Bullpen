@@ -4,7 +4,7 @@ date: 2025-12-04
 categories: 
     - football
 tags:
-  - team
+  - outlook
 image: /assets/images/houstontexansthumbnail.png
 excerpt: The Texans have come far since their 0-3 start. Here's how they've come this far and what's left on the road to the playoffs.
 layout: post

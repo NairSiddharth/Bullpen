@@ -5,7 +5,7 @@ date: 2025-12-24
 categories: 
     - baseball
 tags:
-  - team
+  - trade
 image: /assets/images/mike-burrows.png
 excerpt: The Astros just made their first major trade of the offseason, getting Mike Burrows. Was it worth it?
 layout: post

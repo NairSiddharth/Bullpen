@@ -14,8 +14,14 @@ nav_group: right
 {% assign scheme_posts = site.posts | where_exp:"post","post.tags contains 'scheme'" %}
 {% assign featured_scheme = scheme_posts | where: "featured_scheme", true | first %}
 
-{% assign team_posts = site.posts | where_exp:"post","post.tags contains 'team'" %}
-{% assign featured_team = team_posts | where: "featured_team", true | first %}
+{% assign outlook_posts = site.posts | where_exp:"post","post.tags contains 'outlook'" %}
+{% assign featured_outlook = outlook_posts | where: "featured_outlook", true | first %}
+
+{% assign move_posts = site.posts | where_exp: "post", "post.tags contains 'free-agency' or post.tags contains 'trade'" %}
+{% assign featured_move = move_posts | where: "featured_move", true | first %}
+
+{% assign awards_posts = site.posts | where_exp:"post","post.tags contains 'awards'" %}
+{% assign featured_awards = awards_posts | where: "featured_awards", true | first %}
 
 <div class="holo-banner">
   <h1 class="holo-title">Analysis Index</h1>
@@ -75,17 +81,13 @@ nav_group: right
       {% endunless %}
     {% endfor %}
   </div>
-
-  <!-- <div class="analysis-cta">
-    <a href="{{ '/tags/player-development/' | relative_url }}">View all →</a>
-  </div> -->
 </section>
 
-<!-- Scheme & Strategy -->
+<!-- Scheme & Roles -->
 <section class="analysis-section">
-  <h2 class="analysis-title">Scheme & Strategy</h2>
+  <h2 class="analysis-title">Scheme & Roles</h2>
   <p class="analysis-desc">
-    Tactical breakdowns, lineup construction, spacing theory, and in-game adjustments.
+    Tactical breakdowns, lineup construction, and identifying who does what and why.
   </p>
 
   {% if featured_scheme %}
@@ -135,44 +137,40 @@ nav_group: right
       {% endunless %}
     {% endfor %}
   </div>
-
-  <!-- <div class="analysis-cta">
-    <a href="{{ '/tags/scheme/' | relative_url }}">View all →</a>
-  </div> -->
 </section>
 
-<!-- Team Analysis -->
+<!-- Team Outlook -->
 <section class="analysis-section">
-  <h2 class="analysis-title">Team Analysis</h2>
+  <h2 class="analysis-title">Team Outlook</h2>
   <p class="analysis-desc">
-    Comprehensive evaluations of team performance, chemistry, and organizational direction.
+    Projections, playoff paths, and evaluating where teams stand as contenders.
   </p>
 
-  {% if featured_team %}
+  {% if featured_outlook %}
     <article class="post-card neon-card featured-card">
-      {% if featured_team.image %}
+      {% if featured_outlook.image %}
         <div class="post-card-img-wrapper">
-          <img src="{{ featured_team.image | relative_url }}" class="post-card-img" alt="{{ featured_team.title }}"/>
+          <img src="{{ featured_outlook.image | relative_url }}" class="post-card-img" alt="{{ featured_outlook.title }}"/>
         </div>
       {% endif %}
 
       <h3 class="post-card-title">
-        <a href="{{ featured_team.url | relative_url }}">{{ featured_team.title }}</a>
+        <a href="{{ featured_outlook.url | relative_url }}">{{ featured_outlook.title }}</a>
       </h3>
 
       <div class="post-card-meta home-meta">
-        <span>{{ featured_team.date | date: "%b %d, %Y" }}</span>
+        <span>{{ featured_outlook.date | date: "%b %d, %Y" }}</span>
         <span class="separator">|</span>
-        <span>{% include read_time.html content=featured_team.content %}</span>
+        <span>{% include read_time.html content=featured_outlook.content %}</span>
       </div>
 
-      <p class="post-card-excerpt">{{ featured_team.excerpt }}</p>
+      <p class="post-card-excerpt">{{ featured_outlook.excerpt }}</p>
     </article>
   {% endif %}
 
   <div class="post-grid analysis-grid">
-    {% for post in team_posts %}
-      {% unless post == featured_team %}
+    {% for post in outlook_posts %}
+      {% unless post == featured_outlook %}
         <article class="post-card neon-card">
           {% if post.image %}
             <div class="post-card-img-wrapper">
@@ -195,8 +193,116 @@ nav_group: right
       {% endunless %}
     {% endfor %}
   </div>
+</section>
 
-  <!-- <div class="analysis-cta">
-    <a href="{{ '/tags/team/' | relative_url }}">View all →</a>
-  </div> -->
+<!-- Trades & Free Agency -->
+<section class="analysis-section">
+  <h2 class="analysis-title">Trades & Free Agency</h2>
+  <p class="analysis-desc">
+    Transaction analysis, trade evaluations, and free agent signings.
+  </p>
+
+  {% if featured_move %}
+    <article class="post-card neon-card featured-card">
+      {% if featured_move.image %}
+        <div class="post-card-img-wrapper">
+          <img src="{{ featured_move.image | relative_url }}" class="post-card-img" alt="{{ featured_move.title }}"/>
+        </div>
+      {% endif %}
+
+      <h3 class="post-card-title">
+        <a href="{{ featured_move.url | relative_url }}">{{ featured_move.title }}</a>
+      </h3>
+
+      <div class="post-card-meta home-meta">
+        <span>{{ featured_move.date | date: "%b %d, %Y" }}</span>
+        <span class="separator">|</span>
+        <span>{% include read_time.html content=featured_move.content %}</span>
+      </div>
+
+      <p class="post-card-excerpt">{{ featured_move.excerpt }}</p>
+    </article>
+  {% endif %}
+
+  <div class="post-grid analysis-grid">
+    {% for post in move_posts %}
+      {% unless post == featured_move %}
+        <article class="post-card neon-card">
+          {% if post.image %}
+            <div class="post-card-img-wrapper">
+              <img src="{{ post.image | relative_url }}" class="post-card-img" alt="{{ post.title }}"/>
+            </div>
+          {% endif %}
+
+          <h2 class="post-card-title">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h2>
+
+          <div class="post-card-meta home-meta">
+            <span>{{ post.date | date: "%b %d, %Y" }}</span>
+            <span class="separator">|</span>
+            <span>{% include read_time.html content=post.content %}</span>
+          </div>
+
+          <p class="post-card-excerpt">{{ post.excerpt }}</p>
+        </article>
+      {% endunless %}
+    {% endfor %}
+  </div>
+</section>
+
+<!-- Award Watch -->
+<section class="analysis-section">
+  <h2 class="analysis-title">Award Watch</h2>
+  <p class="analysis-desc">
+    Tracking MVP races, All-Pro cases, and individual accolades across Houston sports.
+  </p>
+
+  {% if featured_awards %}
+    <article class="post-card neon-card featured-card">
+      {% if featured_awards.image %}
+        <div class="post-card-img-wrapper">
+          <img src="{{ featured_awards.image | relative_url }}" class="post-card-img" alt="{{ featured_awards.title }}"/>
+        </div>
+      {% endif %}
+
+      <h3 class="post-card-title">
+        <a href="{{ featured_awards.url | relative_url }}">{{ featured_awards.title }}</a>
+      </h3>
+
+      <div class="post-card-meta home-meta">
+        <span>{{ featured_awards.date | date: "%b %d, %Y" }}</span>
+        <span class="separator">|</span>
+        <span>{% include read_time.html content=featured_awards.content %}</span>
+      </div>
+
+      <p class="post-card-excerpt">{{ featured_awards.excerpt }}</p>
+    </article>
+  {% endif %}
+
+  <div class="post-grid analysis-grid">
+    {% for post in awards_posts %}
+      {% unless post == featured_awards %}
+        <article class="post-card neon-card">
+          {% if post.image %}
+            <div class="post-card-img-wrapper">
+              <img src="{{ post.image | relative_url }}" class="post-card-img" alt="{{ post.title }}"/>
+            </div>
+          {% endif %}
+
+          <h2 class="post-card-title">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h2>
+
+          <div class="post-card-meta home-meta">
+            <span>{{ post.date | date: "%b %d, %Y" }}</span>
+            <span class="separator">|</span>
+            <span>{% include read_time.html content=post.content %}</span>
+          </div>
+
+          <p class="post-card-excerpt">{{ post.excerpt }}</p>
+        </article>
+      {% endunless %}
+    {% endfor %}
+  </div>
 </section>

@@ -3,6 +3,8 @@ title: "Altuve's Race to 3,000 Hits"
 date: 2025-11-17
 categories: 
     - baseball
+tags:
+  - player-development
 image: /assets/images/Jose-Altuve-cover.png
 excerpt: Jose Altuve's road to 3000 is slim, but not impossible. Maybe.
 layout: post

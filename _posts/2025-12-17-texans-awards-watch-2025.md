@@ -4,7 +4,7 @@ date: 2025-12-17
 categories: 
     - football
 tags:
-    - team
+    - awards
 excerpt: The Texans have rattled off six straight wins to pull within a game of the AFC South lead. Multiple players deserve recognition of making that happen when All-Pro and Pro Bowl votes are cast. Here's who makes the cut.
 layout: post
 description: In-depth analysis of All-Pro and Pro Bowl candidates for the Houston Texans in the 2025 season based on a variety of factors.

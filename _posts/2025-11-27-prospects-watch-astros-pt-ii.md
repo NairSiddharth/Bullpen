@@ -5,7 +5,6 @@ categories:
     - baseball
 tags:
     - player-development
-    - team
 image: /assets/images/hooks_logo.png
 excerpt: Part II of coverage of Astros minor league system. Prospects to be excited about!
 layout: post

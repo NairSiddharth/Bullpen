@@ -4,7 +4,7 @@ date: 2025-11-24
 categories: 
     - baseball
 tags:
-    - team
+    - outlook
 image: /assets/images/houston-astros-logo-png_seeklogo-224486.png
 excerpt: The Astros are at a crossroads. How do they stay in the hunt?
 layout: post
