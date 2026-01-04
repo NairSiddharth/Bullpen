@@ -12,8 +12,6 @@ layout: post
 description: An analysis of the Houston Rockets' historic rebounding dominance, examining how offensive boards fuel their half-court offense and transition game while keeping pace in the Western Conference playoff race.
 ---
 
-> - **OREB** - Offensive Rebounds
-> - **DREB%** - Defensive Rebound Percentage
 > - **TS%** - True Shooting Percentage (measure of scoring efficiency)
 > - **Net Rating** - Point differential per 100 possessions
 
