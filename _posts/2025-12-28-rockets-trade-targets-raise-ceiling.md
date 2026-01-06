@@ -10,7 +10,7 @@ layout: post
 description: In-depth analysis of common Rockets' trade targets. Who's worth the squeeze, and who'll cost the Rockets' in the longterm. 
 image: /assets/images/rockets-tradetargets.png
 ---
->Author's Note: Minor edits made for spelling (additional s removed in Keon Ellis)
+>Author's Note: Minor edits made for spelling (additional s removed in Keon Ellis), fixed apron discussion to acknowledge that we are over cap but not over first apron (but realistically can't make any move without shedding salary anyway)
 
 The Rockets are good. They could be better. They're currently [19-10](https://www.espn.com/nba/standings), fourth in the Western Conference, and they're doing it without Fred VanVleet, who tore his ACL in the preseason and won't return. Amen Thompson has slid into the starting point guard spot, with rookie Reed Sheppard running the second unit. The results? A mixed bag. Houston needs someone who can handle the ball and space the floor. Preferably both.
 
