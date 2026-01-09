@@ -11,6 +11,7 @@ excerpt: Breaking down the Texans-Steelers Wild Card matchup. Two 0-6 playoff st
 layout: post
 description: A comprehensive breakdown of the Texans vs Steelers Wild Card playoff game, analyzing trenches, playmakers, quarterbacks, and coaching matchups to predict which 0-6 streak ends Monday night.
 ---
+>Author's Note: Certain images are pulled from CornDoggyLoL's posts in Texan's subreddit. Love her art, [support her here](https://www.corndoggysports.com/>category/all-products)
 
 > - **EPA/play** - Expected Points Added per play (offensive efficiency metric)
 > - **PRWR** - Pass Rush Win Rate
