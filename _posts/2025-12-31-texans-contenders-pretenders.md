@@ -5,6 +5,7 @@ date: 2025-12-31
 categories: 
     - football
 tags:
+  - scheme
   - outlook
 image: /assets/images/houston-texans-playoffs.png
 excerpt: The Texans are on the cusp of the playoffs. How did they get here, and what's their ceiling?
