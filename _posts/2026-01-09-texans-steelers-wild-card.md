@@ -60,7 +60,7 @@ What makes this a closer than it should be is Rodgers' playoff experience. He ha
 
 ### Sideline Battle
 
-![Texans vs Steelers playoff matchup]({{ site.baseurl }}/assets/mages/demeco-on-playing-the-steelers.png)
+![Texans vs Steelers playoff matchup]({{ site.baseurl }}/assets/images/demeco-on-playing-the-steelers.png)
 
 Every year, Mike Tomlin has pieces written about him potentially being fired by the Steelers. Every year, he drags [the Steelers to 8-8 (now 9-8) or 9-7 (now 10-7)](https://www.pro-football-reference.com/coaches/TomlMi0.htm). He's always in the playoff hunt, always making games uncomfortable for the opposing team. The standard is the standard indeed. Then, he makes it to the playoffs and it all falls apart. 0-6 in the playoffs since 2016 isn't good.
 
