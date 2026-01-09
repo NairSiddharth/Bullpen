@@ -164,3 +164,20 @@
   summary: >
     Anderson has quickly established himself as a premier edge rusher. 
     With multiple Pro Bowl selections in his 3-year-career and high sack totals, he's on path toward the Hall of Fame.
+- name: Kevin Durant
+  image: /assets/images/kdcard.png
+  sport: NBA
+  rank: lock
+  stats:
+    - "Points: 31,405"
+    - "Rebounds: 7,91"
+    - "Assists: 5,050"
+    - "MVPs: 1"
+  hof_pace:
+    - "vs HOF: Top 5 SF all-time"
+    - "Peak: 2x NBA Champion, 2x Finals MVP, MVP (2014), 4x Scoring Champ"
+    - "All-NBA: 11"
+    - "NBA 75th Anniversary Team"
+  summary: >
+    Durant is projected as a first-ballot Hall of Famer given his elite scoring ability, 
+    multiple championships, and status as one of the greatest small forwards in NBA history.
