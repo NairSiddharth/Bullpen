@@ -167,7 +167,7 @@
 - name: Kevin Durant
   image: /assets/images/kdcard.png
   sport: NBA
-  rank: lock
+  rank: inner-circle
   stats:
     - "Points: 31,405"
     - "Rebounds: 7,91"
