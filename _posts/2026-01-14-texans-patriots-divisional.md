@@ -43,7 +43,7 @@ CJ Stroud was two different quarterbacks on Monday night. One fumbled "five" (fi
 
 <div class="wide">
 <figure>
-<img src="{{ site.baseurl }}/assets/images/wild-card-qb-performances.png)" alt="Wildcard QB Performances">
+<img src="{{ site.baseurl }}/assets/images/wild-card-qb-performances.png" alt="Wildcard QB Performances">
 <figcaption>Chart of Wildcard QB performances, despite Stroud's fumbling issues he's rated highly.</figcaption>
 </figure>
 </div>
@@ -78,7 +78,7 @@ With Nico Collins, easy Texans. Without? **WASH**. I'm not projecting a rookie W
 
 <div class="wide">
 <figure>
-<img src="{{ site.baseurl }}/assets/images/pff-punting-grades-for-2025-season.png)" alt="Season Punting Grades">
+<img src="{{ site.baseurl }}/assets/images/pff-punting-grades-for-2025-season.png" alt="Season Punting Grades">
 <figcaption>Season PFF Punting Grades</figcaption>
 </figure>
 </div>
@@ -105,7 +105,7 @@ With that in mind, it doesn't matter that Burke's (Texans' DC calling [2nd best 
 
 <div class="wide">
 <figure>
-<img src="{{ site.baseurl }}/assets/images/texans-playoff-defense-good.png)" alt="Playoffs Defensive Stats: Texans Defensive Dominance">
+<img src="{{ site.baseurl }}/assets/images/texans-playoff-defense-good.png" alt="Playoffs Defensive Stats: Texans Defensive Dominance">
 <figcaption>Historical Playoffs Defensive Stats: Texans Defensive Dominance</figcaption>
 </figure>
 </div>
