@@ -13,7 +13,7 @@ description: Deep dive into the Texans vs Patriots Divisional Round matchup, bre
 series: Texans-Playoffs-2025
 series_order: 3
 ---
->Author's Note: Certain images are pulled from CornDoggyLoL's posts in Texan's subreddit. Love her art, [support her here](https://www.corndoggysports.com/>category/all-products)
+>Author's Note: Thumbnail was created from images pulled from CornDoggyLoL's posts in Texans' subreddit. Love her art, [support her here](https://www.corndoggysports.com/>category/all-products)
 
 Captain Ahab doesn't have anything on the Texans and the Divisional round. [6 games. 6 losses](https://www.pro-football-reference.com/teams/htx/playoffs.htm). Two against these New England Patriots. 34-16 in 2016 with Brock Osweiler at the helm. 34-22 in 2012 with a hobbled Matt Schaub. Houston [just dismantled](https://www.espn.com/nfl/boxscore/_/gameId/401772976) the Steelers to snap their road playoff curse, riding their league-best defense that's allowed 17.4 points per game and is chock-full of Pro Bowlers and All Pros. They started 0-3. They've won ten straight. None of that matters if they fail in the Divisional Round (again).
 

@@ -13,7 +13,7 @@ description: A comprehensive breakdown of the Texans vs Steelers Wild Card playo
 series: Texans-Playoffs-2025
 series_order: 2
 ---
->Author's Note: Certain images are pulled from CornDoggyLoL's posts in Texan's subreddit. Love her art, [support her here](https://www.corndoggysports.com/>category/all-products)
+>Author's Note: Thumbanail was pulled from CornDoggyLoL's posts in Texans' subreddit. Love her art, [support her here](https://www.corndoggysports.com/>category/all-products)
 
 The regular season is over. Playoff matchups have been decided. Two (in)famous streaks going head-to-head, the Texans never winning a road playoff game (0-6) vs. the Steelers not winning a playoff game since 2016 (0-6). Houston's hot off of 9 straight wins with a historically dominant defense at every level (ask Josh Allen about his loss). The Steelers are not, squeaking in off a win-or-go-home finale with the Ravens and looking inconsistent all year. But Aaron Rodgers has a ring and four MVPs, and he's buried better teams than these Texans in January before. Vegas has [Houston by 3](https://www.vegasinsider.com/nfl/matchups/steelers-vs-texans/). Someone's luck will change come Monday. It all comes down to the matchups.
 
