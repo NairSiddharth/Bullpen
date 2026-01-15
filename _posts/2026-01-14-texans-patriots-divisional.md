@@ -41,7 +41,12 @@ The run game will be a grind ([no 5.3 ypc here unlike the Steelers game](https:/
 
 CJ Stroud was two different quarterbacks on Monday night. One fumbled "five" (five in quotation marks because the center misnapped twice, and the NFL counts bad snaps against the QB) times. The other converted 7/12 3rd downs, averaging 12.7 yards an attempt and .77 EPA/pass. Rex Grossman and Tom Brady sharing the same jersey.
 
-![Wildcard QB Performances]({{ site.baseurl }}/assets/images/wild-card-qb-performances.png)
+<div class="wide">
+<figure>
+<img src="{{ site.baseurl }}/assets/images/wild-card-qb-performances.png)" alt="Wildcard QB Performances">
+<figcaption>Chart of Wildcard QB performances, despite Stroud's fumbling issues he's rated highly.</figcaption>
+</figure>
+</div>
 
 His regular season followed the same pattern. Early struggles (0-3, averaging 199.7 ypg and .66 TDs/game) gave way to a 6-0 stretch as a starter: 244.5 ypg, 1.6 TDs/game, .11 EPA/play ([10th in the NFL, min. 100 plays](https://sumersports.com/players/quarterback/?plays=100)). The Texans also went 3-0 while he was out with a concussion, but the offense looked noticeably worse without him.
 
@@ -71,7 +76,12 @@ With Nico Collins, easy Texans. Without? **WASH**. I'm not projecting a rookie W
 
 ### The Third Team: Special Teams Faceoff
 
-![Season Punting Grades]({{ site.baseurl }}/assets/images/pff-punting-grades-for-2025-season.png)
+<div class="wide">
+<figure>
+<img src="{{ site.baseurl }}/assets/images/pff-punting-grades-for-2025-season.png)" alt="Season Punting Grades">
+<figcaption>Season PFF Punting Grades</figcaption>
+</figure>
+</div>
 
 Always there in our hearts, special teams. For the Patriots, that means their punt returner Marcus Jones. Two TDs on 21 attempts shows how electric Jones is, and a long of 94 yards shows how dangerous he is in open space. [Tommy Townsend](https://www.nfl.com/stats/team-stats/special-teams/punts/2025/reg/all) and the punt-coverage unit (16^th^ in net avg. at 41.6 yards, 3^rd^ in punts inside the 20 with 30) boom punts but a 45.8% return rate gives Jones plenty of opportunities. Houston's coverage unit will need to be perfect.
 
@@ -93,7 +103,12 @@ Nick Caley is a lesser Josh McDaniels. An offshoot of [both](https://www.houston
 
 With that in mind, it doesn't matter that Burke's (Texans' DC calling [2^nd^ best defense by DVOA](https://ftnfantasy.com/nfl/houston-texans), and leading the league with [-.13 EPA/play](https://sumersports.com/teams/defensive/) ...*read more*[*here*](https://nairsiddharth.github.io/Bullpen/football/2025/12/31/texans-contenders-pretenders.html)) defense is the best unit on either sideline.
 
-![Playoffs Defensive Stats: Texans Defensive Dominance]({{ site.baseurl }}/assets/images/texans-playoff-defense-good.png)
+<div class="wide">
+<figure>
+<img src="{{ site.baseurl }}/assets/images/texans-playoff-defense-good.png)" alt="Playoffs Defensive Stats: Texans Defensive Dominance">
+<figcaption>Historical Playoffs Defensive Stats: Texans Defensive Dominance</figcaption>
+</figure>
+</div>
 
 Even though they took it up a notch against the Steelers, only giving up 175 total yards, 2 TOs forced, and 4 sacks, I have no faith in Nick Caley to pull two rabbits out of a hat in a row. **EDGE: PATRIOTS**
 

@@ -10,8 +10,7 @@ excerpt: Jose Altuve's road to 3000 is slim, but not impossible. Maybe.
 layout: post
 description: An in-depth analysis of Jose Altuve’s pursuit of 3,000 career hits, examining his recent performance, aging curve projections, potential lockout impacts, and historical precedent from Craig Biggio to assess whether reaching the milestone by the end of his current contract is realistic.
 ---
-
-*Author's Note: All player statistics pulled from FanGraphs unless otherwise specifically stated*
+>Author's Note: All player statistics pulled from FanGraphs unless otherwise specifically stated
 
 3,000 hits. One of the most prestigious clubs in all of baseball, filled with a who's who of players that you would consider making a superteam out of in MLB The Show. With the rise of [three true outcomes](https://www.mlb.com/glossary/idioms/three-true-outcomes) baseball, it becomes harder than ever to maintain the pace needed to get into this group of players. Among the current crop of players, Jose Altuve is maybe the closest to that milestone, but his path is far from easy.
 
@@ -21,9 +20,12 @@ He may be disliked by non-Houston fans, but the crowning achievement of perhaps 
 
 Altuve needs roughly 153 hits per season to reach 3,000 by the end of his deal. Over the past six full seasons (excluding pandemic-shortened 2020), he's averaged 155 hits despite missing time in 2023 with a broken thumb, making the math seemingly straightforward. Based on a simple linear projection, the math says Altuve gets there.
 
-![Linear projection of Altuve's hit totals]({{ site.baseurl }}/assets/images/LinearProjection.png)
-
-*Figure 1: Projections based on taking the average of the past six years (2020 excluded) hit totals for Altuve from his FanGraphs players page and linearly projecting through the end of his current contract.*
+<div class="wide">
+<figure>
+<img src="{{ site.baseurl }}/assets/images/LinearProjection.png" alt="Linear projection of Altuve's hit totals">
+<figcaption>Figure 1: Projections based on taking the average of the past six years (2020 excluded) hit totals for Altuve from his FanGraphs players page and linearly projecting through the end of his current contract.</figcaption>
+</figure>
+</div>
 
 ### Reality Check
 
