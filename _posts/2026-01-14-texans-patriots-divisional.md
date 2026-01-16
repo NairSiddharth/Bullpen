@@ -7,7 +7,7 @@ categories:
 tags:
   - outlook
 image: /assets/images/houston-texans-divisional-round-matchup.png
-excerpt: Houston is 0-6 all-time in the Divisional Round. New England has Drake Maye, MVP candidate. Ten straight wins means nothing if number eleven doesn't come. Maybe it's time.
+excerpt: Houston is 0-6 all-time in the Divisional Round. New England has Drake "Drake Maye" Maye, MVP candidate. Ten straight wins means nothing if number eleven doesn't happen. Maybe it's time.
 layout: post
 description: Deep dive into the Texans vs Patriots Divisional Round matchup, breaking down the trenches, quarterbacks (Stroud vs Maye), playmakers, special teams, and the McDaniels vs Caley coordinator battle. Houston's league-best defense faces New England's top-ranked offense. Analysis and prediction inside.
 series: Texans-Playoffs-2025
