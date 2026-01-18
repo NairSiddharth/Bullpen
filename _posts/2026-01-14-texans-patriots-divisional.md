@@ -1,6 +1,6 @@
 ---
 title: "Texans (5) vs. Patriots (2) Curse Breaker: Divisional Round"
-seo_title: "Texans vs Patriots Divisional Round 2026: Can Houston Finally Break the Curse?"
+seo_title: "Texans vs Patriots 2026: Can Houston Break the Playoff Curse?"
 date: 2026-01-14
 categories: 
     - football

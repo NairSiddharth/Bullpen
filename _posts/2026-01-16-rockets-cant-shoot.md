@@ -1,6 +1,6 @@
 ---
 title: "The Rockets are Sputtering in Orbit"
-seo_title: "Rockets Struggling: Three-Point Shooting & Half-Court Offense Problems"
+seo_title: "Rockets Struggling: Three-Point Shooting & Offense Woes"
 date: 2026-01-16
 categories: 
     - basketball
