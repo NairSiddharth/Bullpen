@@ -40,9 +40,9 @@
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "{{ site.title }}",
+  "name": {{ site.title | jsonify }},
   "url": "{{ site.url }}{{ site.baseurl }}/",
-  "description": "{{ page.excerpt | default: site.description }}",
+  "description": {{ page.excerpt | default: site.description | strip_html | truncate: 160 | jsonify }},
   "publisher": {
     "@type": "Person",
     "name": "Siddharth Nair",
