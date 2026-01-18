@@ -41,7 +41,7 @@
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "{{ site.title }}",
-  "url": "{{ site.url }}",
+  "url": "{{ site.url }}{{ site.baseurl }}/",
   "description": "{{ page.excerpt | default: site.description }}",
   "publisher": {
     "@type": "Person",
