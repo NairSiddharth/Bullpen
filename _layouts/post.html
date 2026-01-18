@@ -11,14 +11,12 @@ layout: default
   "image": {% if page.image %}"{{ page.image | absolute_url }}"{% else %}null{% endif %},
   "datePublished": "{{ page.date | date_to_xmlschema }}",
   "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
-  "author": [
-    {
+  "author": {
       "@type": "Person",
       "name": "Siddharth Nair",
       "jobTitle": "Sports Journalist",
       "url": "{{ '/about/' | absolute_url }}"
-    }
-  ],
+    },
   "publisher": {
     "@type": "Organization",
     "name": "Full Count",
