@@ -1,5 +1,5 @@
 ---
-title: "Awards Watch: The Rockets' Midseason All-Star, All-NBA, and MIP Cases"
+title: "Award Watch: The Rockets' Midseason All-Star, All-NBA, and MIP Cases"
 date: 2026-01-20
 categories: 
     - basketball
