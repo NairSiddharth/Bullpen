@@ -8,7 +8,7 @@ tags:
 excerpt: The Rockets are sitting pretty in the Western Conference. Multiple players deserve recognition of making that happen when All-Star (already happened), All-NBA, All-Defense, and 6MOY votes are cast. Here's who makes the cut and why.
 layout: post
 description: In-depth analysis of midseason All-Star, All-NBA, All-Defense, and 6MOY candidates for the Houston Rockets in the 2025-26 season based on a variety of factors.
-image: /assets/images/rockets-midseason-awardswatch.png
+image: /assets/images/rockets-midseason-awardwatch.png
 ---
 
 The Rockets are legit (sorta). Houston sits at [25-15](https://www.espn.com/nba/standings) with a [+6.6 net rating, fourth-best](https://dunksandthrees.com/ratings) in the NBA, but they've dropped three of their last four and fallen from second to fifth in the West (dog eat dog world in the Western Conference). The VanVleet injury forced Amen Thompson into the starting point guard role and Reed Sheppard into a bigger bench workload. Both have responded. So has Alperen Şengün, who's been the engine of everything Houston does on offense. The team's struggling right now, but the individual performances have been award-worthy all season. All-Star, All-NBA, All-Defense, 6MOY. Let's lay it all out.
