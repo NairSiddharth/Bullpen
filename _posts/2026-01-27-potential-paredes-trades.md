@@ -88,7 +88,7 @@ The Phillies are a certified contender. They're also getting old (sports-wise, e
 <div class="wide">
 <iframe src="https://streamable.com/m/travis-adams-in-play-run-s-to-brandon-marsh?partnerId=web_video-playback-page_video-share" width="560" height="315">
 </iframe>
-</divs>
+</div>
 
 Marsh hit .280/.342/.443 in 2025 with a monster September (.388). He's a Gold Glove finalist, left-handed, and gives Houston a good 3rd outfielder. The platoon splits are severe (like everyone on this list, apparently), but he's the real deal defensively.
 
