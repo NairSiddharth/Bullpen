@@ -161,7 +161,7 @@ The question: do you believe Marks can be a lead back or just a complementary pi
 
 The Texans' 2026 receiver room has promise but also risk. Nico Collins is the alpha. Tank Dell is the explosive complement, assuming he returns to form after tearing his ACL, MCL, LCL, and meniscus, plus dislocating his kneecap. (That's not a typo. That's one injury.) Jayden Higgins flashed as a rookie but remains unproven. Xavier Hutchinson and Jaylin Noel are competing for scraps.
 
-That's a lot of ifs. Hopkins provides certainty.
+That's a lot of ifs. Hopkins could provide some stable-ness.
 
 His 2025 with Baltimore was quietly brutal: [22 catches, 330 yards, 2 TDs](https://www.pro-football-reference.com/players/H/HopkDe00.htm) in 17 games. He played 33% of the snaps, buried behind Zay Flowers, Rashod Bateman, and Mark Andrews in an offense that runs through Lamar Jackson's legs. But his hands haven't abandoned him. His route-running IQ hasn't faded. His ability to win contested catches in the red zone is still there.
 
