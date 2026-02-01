@@ -135,8 +135,8 @@ The difference is cost. Spotrac projects a [four-year, $33.5 million deal ($8.4 
 
 <div class="wide">
 <figure>
-<img src="{{ site.baseurl }}/assets/images/kenneth-gainwell-freeagency.png" alt="Kenneth Gainwell run">
-<figcaption>Kenneth Gainwell run</figcaption>
+<img src="{{ site.baseurl }}/assets/images/kenneth-gainwell-freeagency.png" alt="Kenneth Gainwell celebration">
+<figcaption>Kenneth Gainwell celebration</figcaption>
 </figure>
 </div>
 
@@ -185,8 +185,8 @@ On a veteran minimum deal, as a WR3/WR4 who step in if Dell isn't ready and has 
 
 <div class="wide">
 <figure>
-<img src="{{ site.baseurl }}/assets/images/chig-okonkwo-freeagency.png" alt="Chig Okonkwo outstretched catch">
-<figcaption>Chig Okonkwo outstretched catch</figcaption>
+<img src="{{ site.baseurl }}/assets/images/chig-okonkwo-freeagency.png" alt="Chig Okonkwo catch and run">
+<figcaption>Chig Okonkwo catch and run</figcaption>
 </figure>
 </div>
 
