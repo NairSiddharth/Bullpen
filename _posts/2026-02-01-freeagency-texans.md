@@ -150,7 +150,7 @@ His projected cost? Probably [$4-6 million AAV](https://www.spotrac.com/nfl/play
 
 The question: do you believe Marks can be a lead back or just a complementary piece? His [3.6 YPC](https://www.pro-football-reference.com/players/M/MarkWo00.htm) suggests the latter. If you agree, Walker is the upgrade. If you think Marks just needs a better line and a change-of-pace partner, Gainwell is your guy.
 
-**DeAndre Hopkins:**
+**DeAndre Hopkins (Wide Receiver):**
 
 <div class="wide">
 <figure>
