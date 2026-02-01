@@ -207,9 +207,7 @@ Philadelphia comes third. Marsh is the best defensive outfielder on this list an
 
 The Yankees have the individual talent (Kilby's bat-to-ball, Avina's raw power), but getting both in one package might require more negotiating leverage than Houston has. And the Spencer Jones question looms over everything. Is he a future All-Star or Joey Gallo with more steps? Odds are against him.
 
-Cincinnati is the floor. Collier's vanishing power is concerning, Lin is raw, and Benson is a platoon fourth outfielder. It's a deal you make if no one else bites.
-
-Now, if you're purely maximizing prospect haul and don't care about MLB-ready help, the calculus flips. Oakland's prospect-only package (Taylor + Barnett + Lin) is the best bet. Taylor's power ceiling is real, and Lin's command at 20 years old is almost preternatural. The Yankees slot second in that scenario, with Cincinnati and Philadelphia fighting for third.
+Now, if you're purely maximizing prospect haul and don't care about MLB-ready help, the calculus flips. Oakland's prospect-only package (Taylor + Barnett + Lin) is the best bet. Taylor's power ceiling is real, and Lin's command at 20 years old is almost preternatural. The Yankees slot second in that scenario, with Philadelphia a distant third.
 
 In a perfect world, Houston moves Christian Walker instead. He's the actual roster problem (albatross contract, blocking Paredes at first), but his trade value is nonexistent right now. So you work with what you have. Paredes is the asset. The infield logjam is the problem. One trade solves both.
 
