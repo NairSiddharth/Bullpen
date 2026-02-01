@@ -23,7 +23,7 @@ So, you believed in the Texans getting past the Divisional Round? Me too. The le
 
 Let's not sugarcoat it. CJ Stroud was bad. [Seven turnovers in two playoff games](https://www.pro-football-reference.com/players/S/StroCJ00/gamelog/post/). Four interceptions against New England. A 28.0 passer rating in an elimination game. That's on him.
 
-But you can't replace your quarterback in one offseason. Stroud is the variable the Texans are stuck with. So you fix what you can fix: the offensive line that got him killed, the running game that never found traction, the depth that disappeared when Dalton Schultz went down. Control what you can control. Hope he bounces back.
+Unfortunately for knee jerk reactionists, you can't replace your quarterback in one offseason (Tom Brady isn't unretiring). Stroud is the variable the Texans are stuck with. So you fix what you can fix: the offensive line that got him killed, the running game that never found traction, and the depth that disappeared when Dalton Schultz went down. Effectively, control what you can control and hope he bounces back.
 
 Here's who fits the scheme and the cap.
 
@@ -42,9 +42,9 @@ Offensive linemen aren't the calendar models of the NFL. More like Mack trucks. 
 
 Edwards is the prize of this free agent class at guard. Full stop.The Bills' left guard posted a [71.4 PFF grade in 2025](https://www.pff.com/nfl/players/david-edwards/35941), ranking 19th among guards. His pass blocking graded out 14th at the position. CBS Sports called him "sturdy in pass protection, once he anchors down, it's hard to get him to budge." That's exactly what the Texans need.
 
-Nick Caley's offense asks linemen to be physical at the point of attack, creating vertical push on duo and gap runs. Edwards has the anchor to hold up in pass protection and the athleticism to climb to the second level. He's [28 with 61 career starts](https://www.pro-football-reference.com/players/E/EdwaDa01.htm), entering his prime. ESPN's Benjamin Solak called him "the lone exciting player who could be available in the guard market." The Bills are unlikely to re-sign him with both Edwards and center Connor McGovern hitting free agency and cap constraints looming after firing Sean McDermott.
+Nick Caley's offense asks linemen to be physical at the point of attack, creating vertical push on duo and gap runs. Edwards would be the anchor to hold up in pass protection and has the athleticism to climb to the second level. He's [28 with 61 career starts](https://www.pro-football-reference.com/players/E/EdwaDa01.htm), entering his prime. ESPN's Benjamin Solak called him "the lone exciting player who could be available in the guard market." The Bills are unlikely to re-sign him with both Edwards and center Connor McGovern hitting free agency and cap constraints looming after firing Sean McDermott.
 
-The cost? Spotrac projects he'll get close to [$20 million AAV](https://www.spotrac.com/nfl/player/market-value/_/id/29217/david-edwards) given how rare above-average guards are. That's expensive. Pay it anyway. This is the position that got exposed in January (Tytus Howard, uh, did not look up to the task). You watched Stroud run for his life against New England. You want to watch it again?
+The cost? Spotrac projects he'll get close to [$20 million AAV](https://www.spotrac.com/nfl/player/market-value/_/id/29217/david-edwards) given how rare above-average guards are. Expensive? Yes. Pay it anyway. This is the position that got exposed in January (Tytus Howard, uh, did not look up to the task). You watched Stroud run for his life against New England. I for one, don't want to watch that again. 
 
 **Cade Mays (Center):**
 
@@ -59,7 +59,7 @@ There's already smoke here. [Tony Pauline of EssentiallySports](https://www.si.c
 
 Mays is 26, finished with a [69.4 pass-blocking grade](https://www.pff.com/nfl/players/cade-mays/81995) (13th among centers), and has experience at both center and guard from his days as a five-star recruit at Tennessee and Georgia. Spotrac projects his market value at [$12.37M AAV](https://www.spotrac.com/nfl/player/market-value/_/id/77076/cade-mays). That's the going rate for young, reliable interior linemen.
 
-The Texans have Juice Scruggs at center, but Mays provides competition and versatility. If he can play guard in a pinch, you've got insurance across the interior. The Panthers have Austin Corbett and Brady Christensen creating a logjam. Mays should be available. The Texans should pounce.
+The Texans have Juice Scruggs at center, but Mays provides competition and versatility (and is an upgrade, frankly). If he can play guard in a pinch, you've got insurance across the interior. The Panthers have Austin Corbett and Brady Christensen creating a logjam. Mays should be available. The Texans should pounce.
 
 **Luke Fortner (Center):**
 
@@ -102,7 +102,7 @@ You don't need both Fortner and Johnson. Fortner if you want interior competitio
 </figure>
 </div>
 
-Let's be honest about Breece Hall. He's the best back in this class. Patient vision, explosive burst, legitimate receiving chops. He just posted his first 1,000-yard rushing season ([1,065 yards, 4.4 YPC](https://www.pro-football-reference.com/players/H/HallBr03.htm)) behind one of the league's worst offensive lines, becoming the first Jet to hit that mark since Chris Ivory in 2015. At 24, entering his prime. Women desire him, fish fear him. The Texans should want him.
+Let's be honest about Breece Hall. He's the best back in this class. Patient vision with explosive burst and is a legitimate two-way back. He just posted his first 1,000-yard rushing season ([1,065 yards, 4.4 YPC](https://www.pro-football-reference.com/players/H/HallBr03.htm)) behind one of the league's worst offensive lines, becoming the first Jet to hit that mark since Chris Ivory in 2015. At 24, entering his prime. Women desire him, fish fear him. The Texans should want him.
 
 They're going to get priced out.
 
@@ -127,9 +127,9 @@ He ran a 4.38 forty at 211 pounds. Next Gen Stats named him the second-most expl
 
 The scheme fit is real. Hall ran 70% zone in New York. Walker's split was more balanced: [55% zone, 41% gap](https://football.razzball.com/zonevsgap/). The Texans under Caley ran Marks and Chubb at 50% and 56% gap respectively. Walker has proven he can produce in the scheme Houston actually runs. Hall hasn't.
 
-His scouting report highlighted elite vision, burst through the hole, and superior cut-back ability. Those traits translate regardless of scheme, but they're especially valuable on gap and duo runs where hitting the right hole at the right time is everything. Walker's ability to hit the hole with violence and accelerate through contact fits Caley's identity perfectly.
+His scouting report highlighted elite vision, burst through the hole, and superior cut-back ability (things that would go great with the superior offensive line we've constructed so far). Those traits translate regardless of scheme, but they're especially valuable on gap and duo runs where hitting the right hole at the right time is everything. Walker's ability to hit the hole with violence and accelerate through contact fits Caley's identity to a tee.
 
-The difference is cost. Spotrac projects a [four-year, $33.5 million deal ($8.4 million AAV)](https://www.spotrac.com/nfl/player/market-value/_/id/76917/kenneth-walker-iii). The Ringer projected [$8-11 million annually](https://www.theringer.com/2026/01/01/nfl/ranking-the-top-nfl-free-agents-2026-george-pickens-trey-hendrickson-daniel-jones-aaron-rodgers). That's meaningfully cheaper than Hall. Walker is more boom-or-bust (he's a home-run hitter, not a chain-mover), less reliable as a receiver, and has a longer injury history. But at that price, with a scheme fit Hall can't match? He's the back.
+The difference is cost. Spotrac projects a [four-year, $33.5 million deal ($8.4 million AAV)](https://www.spotrac.com/nfl/player/market-value/_/id/76917/kenneth-walker-iii). The Ringer projected [$8-11 million annually](https://www.theringer.com/2026/01/01/nfl/ranking-the-top-nfl-free-agents-2026-george-pickens-trey-hendrickson-daniel-jones-aaron-rodgers). That's meaningfully cheaper than Hall. Walker is more boom-or-bust (he's a home-run hitter, not a chain-mover) and has a longer injury history. But at that price, with a scheme fit Hall can't match? He's the real prize.
 
 **Kenneth Gainwell (Running Back):**
 
