@@ -198,7 +198,7 @@ Realistically? Houston probably runs it back with Schultz. But if they want youn
 
 ### Stay the Course for Defense (LB)
 
-**Germaine Pratt (LB):**
+**Germaine Pratt (Linebacker):**
 
 <div class="wide">
 <figure>
