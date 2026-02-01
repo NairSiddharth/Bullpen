@@ -163,13 +163,13 @@ The Texans' 2026 receiver room has promise but also risk. Nico Collins is the al
 
 That's a lot of ifs. Hopkins could provide some stable-ness.
 
-His 2025 with Baltimore was quietly brutal: [22 catches, 330 yards, 2 TDs](https://www.pro-football-reference.com/players/H/HopkDe00.htm) in 17 games. He played 33% of the snaps, buried behind Zay Flowers, Rashod Bateman, and Mark Andrews in an offense that runs through Lamar Jackson's legs. But his hands haven't abandoned him. His route-running IQ hasn't faded. His ability to win contested catches in the red zone is still there.
+His 2025 with Baltimore wasn't great yeah, [22 catches, 330 yards, 2 TDs](https://www.pro-football-reference.com/players/H/HopkDe00.htm) in 17 games. He played 33% of the snaps, buried behind Zay Flowers, Rashod Bateman, and Mark Andrews in an offense that runs through Lamar Jackson's legs. But his hands haven't abandoned him. His route-running IQ hasn't faded. His ability to win contested catches in the red zone is still there.
 
 You know the history. Drafted 27th overall by Houston in 2013. Seven seasons. Four Pro Bowls. Three first-team All-Pro selections. Second in franchise history behind only Andre Johnson in receptions (632), receiving yards (8,602), and touchdowns (54). He was supposed to be a Texan for life.
 
 Then Bill O'Brien traded him for [David Johnson and a bag of footballs](https://www.espn.com/nfl/story/_/id/28911663/deandre-hopkins-trade-grade-texans-flunked-cardinals-got-elite-receiver).
 
-O'Brien's gone. Jack Easterby's gone. DeMeco Ryans is here. The organization that wronged Hopkins doesn't exist anymore. He still has family in Houston. Before the Super Bowl he greeted Cal McNair and his family on the sideline. Gave his gloves to the McNair kids. The relationship is warm.
+The old regime (Bill O' Brien and Jack Easterby) is gone, DeMeco Ryans & Nick Caserio are here. The organization that wronged Hopkins doesn't exist anymore. He still has family in Houston. Before the Super Bowl he greeted Cal McNair and his family on the sideline. He even gave his gloves to the McNair kids. Clearly the love is there.
 
 If Dell comes back at 80%, Hopkins can absorb targets. If Higgins hits a sophomore wall, Hopkins can step up. If Collins gets doubled, Hopkins can win one-on-one. He's the ultimate insurance policy. More importantly: he knows how to mentor. Having a future Hall of Famer in the room showing Higgins, Dell, and Noel how to prepare, how to study film, how to win at the line? That's invaluable for a young receiver room still figuring it out.
 
