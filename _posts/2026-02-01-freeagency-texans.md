@@ -44,7 +44,7 @@ Edwards is the prize of this free agent class at guard. Full stop.The Bills' lef
 
 Nick Caley's offense asks linemen to be physical at the point of attack, creating vertical push on duo and gap runs. Edwards would be the anchor to hold up in pass protection and has the athleticism to climb to the second level. He's [28 with 61 career starts](https://www.pro-football-reference.com/players/E/EdwaDa01.htm), entering his prime. ESPN's Benjamin Solak called him "the lone exciting player who could be available in the guard market." The Bills are unlikely to re-sign him with both Edwards and center Connor McGovern hitting free agency and cap constraints looming after firing Sean McDermott.
 
-The cost? Spotrac projects he'll get close to [$20 million AAV](https://www.spotrac.com/nfl/player/market-value/_/id/29217/david-edwards) given how rare above-average guards are. Expensive? Yes. Pay it anyway. This is the position that got exposed in January (Tytus Howard, uh, did not look up to the task). You watched Stroud run for his life against New England. I for one, don't want to watch that again. 
+The cost? Spotrac projects he'll get close to [$20 million AAV](https://www.spotrac.com/nfl/player/market-value/_/id/29217/david-edwards) given how rare above-average guards are. Expensive? Yes. So what? This is the position that got exposed in January (Tytus Howard, uh, did not look up to the task). You watched Stroud run for his life against New England. I for one, don't want to watch that again. 
 
 **Cade Mays (Center):**
 
@@ -104,7 +104,7 @@ You don't need both Fortner and Johnson. Fortner if you want interior competitio
 
 Let's be honest about Breece Hall. He's the best back in this class. Patient vision with explosive burst and is a legitimate two-way back. He just posted his first 1,000-yard rushing season ([1,065 yards, 4.4 YPC](https://www.pro-football-reference.com/players/H/HallBr03.htm)) behind one of the league's worst offensive lines, becoming the first Jet to hit that mark since Chris Ivory in 2015. At 24, entering his prime. Women desire him, fish fear him. The Texans should want him.
 
-They're going to get priced out.
+They just can't (or really shouldn't) afford him.
 
 Spotrac projects a [four-year, $41 million deal ($10.25 million AAV)](https://www.spotrac.com/nfl/player/market-value/_/id/76912/breece-hall). ESPN estimates closer to $48 million ($12 million AAV). The franchise tag projects to roughly $14 million in 2026. Hall will be one of the highest-paid backs in the league, and the Jets have the cap space to match offers.
 
