@@ -127,7 +127,7 @@ He ran a 4.38 forty at 211 pounds. Next Gen Stats named him the second-most expl
 
 The scheme fit is real. Hall ran 70% zone in New York. Walker's split was more balanced: [55% zone, 41% gap](https://football.razzball.com/zonevsgap/). The Texans under Caley ran Marks and Chubb at 50% and 56% gap respectively. Walker has proven he can produce in the scheme Houston actually runs. Hall hasn't.
 
-His scouting report highlighted elite vision, burst through the hole, and superior cut-back ability (things that would go great with the superior offensive line we've constructed so far). Those traits translate regardless of scheme, but they're especially valuable on gap and duo runs where hitting the right hole at the right time is everything. Walker's ability to hit the hole with violence and accelerate through contact fits Caley's identity to a tee.
+His scouting report highlighted elite vision, burst through the hole, and superior cut-back ability (things that would go great with the superior offensive line we've constructed so far). Those traits *should* translate regardless of scheme, but they're especially valuable on gap and duo runs where hitting the right hole at the right time is everything. Walker's ability to hit the hole with violence and accelerate through contact fits Caley's identity to a tee.
 
 The difference is cost. Spotrac projects a [four-year, $33.5 million deal ($8.4 million AAV)](https://www.spotrac.com/nfl/player/market-value/_/id/76917/kenneth-walker-iii). The Ringer projected [$8-11 million annually](https://www.theringer.com/2026/01/01/nfl/ranking-the-top-nfl-free-agents-2026-george-pickens-trey-hendrickson-daniel-jones-aaron-rodgers). That's meaningfully cheaper than Hall. Walker is more boom-or-bust (he's a home-run hitter, not a chain-mover) and has a longer injury history. But at that price, with a scheme fit Hall can't match? He's the real prize.
 
@@ -144,7 +144,7 @@ If Walker was the value play, Gainwell is the bargain bin play (valuest play, ev
 
 He just had a [breakout season](https://www.pro-football-reference.com/players/G/GainKe00.htm) in Pittsburgh: 537 rushing yards (4.7 YPC), 73 catches for 486 receiving yards, eight total touchdowns. All career highs. His teammates voted him team MVP, the first running back to win the award since Le'Veon Bell in 2016. He did this on a one-year, $1.79 million deal. That's absurd value.
 
-He's 5'9", 200 pounds. He's not running through anybody. He grew up idolizing Darren Sproles, and the comparison holds: shifty, explosive in space, a natural pass-catcher who can line up in the slot. Caley's background includes six years in New England coaching fullbacks and tight ends in an Erhardt-Perkins system. Think James White, the ultimate third-down back who won Super Bowls as a complementary piece. Gainwell fits that mold.
+He's 5'9", 200 pounds. He's not running through anybody. He grew up idolizing Darren Sproles, and the comparison holds. They'rer both shifty, explosive in space, and natural pass-catchers who can (and do/did) line up in the slot. Caley's background includes six years in New England coaching fullbacks and tight ends in an Erhardt-Perkins system. Think James White, the ultimate third-down back who won Super Bowls as a complementary piece. Gainwell fits that mold.
 
 His projected cost? Probably [$4-6 million AAV](https://www.spotrac.com/nfl/player/market-value/_/id/72534/kenneth-gainwell). Pair him with Marks and you've got a committee for under $8 million combined. That's less than Hall alone.
 
