@@ -93,7 +93,7 @@ You don't need both Fortner and Johnson. Fortner if you want interior competitio
 
 ### Upgrading Key Skill Positions (RB & TE)
 
-**Breece Hall (RB):**
+**Breece Hall (Running Back):**
 
 <div class="wide">
 <figure>
@@ -112,7 +112,7 @@ The Texans have $13.3 million in projected cap space before cuts (currently nega
 
 It's also a scheme mismatch. Hall ran [70% zone concepts in New York](https://football.razzball.com/zonevsgap/), one of the most zone-dependent workloads in the league. The Texans ran Marks and Chubb at [50% and 56% gap respectively](https://football.razzball.com/zonevsgap/). The Texans would be overpaying for a back optimized for a system Caley doesn't run. Next.
 
-**Kenneth Walker (RB):**
+**Kenneth Walker (Running Back):**
 
 <div class="wide">
 <figure>
@@ -131,7 +131,7 @@ His scouting report highlighted elite vision, burst through the hole, and superi
 
 The difference is cost. Spotrac projects a [four-year, $33.5 million deal ($8.4 million AAV)](https://www.spotrac.com/nfl/player/market-value/_/id/76917/kenneth-walker-iii). The Ringer projected [$8-11 million annually](https://www.theringer.com/2026/01/01/nfl/ranking-the-top-nfl-free-agents-2026-george-pickens-trey-hendrickson-daniel-jones-aaron-rodgers). That's meaningfully cheaper than Hall. Walker is more boom-or-bust (he's a home-run hitter, not a chain-mover), less reliable as a receiver, and has a longer injury history. But at that price, with a scheme fit Hall can't match? He's the back.
 
-**Kenneth Gainwell (RB):**
+**Kenneth Gainwell (Running Back):**
 
 <div class="wide">
 <figure>
@@ -181,7 +181,7 @@ On a veteran minimum deal, as a WR3/WR4 who step in if Dell isn't ready and has 
 
 #### Break Glass: The TE Contingency
 
-**Chig Okonkwo (TE):**
+**Chig Okonkwo (Tight End):**
 
 <div class="wide">
 <figure>
