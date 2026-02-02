@@ -123,7 +123,7 @@ It's also a scheme mismatch. Hall ran [70% zone concepts in New York](https://fo
 
 Walker is the value play.
 
-He ran a 4.38 forty at 211 pounds. Next Gen Stats named him the second-most explosive runner in the NFL as a rookie. He hit 1,000 rushing yards in 2025 ([1,027 on 221 carries, 4.6 YPC](https://www.pro-football-reference.com/players/W/WalkKe00.htm)) despite splitting time with Zach Charbonnet, then exploded in the playoffs: 116 yards and three touchdowns against the 49ers, 6.1 YPC with the fastest average speed at the line of scrimmage of his career. At 25, same age as Hall, entering his prime.
+He ran a 4.38 forty at 211 pounds. Next Gen Stats named him the second-most explosive runner in the NFL as a rookie. He hit 1,000 rushing yards in 2025 ([1,027 on 221 carries, 4.6 YPC](https://www.pro-football-reference.com/players/W/WalkKe00.htm)) despite splitting time with Zach Charbonnet, then exploded in the playoffs: 116 yards and three touchdowns against the 49ers, 6.1 YPC with the fastest average speed at the line of scrimmage of his career. At 25, only about half a year older than Hall, entering his prime.
 
 The scheme fit is real. Hall ran 70% zone in New York. Walker's split was more balanced: [55% zone, 41% gap](https://football.razzball.com/zonevsgap/). The Texans under Caley ran Marks and Chubb at 50% and 56% gap respectively. Walker has proven he can produce in the scheme Houston actually runs. Hall hasn't.
 
@@ -144,7 +144,7 @@ If Walker was the value play, Gainwell is the bargain bin play (valuest play, ev
 
 He just had a [breakout season](https://www.pro-football-reference.com/players/G/GainKe00.htm) in Pittsburgh: 537 rushing yards (4.7 YPC), 73 catches for 486 receiving yards, eight total touchdowns. All career highs. His teammates voted him team MVP, the first running back to win the award since Le'Veon Bell in 2016. He did this on a one-year, $1.79 million deal. That's absurd value.
 
-He's 5'9", 200 pounds. He's not running through anybody. He grew up idolizing Darren Sproles, and the comparison holds. They'rer both shifty, explosive in space, and natural pass-catchers who can (and do/did) line up in the slot. Caley's background includes six years in New England coaching fullbacks and tight ends in an Erhardt-Perkins system. Think James White, the ultimate third-down back who won Super Bowls as a complementary piece. Gainwell fits that mold.
+He's 5'9", 200 pounds. He's not running through anybody. He grew up idolizing Darren Sproles, and the comparison holds. They're both shifty, explosive in space, and natural pass-catchers who have lined up in the slot. Caley's background includes six years in New England coaching fullbacks and tight ends in an Erhardt-Perkins system. Think James White, the ultimate third-down back who won Super Bowls as a complementary piece. Gainwell fits that mold.
 
 His projected cost? Probably [$4-6 million AAV](https://www.spotrac.com/nfl/player/market-value/_/id/72534/kenneth-gainwell). Pair him with Marks and you've got a committee for under $8 million combined. That's less than Hall alone.
 
@@ -161,7 +161,7 @@ The question: do you believe Marks can be a lead back or just a complementary pi
 
 The Texans' 2026 receiver room has promise but also risk. Nico Collins is the alpha. Tank Dell is the explosive complement, assuming he returns to form after tearing his ACL, MCL, LCL, and meniscus, plus dislocating his kneecap. (That's not a typo. That's one injury.) Jayden Higgins flashed as a rookie but remains unproven. Xavier Hutchinson and Jaylin Noel are competing for scraps.
 
-That's a lot of ifs. Hopkins could provide some stable-ness.
+That's a lot of ifs. Hopkins could provide some stability (tame the Toro bull if you will).
 
 His 2025 with Baltimore wasn't great yeah, [22 catches, 330 yards, 2 TDs](https://www.pro-football-reference.com/players/H/HopkDe00.htm) in 17 games. He played 33% of the snaps, buried behind Zay Flowers, Rashod Bateman, and Mark Andrews in an offense that runs through Lamar Jackson's legs. But his hands haven't abandoned him. His route-running IQ hasn't faded. His ability to win contested catches in the red zone is still there.
 
