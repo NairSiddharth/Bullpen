@@ -22,7 +22,7 @@ Kamari Lassiter was the second half of the Texans' dynamite CB duo in 2025. He a
 
 <div class="wide">
 <figure>
-<iframe width="560" height="315" src="<https://www.youtube.com/embed/Yayn1UWwu1Y?si=mXL0zMsJAxHyDr-q&amp;start=614>" title="Kamari Lassiter Mogged by WR George Pickens" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Yayn1UWwu1Y?si=mXL0zMsJAxHyDr-q&amp;start=614" title="Kamari Lassiter Mogged by WR George Pickens" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <figcaption>Kamari Lassiter Mogged by WR George Pickens</figcaption>
 </figure>
 </div>
@@ -35,7 +35,7 @@ Lassiter's struggles are far more common than they were last year, and DC Matt B
 
 <div class="wide">
 <figure>
-<iframe width="315" height="560" src="<https://www.youtube.com/embed/\_Gq6Jt7TMk8>" title="Texans Blown Coverage" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscree> </iframe>
+<iframe width="315" height="560" src="https://www.youtube.com/embed/_Gq6Jt7TMk8" title="Texans Blown Coverage" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <figcaption>Texans Blown Coverage</figcaption>
 </figure>
 </div>
