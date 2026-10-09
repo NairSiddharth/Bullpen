@@ -1,57 +1,36 @@
-<header>
+# Full Count
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+Full Count is a Houston sports blog covering the Astros, Rockets, and Texans, built with Jekyll and hosted on GitHub Pages.
 
-# GitHub Pages
+The writing sits between fandom and analysis. Instead of game recaps or breaking news, each post tries to work out why something is happening and what it means going forward, usually backed by projections, models, or visualizations rather than opinion alone. Topics range from trade analysis and prospect scouting to award tracking and playoff outlooks across all three teams.
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+## Features
 
-</header>
+- Ongoing analysis posts organized by team and category
+- A Hall of Fame tracker for quantifying player careers over time
+- Custom Jekyll layouts and includes for post archives, category pages, and search
 
-<!--
-  <<< Author notes: Finish >>>
-  Review what we learned, ask for feedback, provide next steps.
--->
+## Stack
 
-## Finish
+- Jekyll (minima theme, dark skin)
+- GitHub Pages for hosting and deployment
+- jekyll-seo-tag, jekyll-sitemap, jekyll-feed, and jekyll-redirect-from plugins
 
-_Congratulations friend, you've completed this course!_
+## Running locally
 
-<img src=https://octodex.github.com/images/constructocat2.jpg alt=celebrate width=300 align=right>
+There's no Gemfile in this repo, so `bundle install` won't work. The site has no custom deploy workflow either, it's built directly by GitHub Pages from source. To run it locally, install Ruby and Jekyll, then:
 
-Your blog is now live and has been deployed!
+```bash
+gem install jekyll
+jekyll serve
+```
 
-Here's a recap of all the tasks you've accomplished in your repository:
+Site will be available at `http://localhost:4000/Bullpen/`.
 
-- You enabled GitHub Pages.
-- You selected a theme using the config file.
-- You learned about proper directory format and file naming conventions in Jekyll.
-- You created your first blog post with Jekyll!
+## Site
 
-### What's next?
+Live at [nairsiddharth.github.io/Bullpen](https://nairsiddharth.github.io/Bullpen/).
 
-- Keep working on your GitHub Pages site... we love seeing what you come up with!
-- We'd love to hear what you thought of this course [in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages).
-- [Take another GitHub Skills course](https://github.com/skills).
-- [Read the GitHub Getting Started docs](https://docs.github.com/en/get-started).
-- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
+## License
 
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+MIT, see [LICENSE](LICENSE).
