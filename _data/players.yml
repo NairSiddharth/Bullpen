@@ -2,10 +2,12 @@
   image: /assets/images/altuvecard.png
   sport: MLB
   rank: strong
+  ids:
+    mlb: 514888
   stats:
-    - "Hits: 2,388"
-    - "HR: 255"
-    - "SB: 325"
+    - "Hits: 2,519"
+    - "HR: 271"
+    - "SB: 330"
     - "fWAR: 60"
     - "JAWS: 46.8"
   hof_pace:
@@ -87,9 +89,12 @@
   image: /assets/images/huntercard.png
   sport: NFL
   rank: on-track
+  ids:
+    nfl: 00-0031565
+    pfr: HuntDa01
   stats:
-    - "Sacks: 110.5"
-    - "Tackles: 546"
+    - "Sacks: 116.5"
+    - "Tackles: 532"
     - "Pro Bowls: 5"
     - "All-Pro: 1"
   hof_pace:
@@ -103,10 +108,12 @@
   image: /assets/images/correacard.png
   sport: MLB
   rank: longshot
+  ids:
+    mlb: 621043
   stats:
-    - "Hits: 1,298"
-    - "HR: 200"
-    - "RBI: 724"
+    - "Hits: 1,332"
+    - "HR: 203"
+    - "RBI: 740"
     - "fWAR: 40.5"
     - "JAWS: 42.1"
   hof_pace:
@@ -120,10 +127,12 @@
   image: /assets/images/alperensenguncard.png
   sport: NBA
   rank: promising
+  ids:
+    espn_nba: 4871144
   stats:
-    - "Points: 5,021"
-    - "Rebounds: 2,619"
-    - "Assists: 1,295"
+    - "Points: 6,049"
+    - "Rebounds: 3,086"
+    - "Assists: 1,605"
     - "All-Star: 1"
   hof_pace:
     - "vs HOF: *"
@@ -136,10 +145,13 @@
   image: /assets/images/derrickstingleycard.png
   sport: NFL
   rank: promising
+  ids:
+    nfl: 00-0037237
+    pfr: StinDe00
   stats:
-    - "Int: 14"
-    - "Cmp% When Targeted: 49.4%"
-    - "Tackles: 168"
+    - "Int: 15"
+    - "Cmp% When Targeted: 49.3%"
+    - "Tackles: 174"
     - "All-Pro: 1"
   hof_pace:
     - "vs HOF: *"
@@ -152,10 +164,13 @@
   image: /assets/images/wajcard.png
   sport: NFL
   rank: promising
+  ids:
+    nfl: 00-0039108
+    pfr: AndeWi01
   stats:
-    - "Sacks: 29.5"
-    - "Tackles: 127"
-    - "Pressures: 93"
+    - "Sacks: 34.5"
+    - "Tackles: 142"
+    - "Pressures: 104"
     - "Pro Bowls: 2"
   hof_pace:
     - "vs HOF: *"
@@ -168,10 +183,12 @@
   image: /assets/images/kdcard.png
   sport: NBA
   rank: inner-circle
+  ids:
+    espn_nba: 3202
   stats:
-    - "Points: 31,405"
-    - "Rebounds: 7,91"
-    - "Assists: 5,050"
+    - "Points: 32,597"
+    - "Rebounds: 8,254"
+    - "Assists: 5,280"
     - "MVPs: 1"
   hof_pace:
     - "vs HOF: Top 5 SF all-time"
