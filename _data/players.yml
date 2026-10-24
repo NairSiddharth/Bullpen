@@ -93,8 +93,8 @@
     nfl: 00-0031565
     pfr: HuntDa01
   stats:
-    - "Sacks: 116.5"
-    - "Tackles: 532"
+    - "Sacks: 117.5"
+    - "Tackles: 538"
     - "Pro Bowls: 5"
     - "All-Pro: 1"
   hof_pace:
@@ -130,9 +130,9 @@
   ids:
     espn_nba: 4871144
   stats:
-    - "Points: 6,049"
-    - "Rebounds: 3,086"
-    - "Assists: 1,605"
+    - "Points: 6,072"
+    - "Rebounds: 3,096"
+    - "Assists: 1,610"
     - "All-Star: 1"
   hof_pace:
     - "vs HOF: *"
@@ -151,7 +151,7 @@
   stats:
     - "Int: 15"
     - "Cmp% When Targeted: 49.3%"
-    - "Tackles: 174"
+    - "Tackles: 180"
     - "All-Pro: 1"
   hof_pace:
     - "vs HOF: *"
@@ -168,8 +168,8 @@
     nfl: 00-0039108
     pfr: AndeWi01
   stats:
-    - "Sacks: 34.5"
-    - "Tackles: 142"
+    - "Sacks: 37.5"
+    - "Tackles: 147"
     - "Pressures: 104"
     - "Pro Bowls: 2"
   hof_pace:
@@ -186,9 +186,9 @@
   ids:
     espn_nba: 3202
   stats:
-    - "Points: 32,597"
-    - "Rebounds: 8,254"
-    - "Assists: 5,280"
+    - "Points: 32,627"
+    - "Rebounds: 8,260"
+    - "Assists: 5,283"
     - "MVPs: 1"
   hof_pace:
     - "vs HOF: Top 5 SF all-time"
