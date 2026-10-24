@@ -45,7 +45,7 @@ Want some advanced stats to back it up? He's up to [286](https://www.pro-footbal
 
 Improved CJ, plus a line that's actually protecting him? Baby, we got a stew going.
 
-### $O-line: Less Worse?
+### O-line: Less Worse?
 
 Maybe it's more a Texas-style chili (no beans but all BEEF), but there's no denying the Texans O-line has stepped up over the past three games.
 
