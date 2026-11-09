@@ -94,7 +94,7 @@
     pfr: HuntDa01
   stats:
     - "Sacks: 118.5"
-    - "Tackles: 540"
+    - "Tackles: 542"
     - "Pro Bowls: 5"
     - "All-Pro: 1"
   hof_pace:
@@ -149,9 +149,9 @@
     nfl: 00-0037237
     pfr: StinDe00
   stats:
-    - "Int: 15"
+    - "Int: 16"
     - "Cmp% When Targeted: 49.3%"
-    - "Tackles: 183"
+    - "Tackles: 187"
     - "All-Pro: 1"
   hof_pace:
     - "vs HOF: *"
@@ -168,8 +168,8 @@
     nfl: 00-0039108
     pfr: AndeWi01
   stats:
-    - "Sacks: 37.5"
-    - "Tackles: 151"
+    - "Sacks: 39.5"
+    - "Tackles: 153"
     - "Pressures: 104"
     - "Pro Bowls: 2"
   hof_pace:
