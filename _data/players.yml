@@ -130,9 +130,9 @@
   ids:
     espn_nba: 4871144
   stats:
-    - "Points: 6,241"
-    - "Rebounds: 3,167"
-    - "Assists: 1,675"
+    - "Points: 6,260"
+    - "Rebounds: 3,180"
+    - "Assists: 1,684"
     - "All-Star: 1"
   hof_pace:
     - "vs HOF: *"
@@ -186,9 +186,9 @@
   ids:
     espn_nba: 3202
   stats:
-    - "Points: 32,828"
-    - "Rebounds: 8,323"
-    - "Assists: 5,318"
+    - "Points: 32,848"
+    - "Rebounds: 8,327"
+    - "Assists: 5,323"
     - "MVPs: 1"
   hof_pace:
     - "vs HOF: Top 5 SF all-time"
