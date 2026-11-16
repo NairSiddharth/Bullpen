@@ -130,9 +130,9 @@
   ids:
     espn_nba: 4871144
   stats:
-    - "Points: 6,303"
-    - "Rebounds: 3,192"
-    - "Assists: 1,689"
+    - "Points: 6,322"
+    - "Rebounds: 3,200"
+    - "Assists: 1,697"
     - "All-Star: 1"
   hof_pace:
     - "vs HOF: *"
@@ -151,7 +151,7 @@
   stats:
     - "Int: 16"
     - "Cmp% When Targeted: 49.3%"
-    - "Tackles: 187"
+    - "Tackles: 191"
     - "All-Pro: 1"
   hof_pace:
     - "vs HOF: *"
@@ -168,8 +168,8 @@
     nfl: 00-0039108
     pfr: AndeWi01
   stats:
-    - "Sacks: 39.5"
-    - "Tackles: 153"
+    - "Sacks: 40.5"
+    - "Tackles: 157"
     - "Pressures: 104"
     - "Pro Bowls: 2"
   hof_pace:
@@ -186,9 +186,9 @@
   ids:
     espn_nba: 3202
   stats:
-    - "Points: 32,870"
-    - "Rebounds: 8,330"
-    - "Assists: 5,329"
+    - "Points: 32,895"
+    - "Rebounds: 8,334"
+    - "Assists: 5,334"
     - "MVPs: 1"
   hof_pace:
     - "vs HOF: Top 5 SF all-time"
